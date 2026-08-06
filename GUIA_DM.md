@@ -32,7 +32,7 @@ Esta es la parte nueva para aprender. Vive en `/combate` (o el link
 
 ### 1. Crear el encuentro
 
-Entrá a `/combate` y tocá **+ Nuevo encuentro**. Le poner un nombre (ej.
+Entrá a `/combate` y tocá **+ Nuevo encuentro**. Le ponés un nombre (ej.
 "Emboscada en el puente") y entrás directo a la pantalla del combate.
 
 ### 2. Agregar combatientes

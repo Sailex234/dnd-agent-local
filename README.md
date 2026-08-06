@@ -1,47 +1,47 @@
 # dnd-agent
 
 Sistema local para una mesa de D&D 2024: hojas de personaje digitales,
-referencia rapida del corpus de reglas (monstruos, glosario, dificultad de
-encuentros, botin) y un rastreador de combate/iniciativa. Todo corre en la
+referencia rápida del corpus de reglas (monstruos, glosario, dificultad de
+encuentros, botín) y un rastreador de combate/iniciativa. Todo corre en la
 red local, sin depender de ninguna API externa ni LLM (ver `GUIA_DM.md` para
 el uso desde la mesa, o `INSTALACION.md` para instalarlo en otra PC).
 
 El sistema es un monorepo (`apps/`) con dos procesos separados: una API HTTP
-delgada para la web y la web en si. Todos corren localmente (sin deploy ni
-contenedores propios); Mongo corre en Docker via `docker-compose.yml`.
+delgada para la web y la web en sí. Todos corren localmente (sin deploy ni
+contenedores propios); Mongo corre en Docker vía `docker-compose.yml`.
 
 ## Estructura
 
 ```
 apps/
   shared/               paquete Python compartido (config, Mongo, schema de hojas/encuentros)
-    shared/config.py    configuracion (constantes + lo poco que sale de .env)
-    shared/db/          client.py: conexion Mongo (jugadores, hojas, pendientes, encuentros)
+    shared/config.py    configuración (constantes + lo poco que sale de .env)
+    shared/db/          client.py: conexión Mongo (jugadores, hojas, pendientes, encuentros)
     shared/sheets.py     schema estricto (Pydantic) y CRUD de hojas de personaje
     shared/encounters.py  schema estricto (Pydantic) y CRUD del rastreador de combate
   api/                  FastAPI delgada: endpoints para la web + Mongo
     main.py             /health, /character-sheets, /players, /encounters
     seed_sheets.py       script de alta inicial de jugadores/hojas
-  web/                  Next.js (App Router), consume la api publica
-    app/referencia/     paginas de consulta instantanea (monstruos, glosario, encuentros, botin)
+  web/                  Next.js (App Router), consume la api pública
+    app/referencia/     páginas de consulta instantánea (monstruos, glosario, encuentros, botín)
     app/combate/        rastreador de iniciativa/combate
     data/                JSON generado por scripts/build_reference_data.py
-corpus/                 manuales 2024 en markdown, fuente de las paginas de referencia
+corpus/                 manuales 2024 en markdown, fuente de las páginas de referencia
   manual-jugador/       Manual del Jugador 2024
-  guia-dm/               Guia del Dungeon Master 2024
-  manual-monstruos/      Manual de Monstruos 2024 (bestiario A-Z + apendices)
+  guia-dm/               Guía del Dungeon Master 2024
+  manual-monstruos/      Manual de Monstruos 2024 (bestiario A-Z + apéndices)
 scripts/
   build_reference_data.py  parsea el corpus a apps/web/data/*.json (sin LLM)
 docker-compose.yml        Mongo, para desarrollo/uso local
 ```
 
-`apps/shared` es la unica fuente de verdad del schema de hojas/encuentros y
+`apps/shared` es la única fuente de verdad del schema de hojas/encuentros y
 del acceso a Mongo; `apps/api` lo declara como dependencia local (`uv`,
 paquete instalable).
 
 ### Datos de referencia
 
-`apps/web/data/*.json` (monstruos, glosario, tablas de botin, nombres de PNJ)
+`apps/web/data/*.json` (monstruos, glosario, tablas de botín, nombres de PNJ)
 son un artefacto derivado del corpus (los `.md` siguen siendo la fuente de
 verdad), generado con:
 
@@ -50,8 +50,8 @@ python3 scripts/build_reference_data.py
 # o: make build-reference-data
 ```
 
-Correr tras cualquier cambio al corpus del Manual de monstruos o la Guia del
-DM. No requiere ningun paquete de terceros ni conectividad: es texto plano
+Correr tras cualquier cambio al corpus del Manual de monstruos o la Guía del
+DM. No requiere ningún paquete de terceros ni conectividad: es texto plano
 parseado con expresiones regulares.
 
 ## Requisitos
@@ -75,7 +75,7 @@ uv sync --project apps/api
 cp apps/api/.env.example apps/api/.env
 cp apps/web/.env.example apps/web/.env.local
 
-# 4. Datos de referencia (monstruos, glosario, botin, PNJ)
+# 4. Datos de referencia (monstruos, glosario, botín, PNJ)
 python3 scripts/build_reference_data.py
 ```
 
@@ -89,15 +89,15 @@ make web         # frontend Next.js
 La API (`apps/api`) expone `GET /health`, `GET /character-sheets` (listado),
 `GET /character-sheets/{slug}` (hoja por slug), `GET/POST/PUT /encounters`
 (rastreador de combate) y las rutas de escritura de la web interna
-(`POST/PUT /character-sheets`, `GET/POST /players`), todas detras de HTTP
+(`POST/PUT /character-sheets`, `GET/POST /players`), todas detrás de HTTP
 Basic Auth (`API_AUTH_USER`/`API_AUTH_PASSWORD`).
 
-`APP_ENV_FILE` (leido por `apps/shared/shared/config.py`) permite elegir que
+`APP_ENV_FILE` (leído por `apps/shared/shared/config.py`) permite elegir qué
 archivo de entorno carga el proceso; default `.env`.
 
 ## Hojas de personaje
 
-Cada jugador tiene una hoja de personaje en la coleccion `character_sheets` de MongoDB, un documento por jugador con `user_id` (referencia al jugador dueño), `nombre`, `updated_at` y `sheet` (la hoja en si). El `sheet` cumple un schema estricto y tipado (Pydantic con `extra="forbid"`, definido en `apps/shared/shared/sheets.py`) con la terminologia del Manual del Jugador 2024 en espanol: identidad, las seis caracteristicas, competencias, combate, rasgos, dotes, equipo y conjuros (opcional). Se guardan los valores base; los derivados (modificador de caracteristica, totales de salvaciones/habilidades) se calculan, no se persisten.
+Cada jugador tiene una hoja de personaje en la colección `character_sheets` de MongoDB, un documento por jugador con `user_id` (referencia al jugador dueño), `nombre`, `updated_at` y `sheet` (la hoja en sí). El `sheet` cumple un schema estricto y tipado (Pydantic con `extra="forbid"`, definido en `apps/shared/shared/sheets.py`) con la terminología del Manual del Jugador 2024 en español: identidad, las seis características, competencias, combate, rasgos, dotes, equipo y conjuros (opcional). Se guardan los valores base; los derivados (modificador de característica, totales de salvaciones/habilidades) se calculan, no se persisten.
 
 ### Alta de hojas
 
@@ -116,14 +116,14 @@ db.players.find()
 db.character_sheets.find()
 ```
 
-### API publica de hojas
+### API pública de hojas
 
 Pensada para una web sin login, dos endpoints de solo lectura que **no exponen el id del jugador**:
 
 - `GET /character-sheets` devuelve el listado de personajes como `[{nombre, slug}]`.
 - `GET /character-sheets/{slug}` devuelve la hoja del personaje (`{nombre, slug, sheet, updated_at}`, 200) o 404 si no existe.
 
-El `slug` se deriva de forma estable del nombre del personaje (minusculas, sin acentos, guiones); ante nombres iguales se desempata con un sufijo numerico.
+El `slug` se deriva de forma estable del nombre del personaje (minúsculas, sin acentos, guiones); ante nombres iguales se desempata con un sufijo numérico.
 
 ### Endpoints de escritura
 
@@ -131,14 +131,14 @@ Para que la web pueda crear/editar hojas y dar de alta jugadores hay endpoints d
 
 - `POST /character-sheets` (`{user_id, sheet}`): crea la hoja de un jugador dado de alta. 409 si ya tiene hoja, 422 si la `sheet` no valida.
 - `PUT /character-sheets/{slug}` (`{sheet}`): actualiza la hoja existente. 404 si el slug no existe, 422 si no valida.
-- `GET /players`: listado de jugadores con `player_id` y `nombre` (superficie **interna**: a diferencia de la API publica de hojas, SI incluye el id del jugador, porque crear una hoja lo requiere).
+- `GET /players`: listado de jugadores con `player_id` y `nombre` (superficie **interna**: a diferencia de la API pública de hojas, SI incluye el id del jugador, porque crear una hoja lo requiere).
 - `POST /players` (`{player_id, nombre}`): alta de jugador en `players`. 409 si el `player_id` ya existe.
 
-> Todos los endpoints (incluidos los de lectura publica) exigen HTTP Basic Auth (`API_AUTH_USER`/`API_AUTH_PASSWORD`), que debe coincidir con `AUTH_USER`/`AUTH_PASSWORD` de `apps/web`.
+> Todos los endpoints (incluidos los de lectura pública) exigen HTTP Basic Auth (`API_AUTH_USER`/`API_AUTH_PASSWORD`), que debe coincidir con `AUTH_USER`/`AUTH_PASSWORD` de `apps/web`.
 
 ## Rastreador de combate
 
-Cada encuentro es un documento en la coleccion `encounters` de MongoDB
+Cada encuentro es un documento en la colección `encounters` de MongoDB
 (schema estricto en `apps/shared/shared/encounters.py`): nombre, lista de
 combatientes (PJ o monstruo, con CA/PG/iniciativa/condiciones) y el puntero
 de ronda/turno actual.
@@ -149,12 +149,12 @@ de ronda/turno actual.
 - `DELETE /encounters/{id}`: borrado.
 
 La web (`/combate`) trae PJs desde `/character-sheets` y monstruos desde
-`apps/web/data/monstruos.json` (via una ruta interna de Next.js,
+`apps/web/data/monstruos.json` (vía una ruta interna de Next.js,
 `/api/monstruos`) para no tener que tipear stats a mano.
 
 ## Web (Next.js)
 
-`apps/web` es un frontend Next.js (App Router) que consume la API. Tiene su propio login (cookie, credencial compartida) que reenvia como Basic Auth a la API. Para correrlo en local:
+`apps/web` es un frontend Next.js (App Router) que consume la API. Tiene su propio login (cookie, credencial compartida) que reenvía como Basic Auth a la API. Para correrlo en local:
 
 ```bash
 cd apps/web
@@ -165,7 +165,7 @@ npm run dev                  # http://localhost:3000
 
 - `/` lista los personajes y cada uno enlaza a su hoja en `/<slug>` (layout estilo Manual del Jugador 2024; los valores derivados se calculan en el cliente a partir de los valores base).
 - `/jugadores/nuevo`: cargar un jugador (id de jugador + nombre).
-- `/referencia`: monstruos, glosario, dificultad de encuentros y botin (ver arriba).
+- `/referencia`: monstruos, glosario, dificultad de encuentros y botín (ver arriba).
 - `/combate`: rastreador de iniciativa (ver arriba).
 
 `NEXT_PUBLIC_API_BASE_URL` se hornea en el bundle en build-time (lo usan tanto el render server-side como las mutaciones client-side): no es una env var de runtime.
