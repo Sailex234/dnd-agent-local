@@ -1,0 +1,1042 @@
+[
+  {
+    "termino": "Planos exteriores",
+    "tag": null,
+    "contenido": "| Plano Exterior | Alineamiento |\n|---|---|\n| Abismo | Caótico malvado |\n| Aqueronte | Legal malvado, legal neutral |\n| Arbórea | Caótico bueno |\n| Arcadia | Legal bueno, legal neutral |\n| Bitopía | Legal bueno, neutral bueno |\n| Carceri | Caótico malvado, neutral malvado |\n| Elíseo | Neutral bueno |\n| Gehenna | Legal malvado, neutral malvado |\n| Hades | Neutral malvado |\n| Limbo | Caótico neutral |\n| Mechanus | Legal neutral |\n| Monte Celestia | Legal bueno |\n| Nueve Infiernos | Legal malvado |\n| Pandemónium | Caótico malvado, caótico neutral |\n| Tierras de las Bestias | Caótico bueno, neutral bueno |\n| Tierras Exteriores | Neutral |\n| Ysgard | Caótico bueno, caótico neutral |\n\n---\n\n# Apéndice B: Perfiles de criaturas\n\nEste apéndice contiene los perfiles de las criaturas mencionadas en el libro, principalmente en los capítulos de las clases, el equipo y los conjuros. Consulta el glosario de reglas para saber cómo se lee el perfil de una criatura y el Manual de monstruos para ver muchas más criaturas.\n\nLos siguientes perfiles se presentan en orden alfabético. Cuando tu Dungeon Master use un perfil, es posible que cambie algunos detalles.\n\n---"
+  },
+  {
+    "termino": "Alce",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 10\n- **Iniciativa:** +0 (10)\n- **PG:** 11 (2d10)\n- **Velocidad:** 15 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 16 | 10 | 11 | 2 | 10 | 6 |\n| **Mod.** | +3 | +0 | +0 | −4 | +0 | −2 |\n| **Salv.** | +3 | +0 | +0 | −4 | +0 | −2 |\n\n**Habilidades:** Percepción +2  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 12  \n**Idiomas:** ninguno  \n**VD:** 1/4 (50 PX; BC +2)\n\n#### Acciones\n\n**Embestir.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño contundente. Si el objetivo es una criatura Grande o más pequeña y el alce recorre al menos 6 m en línea recta hacia el objetivo justo antes de acertarle, este recibe 3 (1d6) de daño contundente adicional y tendrá el estado de derribado.\n\n---"
+  },
+  {
+    "termino": "Araña",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** +2 (12)\n- **PG:** 1 (1d4 − 1)\n- **Velocidad:** 6 m, trepar 6 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 2 | 14 | 8 | 1 | 10 | 2 |\n| **Mod.** | −4 | +2 | −1 | −5 | +0 | −4 |\n| **Salv.** | −4 | +2 | −1 | −5 | +0 | −4 |\n\n**Habilidades:** Sigilo +4  \n**Sentidos:** visión en la oscuridad 9 m, Percepción pasiva 10  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Atributos\n\n**Caminar por telarañas.** La araña ignora todas las restricciones de movimiento causadas por las telarañas y conoce la ubicación de cualquier otra criatura que esté en contacto con la misma telaraña.\n\n**Trepar cual arácnido.** La araña puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica.\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño perforante más 2 (1d4) de daño de veneno.\n\n---"
+  },
+  {
+    "termino": "Araña gigante",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 14\n- **Iniciativa:** +3 (13)\n- **PG:** 26 (4d10 + 4)\n- **Velocidad:** 9 m, trepar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 14 | 16 | 12 | 2 | 11 | 4 |\n| **Mod.** | +2 | +3 | +1 | −4 | +0 | −3 |\n| **Salv.** | +2 | +3 | +1 | −4 | +0 | −3 |\n\n**Habilidades:** Percepción +4, Sigilo +7  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 14  \n**Idiomas:** ninguno  \n**VD:** 1 (200 PX; BC +2)\n\n#### Atributos\n\n**Caminar por telarañas.** La araña ignora todas las restricciones de movimiento causadas por las telarañas y conoce la ubicación de cualquier otra criatura que esté en contacto con la misma telaraña.\n\n**Trepar cual arácnido.** La araña puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica.\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante más 7 (2d6) de daño de veneno.\n\n**Telaraña (recarga 5–6).** *Tirada de salvación de Destreza:* CD 13, una criatura que la araña pueda ver a 18 m o menos. *Fallo:* el objetivo tiene el estado de apresado hasta que se destruya la telaraña (CA 10, 5 PG, vulnerabilidad a daño de fuego e inmunidad a daño psíquico y de veneno).\n\n---"
+  },
+  {
+    "termino": "Búho",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 11\n- **Iniciativa:** +1 (11)\n- **PG:** 1 (1d4 − 1)\n- **Velocidad:** 1,5 m, volar 18 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 3 | 13 | 8 | 2 | 12 | 7 |\n| **Mod.** | −4 | +1 | −1 | −4 | +1 | −2 |\n| **Salv.** | −4 | +1 | −1 | −4 | +1 | −2 |\n\n**Habilidades:** Percepción +5, Sigilo +5  \n**Sentidos:** visión en la oscuridad 36 m, Percepción pasiva 15  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Atributos\n\n**Pasar volando.** El búho no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo.\n\n#### Acciones\n\n**Garras.** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 1 de daño cortante.\n\n---"
+  },
+  {
+    "termino": "Caballito de mar gigante",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 14\n- **Iniciativa:** +1 (11)\n- **PG:** 16 (3d10)\n- **Velocidad:** 1,5 m, nadar 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 15 | 12 | 11 | 2 | 12 | 5 |\n| **Mod.** | +2 | +1 | +0 | −4 | +1 | −3 |\n| **Salv.** | +2 | +1 | +0 | −4 | +1 | −3 |\n\n**Sentidos:** Percepción pasiva 11  \n**Idiomas:** ninguno  \n**VD:** 1/2 (100 PX; BC +2)\n\n#### Atributos\n\n**Respirar en el agua.** El caballito de mar solo puede respirar bajo el agua.\n\n#### Acciones\n\n**Embestir.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 9 (2d6 + 2) de daño contundente u 11 (2d8 + 2) de daño contundente si el caballito de mar recorrió al menos 6 m en línea recta hacia el objetivo justo antes de acertarle.\n\n#### Acciones adicionales\n\n**Carrera burbujeante.** Mientras está bajo el agua, el caballito de mar se mueve hasta la mitad de su velocidad nadando sin provocar ataques de oportunidad.\n\n---"
+  },
+  {
+    "termino": "Caballo de guerra",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 11\n- **Iniciativa:** +1 (11)\n- **PG:** 19 (3d10 + 3)\n- **Velocidad:** 18 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 18 | 12 | 13 | 2 | 12 | 7 |\n| **Mod.** | +4 | +1 | +1 | −4 | +1 | −2 |\n| **Salv.** | +4 | +1 | +1 | −4 | +3 | −2 |\n\n**Sentidos:** Percepción pasiva 11  \n**Idiomas:** ninguno  \n**VD:** 1/2 (100 PX; BC +2)\n\n#### Acciones\n\n**Cascos.** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 9 (2d4 + 4) de daño contundente. Si el objetivo es una criatura Grande o más pequeña y el caballo recorre al menos 6 m en línea recta hacia el objetivo justo antes de acertarle, este recibe 5 (2d4) de daño contundente adicional y tendrá el estado de derribado.\n\n---"
+  },
+  {
+    "termino": "Caballo de monta",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 11\n- **Iniciativa:** +1 (11)\n- **PG:** 13 (2d10 + 2)\n- **Velocidad:** 18 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 16 | 13 | 12 | 2 | 11 | 7 |\n| **Mod.** | +3 | +1 | +1 | −4 | +0 | −2 |\n| **Salv.** | +3 | +1 | +1 | −4 | +0 | −2 |\n\n**Sentidos:** Percepción pasiva 10  \n**Idiomas:** ninguno  \n**VD:** 1/4 (50 PX; BC +2)\n\n#### Acciones\n\n**Cascos.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño contundente.\n\n---"
+  },
+  {
+    "termino": "Caballo de tiro",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 10\n- **Iniciativa:** +0 (10)\n- **PG:** 15 (2d10 + 4)\n- **Velocidad:** 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 18 | 10 | 15 | 2 | 11 | 7 |\n| **Mod.** | +4 | +0 | +2 | −4 | +0 | −2 |\n| **Salv.** | +4 | +0 | +2 | −4 | +0 | −2 |\n\n**Sentidos:** Percepción pasiva 10  \n**Idiomas:** ninguno  \n**VD:** 1/4 (50 PX; BC +2)\n\n#### Acciones\n\n**Cascos.** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 6 (1d4 + 4) de daño contundente.\n\n---"
+  },
+  {
+    "termino": "Cabra",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 10\n- **Iniciativa:** +0 (10)\n- **PG:** 4 (1d8)\n- **Velocidad:** 12 m, trepar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 11 | 10 | 11 | 2 | 10 | 5 |\n| **Mod.** | +0 | +0 | +0 | −4 | +0 | −3 |\n| **Salv.** | +2 | +0 | +0 | −4 | +0 | −3 |\n\n**Habilidades:** Percepción +2  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 12  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Acciones\n\n**Embestir.** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 1 de daño contundente o 2 (1d4) de daño contundente si la cabra recorrió al menos 6 m en línea recta hacia el objetivo justo antes de acertarle.\n\n---"
+  },
+  {
+    "termino": "Cabra gigante",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 11\n- **Iniciativa:** +1 (11)\n- **PG:** 19 (3d10 + 3)\n- **Velocidad:** 12 m, trepar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 17 | 13 | 12 | 3 | 12 | 6 |\n| **Mod.** | +3 | +1 | +1 | −4 | +1 | −2 |\n| **Salv.** | +5 | +1 | +1 | −4 | +1 | −2 |\n\n**Habilidades:** Percepción +3  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 13  \n**Idiomas:** ninguno  \n**VD:** 1/2 (100 PX; BC +2)\n\n#### Acciones\n\n**Embestir.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño contundente. Si el objetivo es una criatura Grande o más pequeña y la cabra recorre al menos 6 m en línea recta hacia el objetivo justo antes de acertarle, este recibe 5 (2d4) de daño contundente adicional y tendrá el estado de derribado.\n\n---"
+  },
+  {
+    "termino": "Camello",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 10\n- **Iniciativa:** −1 (9)\n- **PG:** 17 (2d10 + 6)\n- **Velocidad:** 15 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 15 | 8 | 17 | 2 | 11 | 5 |\n| **Mod.** | +2 | −1 | +3 | −4 | +0 | −3 |\n| **Salv.** | +2 | −1 | +5 | −4 | +0 | −3 |\n\n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 10  \n**Idiomas:** ninguno  \n**VD:** 1/8 (25 PX; BC +2)\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño contundente.\n\n---"
+  },
+  {
+    "termino": "Cangrejo",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 11\n- **Iniciativa:** +0 (10)\n- **PG:** 3 (1d4 + 1)\n- **Velocidad:** 6 m, nadar 6 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 6 | 11 | 12 | 1 | 8 | 2 |\n| **Mod.** | −2 | +0 | +1 | −5 | −1 | −4 |\n| **Salv.** | −2 | +0 | +1 | −5 | −1 | −4 |\n\n**Habilidades:** Sigilo +2  \n**Sentidos:** visión ciega 9 m, Percepción pasiva 9  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Atributos\n\n**Anfibio.** El cangrejo puede respirar tanto dentro como fuera del agua.\n\n#### Acciones\n\n**Pinza.** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 1 de daño contundente.\n\n---"
+  },
+  {
+    "termino": "Cangrejo gigante",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 15\n- **Iniciativa:** +1 (11)\n- **PG:** 13 (3d8)\n- **Velocidad:** 9 m, nadar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 13 | 13 | 11 | 1 | 9 | 3 |\n| **Mod.** | +1 | +1 | +0 | −5 | −1 | −4 |\n| **Salv.** | +1 | +1 | +0 | −5 | −1 | −4 |\n\n**Habilidades:** Sigilo +3  \n**Sentidos:** visión ciega 9 m, Percepción pasiva 9  \n**Idiomas:** ninguno  \n**VD:** 1/8 (25 PX; BC +2)\n\n#### Atributos\n\n**Anfibio.** El cangrejo puede respirar tanto dentro como fuera del agua.\n\n#### Acciones\n\n**Pinza.** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño contundente. Si el objetivo es una criatura Mediana o más pequeña, tendrá el estado de agarrada (CD 11 para escapar) debido a una de las dos pinzas.\n\n---"
+  },
+  {
+    "termino": "Cocodrilo",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** +0 (10)\n- **PG:** 13 (2d10 + 2)\n- **Velocidad:** 6 m, nadar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 15 | 10 | 13 | 2 | 10 | 5 |\n| **Mod.** | +2 | +0 | +1 | −4 | +0 | −3 |\n| **Salv.** | +2 | +0 | +3 | −4 | +0 | −3 |\n\n**Habilidades:** Sigilo +2  \n**Sentidos:** Percepción pasiva 10  \n**Idiomas:** ninguno  \n**VD:** 1/2 (100 PX; BC +2)\n\n#### Atributos\n\n**Aguantar la respiración.** El cocodrilo puede aguantar la respiración durante 1 hora.\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 6 (1d8 + 2) de daño perforante. Si el objetivo es Mediano o más pequeño, tendrá el estado de agarrado (CD 12 para escapar). Mientras esté agarrado, tendrá el estado de apresado.\n\n---"
+  },
+  {
+    "termino": "Comadreja",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 13\n- **Iniciativa:** +3 (13)\n- **PG:** 1 (1d4 − 1)\n- **Velocidad:** 9 m, trepar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 3 | 16 | 8 | 2 | 12 | 3 |\n| **Mod.** | −4 | +3 | −1 | −4 | +1 | −4 |\n| **Salv.** | −4 | +3 | −1 | −4 | +1 | −4 |\n\n**Habilidades:** Acrobacias +5, Percepción +3, Sigilo +5  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 13  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 1 de daño perforante.\n\n---"
+  },
+  {
+    "termino": "Comadreja gigante",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 13\n- **Iniciativa:** +3 (13)\n- **PG:** 9 (2d8)\n- **Velocidad:** 12 m, trepar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 11 | 17 | 10 | 4 | 12 | 5 |\n| **Mod.** | +0 | +3 | +0 | −3 | +1 | −3 |\n| **Salv.** | +0 | +3 | +0 | −3 | +1 | −3 |\n\n**Habilidades:** Acrobacias +5, Percepción +3, Sigilo +5  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 13  \n**Idiomas:** ninguno  \n**VD:** 1/8 (25 PX; BC +2)\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño perforante.\n\n---"
+  },
+  {
+    "termino": "Cuervo",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** +2 (12)\n- **PG:** 2 (1d4)\n- **Velocidad:** 3 m, volar 15 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 2 | 14 | 10 | 5 | 13 | 6 |\n| **Mod.** | −4 | +2 | +0 | −3 | +1 | −2 |\n| **Salv.** | −4 | +2 | +0 | −3 | +1 | −2 |\n\n**Habilidades:** Percepción +3  \n**Sentidos:** Percepción pasiva 13  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Atributos\n\n**Imitación.** El cuervo puede imitar sonidos sencillos que haya escuchado, como un susurro o un trino. Alguien que lo escuche podrá darse cuenta de que son imitaciones si supera una prueba de Sabiduría (Perspicacia) con CD 10.\n\n#### Acciones\n\n**Pico.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño perforante.\n\n---"
+  },
+  {
+    "termino": "Diablillo",
+    "tag": null,
+    "contenido": "*Infernal Diminuto (diablo), legal malvado*\n\n- **CA:** 13\n- **Iniciativa:** +3 (13)\n- **PG:** 21 (6d4 + 6)\n- **Velocidad:** 6 m, volar 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 6 | 17 | 13 | 11 | 12 | 14 |\n| **Mod.** | −2 | +3 | +1 | +0 | +1 | +2 |\n| **Salv.** | −2 | +3 | +1 | +0 | +1 | +2 |\n\n**Habilidades:** Engaño +4, Perspicacia +3, Sigilo +5  \n**Resistencias:** frío  \n**Inmunidades:** fuego, veneno; envenenado  \n**Sentidos:** visión en la oscuridad 36 m (no afectada por la oscuridad mágica), Percepción pasiva 11  \n**Idiomas:** común, infernal  \n**VD:** 1 (200 PX; BC +2)\n\n#### Atributos\n\n**Resistencia mágica.** El diablillo tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.\n\n#### Acciones\n\n**Aguijón.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño perforante más 7 (2d6) de daño de veneno.\n\n**Cambio de forma.** El diablillo cambia de forma para parecerse a una araña (6 m, trepar 6 m), un cuervo (6 m, volar 18 m) o una rata (velocidad 6 m), o recupera su auténtica forma. Su perfil es el mismo en todas las formas, excepto por su velocidad. Cualquier equipo que vista o lleve no se transformará.\n\n**Invisibilidad.** El diablillo lanza *invisibilidad* sobre sí mismo sin necesidad de componentes y utiliza el Carisma como aptitud mágica.\n\n---"
+  },
+  {
+    "termino": "Duende",
+    "tag": null,
+    "contenido": "*Feérico Diminuto, neutral bueno*\n\n- **CA:** 15\n- **Iniciativa:** +4 (14)\n- **PG:** 10 (4d4)\n- **Velocidad:** 3 m, volar 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 3 | 18 | 10 | 14 | 13 | 11 |\n| **Mod.** | −4 | +4 | +0 | +2 | +1 | +0 |\n| **Salv.** | −4 | +4 | +0 | +2 | +1 | +0 |\n\n**Habilidades:** Percepción +3, Sigilo +8  \n**Sentidos:** Percepción pasiva 13  \n**Idiomas:** común, elfo, silvano  \n**VD:** 1/4 (50 PX; BC +2)\n\n#### Acciones\n\n**Espada aguja.** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 6 (1d4 + 4) de daño perforante.\n\n**Arco encantador.** *Tirada de ataque a distancia:* +6, alcance 12/48 m. *Acierto:* 1 de daño perforante y el objetivo tendrá el estado de hechizado hasta el principio del siguiente turno del duende.\n\n**Invisibilidad.** El duende lanza *invisibilidad* sobre sí mismo sin necesidad de componentes y utiliza el Carisma como aptitud mágica.\n\n**Visión del corazón.** *Tirada de salvación de Carisma:* CD 10, una criatura que el duende pueda ver a 1,5 m o menos (los celestiales, infernales y muertos vivientes fallan automáticamente la tirada). *Fallo:* el duende descubre las emociones y el alineamiento del objetivo.\n\n---"
+  },
+  {
+    "termino": "Elefante",
+    "tag": null,
+    "contenido": "*Bestia Enorme, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** −1 (9)\n- **PG:** 76 (8d12 + 24)\n- **Velocidad:** 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 22 | 9 | 17 | 3 | 11 | 6 |\n| **Mod.** | +6 | −1 | +3 | −4 | +0 | −2 |\n| **Salv.** | +6 | −1 | +3 | −4 | +0 | −2 |\n\n**Sentidos:** Percepción pasiva 10  \n**Idiomas:** ninguno  \n**VD:** 4 (1100 PX; BC +2)\n\n#### Acciones\n\n**Ataque múltiple.** El elefante realiza dos ataques con sus colmillos.\n\n**Colmillos.** *Tirada de ataque cuerpo a cuerpo:* +8, alcance 1,5 m. *Acierto:* 15 (2d8 + 6) de daño perforante. Si el objetivo es una criatura Enorme o más pequeña y el elefante recorre al menos 6 m en línea recta hacia el objetivo justo antes de acertarle, el objetivo tendrá el estado de derribado.\n\n#### Acciones adicionales\n\n**Arrollar.** *Tirada de salvación de Destreza:* CD 16, una criatura a 1,5 m o menos que tenga el estado de derribada. *Fallo:* 17 (2d10 + 6) de daño contundente. *Éxito:* la mitad del daño.\n\n---"
+  },
+  {
+    "termino": "Esfinge de las maravillas",
+    "tag": null,
+    "contenido": "*Celestial Diminuto, legal bueno*\n\n- **CA:** 13\n- **Iniciativa:** +3 (13)\n- **PG:** 24 (7d4 + 7)\n- **Velocidad:** 6 m, volar 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 6 | 17 | 13 | 15 | 12 | 11 |\n| **Mod.** | −2 | +3 | +1 | +2 | +1 | +0 |\n| **Salv.** | −2 | +3 | +1 | +2 | +1 | +0 |\n\n**Habilidades:** Conocimiento arcano +4, Religión +4, Sigilo +5  \n**Resistencias:** necrótico, psíquico, radiante  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 11  \n**Idiomas:** celestial, común  \n**VD:** 1 (200 PX; BC +2)\n\n#### Atributos\n\n**Resistencia mágica.** La esfinge tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.\n\n#### Acciones\n\n**Desgarro.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño cortante más 7 (2d6) de daño radiante.\n\n#### Reacciones\n\n**Arranque de ingenio (2/día).** *Detonante:* la esfinge u otra criatura a 9 m o menos hace una prueba de característica o una tirada de salvación. *Respuesta:* la esfinge suma 2 a la tirada.\n\n---"
+  },
+  {
+    "termino": "Escorpión",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 11\n- **Iniciativa:** +0 (10)\n- **PG:** 1 (1d4 − 1)\n- **Velocidad:** 6 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 2 | 11 | 8 | 1 | 8 | 2 |\n| **Mod.** | −4 | +0 | −1 | −5 | −1 | −4 |\n| **Salv.** | −4 | +0 | −1 | −5 | −1 | −4 |\n\n**Sentidos:** visión ciega 3 m, Percepción pasiva 9  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Acciones\n\n**Aguijón.** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 1 de daño perforante más 3 (1d6) de daño de veneno.\n\n---"
+  },
+  {
+    "termino": "Esqueleto",
+    "tag": null,
+    "contenido": "*Muerto viviente Mediano, legal malvado*\n\n- **CA:** 14\n- **Iniciativa:** +3 (13)\n- **PG:** 13 (2d8 + 4)\n- **Velocidad:** 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 10 | 16 | 15 | 6 | 8 | 5 |\n| **Mod.** | +0 | +3 | +2 | −2 | −1 | −3 |\n| **Salv.** | +0 | +3 | +2 | −2 | −1 | −3 |\n\n**Vulnerabilidades:** contundente  \n**Inmunidades:** veneno; cansancio, envenenado  \n**Equipo:** arco corto, espada corta  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 9  \n**Idiomas:** entiende los idiomas que conocía en vida, pero no puede hablar  \n**VD:** 1/4 (50 PX; BC +2)\n\n#### Acciones\n\n**Espada corta.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño perforante.\n\n**Arco corto.** *Tirada de ataque a distancia:* +5, alcance 24/96 m. *Acierto:* 6 (1d6 + 3) de daño perforante.\n\n---"
+  },
+  {
+    "termino": "Gato",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** +2 (12)\n- **PG:** 2 (1d4)\n- **Velocidad:** 12 m, trepar 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 3 | 15 | 10 | 3 | 12 | 7 |\n| **Mod.** | −4 | +2 | +0 | −4 | +1 | −2 |\n| **Salv.** | −4 | +4 | +0 | −4 | +1 | −2 |\n\n**Habilidades:** Percepción +3, Sigilo +4  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 13  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Atributos\n\n**Saltador.** La distancia de salto del gato se determina usando su Destreza en vez de su Fuerza.\n\n#### Acciones\n\n**Arañazo.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño cortante.\n\n---"
+  },
+  {
+    "termino": "Halcón",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 13\n- **Iniciativa:** +3 (13)\n- **PG:** 1 (1d4 − 1)\n- **Velocidad:** 3 m, volar 18 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 5 | 16 | 8 | 2 | 14 | 6 |\n| **Mod.** | −3 | +3 | −1 | −4 | +2 | −2 |\n| **Salv.** | −3 | +3 | −1 | −4 | +2 | −2 |\n\n**Habilidades:** Percepción +6  \n**Sentidos:** Percepción pasiva 16  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Acciones\n\n**Garras.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 1 de daño cortante.\n\n---"
+  },
+  {
+    "termino": "Jabalí",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 11\n- **Iniciativa:** +0 (10)\n- **PG:** 13 (2d8 + 4)\n- **Velocidad:** 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 13 | 11 | 14 | 2 | 9 | 5 |\n| **Mod.** | +1 | +0 | +2 | −4 | −1 | −3 |\n| **Salv.** | +1 | +0 | +2 | −4 | −1 | −3 |\n\n**Sentidos:** Percepción pasiva 9  \n**Idiomas:** ninguno  \n**VD:** 1/4 (50 PX; BC +2)\n\n#### Atributos\n\n**Furia maltrecha.** Mientras esté maltrecho, el jabalí tiene ventaja en las tiradas de ataque.\n\n#### Acciones\n\n**Colmillos.** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño perforante. Si el objetivo es una criatura Mediana o más pequeña y el jabalí recorre al menos 6 m en línea recta hacia el objetivo justo antes de acertarle, este recibe 3 (1d6) de daño perforante adicional y tendrá el estado de derribado.\n\n---"
+  },
+  {
+    "termino": "Lagarto",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 10\n- **Iniciativa:** +0 (10)\n- **PG:** 2 (1d4)\n- **Velocidad:** 6 m, trepar 6 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 2 | 11 | 10 | 1 | 8 | 3 |\n| **Mod.** | −4 | +0 | +0 | −5 | −1 | −4 |\n| **Salv.** | −4 | +0 | +0 | −5 | −1 | −4 |\n\n**Sentidos:** visión en la oscuridad 9 m, Percepción pasiva 9  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Atributos\n\n**Trepar cual arácnido.** El lagarto puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica.\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 1 de daño perforante.\n\n---"
+  },
+  {
+    "termino": "León",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** +2 (12)\n- **PG:** 22 (4d10)\n- **Velocidad:** 15 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 17 | 15 | 11 | 3 | 12 | 8 |\n| **Mod.** | +3 | +2 | +0 | −4 | +1 | −1 |\n| **Salv.** | +3 | +2 | +0 | −4 | +1 | −1 |\n\n**Habilidades:** Percepción +3, Sigilo +4  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 13  \n**Idiomas:** ninguno  \n**VD:** 1 (200 PX; BC +2)\n\n#### Atributos\n\n**Atacar en manada.** El león tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del león se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado.\n\n**Saltar con carrera.** Si se ha movido al menos 3 m justo antes, el león puede realizar un salto de longitud de hasta 7,5 m.\n\n#### Acciones\n\n**Ataque múltiple.** El león hace dos ataques de desgarro. Puede sustituir uno de los ataques por un rugido.\n\n**Desgarro.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño cortante.\n\n**Rugido.** *Tirada de salvación de Sabiduría:* CD 11, una criatura a 4,5 m o menos. *Fallo:* el objetivo tiene el estado de asustado hasta el principio del siguiente turno del león.\n\n---"
+  },
+  {
+    "termino": "Lobo",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** +2 (12)\n- **PG:** 11 (2d8 + 2)\n- **Velocidad:** 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 14 | 15 | 12 | 3 | 12 | 6 |\n| **Mod.** | +2 | +2 | +1 | −4 | +1 | −2 |\n| **Salv.** | +2 | +2 | +1 | −4 | +1 | −2 |\n\n**Habilidades:** Percepción +5, Sigilo +4  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 15  \n**Idiomas:** ninguno  \n**VD:** 1/4 (50 PX; BC +2)\n\n#### Atributos\n\n**Atacar en manada.** El lobo tiene ventaja en las tiradas de ataque contra una criatura si al menos uno de los aliados del lobo se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado.\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño perforante. Si el objetivo es una criatura Mediana o más pequeña, tendrá el estado de derribada.\n\n---"
+  },
+  {
+    "termino": "Lobo terrible",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 14\n- **Iniciativa:** +2 (12)\n- **PG:** 22 (3d10 + 6)\n- **Velocidad:** 15 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 17 | 15 | 15 | 3 | 12 | 7 |\n| **Mod.** | +3 | +2 | +2 | −4 | +1 | −2 |\n| **Salv.** | +3 | +2 | +2 | −4 | +1 | −2 |\n\n**Habilidades:** Percepción +5, Sigilo +4  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 15  \n**Idiomas:** ninguno  \n**VD:** 1 (200 PX; BC +2)\n\n#### Atributos\n\n**Atacar en manada.** El lobo tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del lobo se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado.\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 8 (1d10 + 3) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada.\n\n---"
+  },
+  {
+    "termino": "Mastín",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** +2 (12)\n- **PG:** 5 (1d8 + 1)\n- **Velocidad:** 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 13 | 14 | 12 | 3 | 12 | 7 |\n| **Mod.** | +1 | +2 | +1 | −4 | +1 | −2 |\n| **Salv.** | +1 | +2 | +1 | −4 | +3 | −2 |\n\n**Habilidades:** Percepción +5  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 15  \n**Idiomas:** ninguno  \n**VD:** 1/8 (25 PX; BC +2)\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño perforante. Si el objetivo es una criatura Mediana o más pequeña, tendrá el estado de derribada.\n\n---"
+  },
+  {
+    "termino": "Mula",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 10\n- **Iniciativa:** +0 (10)\n- **PG:** 11 (2d8 + 2)\n- **Velocidad:** 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 14 | 10 | 13 | 2 | 10 | 5 |\n| **Mod.** | +2 | +0 | +1 | −4 | +0 | −3 |\n| **Salv.** | +4 | +0 | +1 | −4 | +0 | −3 |\n\n**Sentidos:** Percepción pasiva 10  \n**Idiomas:** ninguno  \n**VD:** 1/8 (25 PX; BC +2)\n\n#### Atributos\n\n**Bestia de carga.** La mula se considera de un tamaño mayor para determinar su capacidad de carga.\n\n#### Acciones\n\n**Cascos.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño contundente.\n\n---"
+  },
+  {
+    "termino": "Murciélago",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** +2 (12)\n- **PG:** 1 (1d4 − 1)\n- **Velocidad:** 1,5 m, volar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 2 | 15 | 8 | 2 | 12 | 4 |\n| **Mod.** | −4 | +2 | −1 | −4 | +1 | −3 |\n| **Salv.** | −4 | +2 | −1 | −4 | +1 | −3 |\n\n**Sentidos:** visión ciega 18 m, Percepción pasiva 11  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño perforante.\n\n---"
+  },
+  {
+    "termino": "Oso negro",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 11\n- **Iniciativa:** +1 (11)\n- **PG:** 19 (3d8 + 6)\n- **Velocidad:** 9 m, nadar 9 m, trepar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 15 | 12 | 14 | 2 | 12 | 7 |\n| **Mod.** | +2 | +1 | +2 | −4 | +1 | −2 |\n| **Salv.** | +2 | +1 | +2 | −4 | +1 | −2 |\n\n**Habilidades:** Percepción +5  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 15  \n**Idiomas:** ninguno  \n**VD:** 1/2 (100 PX; BC +2)\n\n#### Acciones\n\n**Ataque múltiple.** El oso realiza dos ataques de desgarro.\n\n**Desgarro.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño cortante.\n\n---"
+  },
+  {
+    "termino": "Oso pardo",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 11\n- **Iniciativa:** +1 (11)\n- **PG:** 22 (3d10 + 6)\n- **Velocidad:** 12 m, trepar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 17 | 12 | 15 | 2 | 13 | 7 |\n| **Mod.** | +3 | +1 | +2 | −4 | +1 | −2 |\n| **Salv.** | +3 | +1 | +2 | −4 | +1 | −2 |\n\n**Habilidades:** Percepción +3  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 13  \n**Idiomas:** ninguno  \n**VD:** 1 (200 PX; BC +2)\n\n#### Acciones\n\n**Ataque múltiple.** El oso realiza un ataque de mordisco y uno con sus garras.\n\n**Garra.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño cortante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada.\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante.\n\n---"
+  },
+  {
+    "termino": "Pantera",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 13\n- **Iniciativa:** +3 (13)\n- **PG:** 13 (3d8)\n- **Velocidad:** 15 m, trepar 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 14 | 16 | 10 | 3 | 14 | 7 |\n| **Mod.** | +2 | +3 | +0 | −4 | +2 | −2 |\n| **Salv.** | +2 | +3 | +0 | −4 | +2 | −2 |\n\n**Habilidades:** Percepción +4, Sigilo +7  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 14  \n**Idiomas:** ninguno  \n**VD:** 1/4 (50 PX; BC +2)\n\n#### Acciones\n\n**Desgarro.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño cortante.\n\n#### Acciones adicionales\n\n**Huida veloz.** La pantera realiza las acciones de destrabarse o esconderse.\n\n---"
+  },
+  {
+    "termino": "Poni",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 10\n- **Iniciativa:** +0 (10)\n- **PG:** 11 (2d8 + 2)\n- **Velocidad:** 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 15 | 10 | 13 | 2 | 11 | 7 |\n| **Mod.** | +2 | +0 | +1 | −4 | +0 | −2 |\n| **Salv.** | +4 | +0 | +1 | −4 | +0 | −2 |\n\n**Sentidos:** Percepción pasiva 10  \n**Idiomas:** ninguno  \n**VD:** 1/8 (25 PX; BC +2)\n\n#### Acciones\n\n**Cascos.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño contundente.\n\n---"
+  },
+  {
+    "termino": "Pseudodragón",
+    "tag": null,
+    "contenido": "*Dragón Diminuto, neutral bueno*\n\n- **CA:** 14\n- **Iniciativa:** +2 (12)\n- **PG:** 10 (3d4 + 3)\n- **Velocidad:** 4,5 m, volar 18 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 6 | 15 | 13 | 10 | 12 | 10 |\n| **Mod.** | −2 | +2 | +1 | +0 | +1 | +0 |\n| **Salv.** | −2 | +2 | +1 | +0 | +1 | +0 |\n\n**Habilidades:** Percepción +5, Sigilo +4  \n**Sentidos:** visión ciega 3 m, visión en la oscuridad 18 m, Percepción pasiva 15  \n**Idiomas:** entiende común y dracónico, pero no puede hablar  \n**VD:** 1/4 (50 PX; BC +2)\n\n#### Atributos\n\n**Resistencia mágica.** El pseudodragón tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.\n\n#### Acciones\n\n**Ataque múltiple.** El pseudodragón realiza dos ataques de mordisco.\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño perforante.\n\n**Aguijón.** *Tirada de salvación de Constitución:* CD 12, una criatura que el pseudodragón puede ver a 1,5 m o menos. *Fallo:* 5 (2d4) de daño de veneno y el objetivo tendrá el estado de envenenado durante 1 hora. Fallo por 5 o más: el objetivo envenenado también tendrá el estado de inconsciente hasta que reciba daño o hasta que una criatura a 1,5 m o menos de él utilice una acción para despertarlo.\n\n---"
+  },
+  {
+    "termino": "Pulpo",
+    "tag": null,
+    "contenido": "*Bestia Pequeña, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** +2 (12)\n- **PG:** 3 (1d6)\n- **Velocidad:** 1,5 m, nadar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 4 | 15 | 11 | 3 | 10 | 4 |\n| **Mod.** | −3 | +2 | +0 | −4 | +0 | −3 |\n| **Salv.** | −3 | +2 | +0 | −4 | +0 | −3 |\n\n**Habilidades:** Percepción +2, Sigilo +6  \n**Sentidos:** visión en la oscuridad 9 m, Percepción pasiva 12  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Atributos\n\n**Compresión.** El pulpo puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo.\n\n**Respirar en el agua.** El pulpo solo puede respirar bajo el agua.\n\n#### Acciones\n\n**Tentáculos.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño contundente.\n\n#### Reacciones\n\n**Nube de tinta (1/día).** *Detonante:* una criatura termina su turno a 1,5 m o menos del pulpo mientras está bajo el agua. *Respuesta:* el pulpo suelta tinta que llena un cubo de 1,5 m de lado centrado en él y se mueve hasta su velocidad nadando. El cubo está muy oscuro durante 1 minuto o hasta que una corriente fuerte o un efecto similar disperse la tinta.\n\n---"
+  },
+  {
+    "termino": "Quasit",
+    "tag": null,
+    "contenido": "*Infernal Diminuto (demonio), caótico malvado*\n\n- **CA:** 13\n- **Iniciativa:** +3 (13)\n- **PG:** 25 (10d4)\n- **Velocidad:** 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 5 | 17 | 10 | 7 | 10 | 10 |\n| **Mod.** | −3 | +3 | +0 | −2 | +0 | +0 |\n| **Salv.** | −3 | +3 | +0 | −2 | +0 | +0 |\n\n**Habilidades:** Sigilo +5  \n**Resistencias:** frío, fuego, relámpago  \n**Inmunidades:** veneno; envenenado  \n**Sentidos:** visión en la oscuridad 36 m, Percepción pasiva 10  \n**Idiomas:** abisal, común  \n**VD:** 1 (200 PX; BC +2)\n\n#### Atributos\n\n**Resistencia mágica.** El quasit tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.\n\n#### Acciones\n\n**Desgarro.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño cortante y el objetivo tendrá el estado de envenenado hasta el principio del siguiente turno del quasit.\n\n**Asustar (1/día).** *Tirada de salvación de Sabiduría:* CD 10, una criatura a 6 m o menos. *Fallo:* el objetivo tendrá el estado de asustado. Al final de cada uno de sus turnos, el objetivo repetirá la tirada de salvación y, si tiene éxito, se librará del efecto. Tras 1 minuto, tiene éxito automáticamente.\n\n**Cambio de forma.** El quasit cambia de forma para parecerse a un ciempiés (12 m, trepar 12 m), un murciélago (velocidad 3 m, volar 12 m) o un sapo (12 m, nadar 12 m), o recupera su auténtica forma. Su perfil es el mismo en todas las formas, excepto por su velocidad. Cualquier equipo que vista o lleve no se transformará.\n\n**Invisibilidad.** El quasit lanza *invisibilidad* sobre sí mismo sin necesidad de componentes y utiliza el Carisma como aptitud mágica.\n\n---"
+  },
+  {
+    "termino": "Rana",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 11\n- **Iniciativa:** +1 (11)\n- **PG:** 1 (1d4 − 1)\n- **Velocidad:** 6 m, nadar 6 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 1 | 13 | 8 | 1 | 8 | 3 |\n| **Mod.** | −5 | +1 | −1 | −5 | −1 | −4 |\n| **Salv.** | −5 | +1 | −1 | −5 | −1 | −4 |\n\n**Habilidades:** Percepción +1, Sigilo +3  \n**Sentidos:** visión en la oscuridad 9 m, Percepción pasiva 11  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Atributos\n\n**Anfibia.** La rana puede respirar tanto dentro como fuera del agua.\n\n**Saltar sin carrera.** La rana puede hacer un salto de longitud de hasta 3 m o un salto de altura de hasta 1,5 m, tanto si ha cogido carrerilla como si no.\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 1 de daño perforante.\n\n---"
+  },
+  {
+    "termino": "Rata",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 10\n- **Iniciativa:** +0 (10)\n- **PG:** 1 (1d4 − 1)\n- **Velocidad:** 6 m, trepar 6 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 2 | 11 | 9 | 2 | 10 | 4 |\n| **Mod.** | −4 | +0 | −1 | −4 | +0 | −3 |\n| **Salv.** | −4 | +0 | −1 | −4 | +0 | −3 |\n\n**Sentidos:** visión en la oscuridad 9 m, Percepción pasiva 12  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Atributos\n\n**Ágil.** La rata no provoca ataques de oportunidad cuando se mueve para ponerse fuera del alcance de un enemigo.\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 1 de daño perforante.\n\n---"
+  },
+  {
+    "termino": "Renacuajo slaad",
+    "tag": null,
+    "contenido": "*Aberración Diminuta, caótica neutral*\n\n- **CA:** 12\n- **Iniciativa:** +2 (12)\n- **PG:** 7 (3d4)\n- **Velocidad:** 9 m, excavar 3 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 7 | 15 | 10 | 3 | 5 | 3 |\n| **Mod.** | −2 | +2 | +0 | −4 | −3 | −4 |\n| **Salv.** | −2 | +2 | +0 | −4 | −3 | −4 |\n\n**Habilidades:** Sigilo +4  \n**Resistencias:** ácido, frío, fuego, relámpago, trueno  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 7  \n**Idiomas:** entiende slaad, pero no puede hablar  \n**VD:** 1/8 (25 PX; BC +2)\n\n#### Atributos\n\n**Resistencia mágica.** El slaad tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño perforante.\n\n---"
+  },
+  {
+    "termino": "Serpiente constrictora",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 13\n- **Iniciativa:** +2 (12)\n- **PG:** 13 (2d10 + 2)\n- **Velocidad:** 9 m, nadar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 15 | 14 | 12 | 1 | 10 | 3 |\n| **Mod.** | +2 | +2 | +1 | −5 | +0 | −4 |\n| **Salv.** | +2 | +2 | +1 | −5 | +0 | −4 |\n\n**Habilidades:** Percepción +2, Sigilo +4  \n**Sentidos:** visión ciega 3 m, Percepción pasiva 12  \n**Idiomas:** ninguno  \n**VD:** 1/4 (50 PX; BC +2)\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 6 (1d8 + 2) de daño perforante.\n\n**Constreñir.** *Tirada de salvación de Fuerza:* CD 12, una criatura Mediana o más pequeña que la serpiente pueda ver a 1,5 m o menos. *Fallo:* 7 (3d4) de daño contundente y el objetivo tendrá el estado de agarrado (CD 12 para escapar).\n\n---"
+  },
+  {
+    "termino": "Serpiente venenosa",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** +2 (12)\n- **PG:** 5 (2d4)\n- **Velocidad:** 9 m, nadar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 2 | 15 | 11 | 1 | 10 | 3 |\n| **Mod.** | −4 | +2 | +0 | −5 | +0 | −4 |\n| **Salv.** | −4 | +2 | +0 | −5 | +0 | −4 |\n\n**Sentidos:** visión ciega 3 m, Percepción pasiva 10  \n**Idiomas:** ninguno  \n**VD:** 1/8 (25 PX; BC +2)\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño perforante más 3 (1d6) de daño de veneno.\n\n---"
+  },
+  {
+    "termino": "Simio",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** +2 (12)\n- **PG:** 19 (3d8 + 6)\n- **Velocidad:** 9 m, trepar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 16 | 14 | 14 | 6 | 12 | 7 |\n| **Mod.** | +3 | +2 | +2 | −2 | +1 | −2 |\n| **Salv.** | +3 | +2 | +2 | −2 | +1 | −2 |\n\n**Habilidades:** Atletismo +5, Percepción +3  \n**Sentidos:** Percepción pasiva 13  \n**Idiomas:** ninguno  \n**VD:** 1/2 (100 PX; BC +2)\n\n#### Acciones\n\n**Ataque múltiple.** El simio realiza dos ataques de puñetazo.\n\n**Puñetazo.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño contundente.\n\n**Piedra (recarga 6).** *Tirada de ataque a distancia:* +5, alcance 7,5/15 m. *Acierto:* 10 (2d6 + 3) de daño contundente.\n\n---"
+  },
+  {
+    "termino": "Tejón",
+    "tag": null,
+    "contenido": "*Bestia Diminuta, sin alineamiento*\n\n- **CA:** 11\n- **Iniciativa:** +0 (10)\n- **PG:** 5 (1d4 + 3)\n- **Velocidad:** 6 m, excavar 1,5 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 10 | 11 | 16 | 2 | 12 | 5 |\n| **Mod.** | +0 | +0 | +3 | −4 | +1 | −3 |\n| **Salv.** | +0 | +0 | +3 | −4 | +1 | −3 |\n\n**Habilidades:** Percepción +3  \n**Resistencias:** veneno  \n**Sentidos:** visión en la oscuridad 9 m, Percepción pasiva 13  \n**Idiomas:** ninguno  \n**VD:** 0 (10 PX; BC +2)\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 1 de daño perforante.\n\n---"
+  },
+  {
+    "termino": "Tejón gigante",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 13\n- **Iniciativa:** +0 (10)\n- **PG:** 15 (2d8 + 6)\n- **Velocidad:** 9 m, excavar 3 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 13 | 10 | 17 | 2 | 12 | 5 |\n| **Mod.** | +1 | +0 | +3 | −4 | +1 | −3 |\n| **Salv.** | +1 | +0 | +3 | −4 | +1 | −3 |\n\n**Habilidades:** Percepción +3  \n**Resistencias:** veneno  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 13  \n**Idiomas:** ninguno  \n**VD:** 1/4 (50 PX; BC +2)\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 6 (2d4 + 1) de daño perforante.\n\n---"
+  },
+  {
+    "termino": "Tiburón de arrecife",
+    "tag": null,
+    "contenido": "*Bestia Mediana, sin alineamiento*\n\n- **CA:** 12\n- **Iniciativa:** +2 (12)\n- **PG:** 22 (4d8 + 4)\n- **Velocidad:** 1,5 m, nadar 9 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 14 | 15 | 13 | 1 | 10 | 4 |\n| **Mod.** | +2 | +2 | +1 | −5 | +0 | −3 |\n| **Salv.** | +2 | +2 | +1 | −5 | +0 | −3 |\n\n**Habilidades:** Percepción +2  \n**Sentidos:** visión ciega 9 m, Percepción pasiva 12  \n**Idiomas:** ninguno  \n**VD:** 1/2 (100 PX; BC +2)\n\n#### Atributos\n\n**Atacar en manada.** El tiburón tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del tiburón se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado.\n\n**Respirar en el agua.** El tiburón solo puede respirar bajo el agua.\n\n#### Acciones\n\n**Mordisco.** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 7 (2d4 + 2) de daño perforante.\n\n---"
+  },
+  {
+    "termino": "Tigre",
+    "tag": null,
+    "contenido": "*Bestia Grande, sin alineamiento*\n\n- **CA:** 13\n- **Iniciativa:** +3 (13)\n- **PG:** 30 (4d10 + 8)\n- **Velocidad:** 12 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 17 | 16 | 14 | 3 | 12 | 8 |\n| **Mod.** | +3 | +3 | +2 | −4 | +1 | −1 |\n| **Salv.** | +3 | +3 | +2 | −4 | +1 | −1 |\n\n**Habilidades:** Percepción +3, Sigilo +7  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 13  \n**Idiomas:** ninguno  \n**VD:** 1 (200 PX; BC +2)\n\n#### Acciones\n\n**Desgarro.** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño cortante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada.\n\n#### Acciones adicionales\n\n**Huida veloz.** El tigre realiza las acciones de destrabarse o esconderse.\n\n---"
+  },
+  {
+    "termino": "Zombi",
+    "tag": null,
+    "contenido": "*Muerto viviente Mediano, neutral malvado*\n\n- **CA:** 8\n- **Iniciativa:** −2 (8)\n- **PG:** 15 (2d8 + 6)\n- **Velocidad:** 6 m\n\n| | Fue | Des | Con | Int | Sab | Car |\n|---|---|---|---|---|---|---|\n| **Punt.** | 13 | 6 | 16 | 3 | 6 | 5 |\n| **Mod.** | +1 | −2 | +3 | −4 | −2 | −3 |\n| **Salv.** | +1 | −2 | +3 | −4 | +0 | −3 |\n\n**Inmunidades:** veneno; cansancio, envenenado  \n**Sentidos:** visión en la oscuridad 18 m, Percepción pasiva 8  \n**Idiomas:** entiende los idiomas que conocía en vida, pero no puede hablar  \n**VD:** 1/4 (50 PX; BC +2)\n\n#### Atributos\n\n**Fortaleza de muerto viviente.** Si el daño reduce a 0 los puntos de golpe del zombi, hará una tirada de salvación de Constitución (CD 5 más el daño sufrido) salvo que el daño sea radiante o proceda de un crítico. Si la supera, el zombi se queda con 1 punto de golpe.\n\n#### Acciones\n\n**Golpe.** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 5 (1d8 + 1) de daño contundente.\n\n---\n\n# Apéndice C: Glosario de reglas"
+  },
+  {
+    "termino": "Abreviaciones",
+    "tag": null,
+    "contenido": "| Abrev. | Significado | Abrev. | Significado |\n|---|---|---|---|\n| BC | Bonificador por competencia | N | Neutral |\n| C | Concentración | NB | Neutral bueno |\n| CA | Clase de armadura | NM | Neutral malvado |\n| Car | Carisma | pc | Pieza(s) de cobre |\n| CB | Caótico bueno | pe | Pieza(s) de electro |\n| CD | Clase de dificultad | pg | Punto(s) de golpe |\n| CM | Caótico malvado | PNJ | Personaje no jugador |\n| CN | Caótico neutral | po | Pieza(s) de oro |\n| Con | Constitución | pp | Pieza(s) de plata |\n| Des | Destreza | ppt | Pieza(s) de platino |\n| DM | Dungeon Master | PX | Punto(s) de experiencia |\n| Fue | Fuerza | R | Ritual |\n| Int | Inteligencia | S | Componente somático |\n| LB | Legal bueno | Sab | Sabiduría |\n| LM | Legal malvado | V | Componente verbal |\n| LN | Legal neutral | VD | Valor de desafío |\n| M | Componente material | | |\n\n---"
+  },
+  {
+    "termino": "Acción",
+    "tag": null,
+    "contenido": "En tu turno, puedes llevar a cabo una acción. Elige qué acción quieres realizar entre las que aparecen a continuación o entre las acciones especiales que te otorgan tus rasgos. Consulta también el capítulo 1 (\"Acciones\"). Estas acciones se definen en otras partes del glosario: Atacar, Ayudar, Buscar, Correr, Destrabarse, Esconderse, Esquivar, Estudiar, Influir, Magia, Preparar una acción, Utilizar."
+  },
+  {
+    "termino": "Acción adicional",
+    "tag": null,
+    "contenido": "Una acción adicional es una acción especial que puedes hacer en el mismo turno en que llevas a cabo una acción. No puedes realizar más de una acción adicional en un turno y solo tienes acciones adicionales a tu disposición si una regla lo indica de forma explícita. Consulta también el capítulo 1 (\"Acciones\")."
+  },
+  {
+    "termino": "Actitud",
+    "tag": null,
+    "contenido": "Los monstruos tienen una actitud inicial hacia un personaje de un jugador, la cual puede ser amistosa, hostil o indiferente. Consulta también \"Amistosa\", \"Hostil\", \"Indiferente\" e \"Influir\"."
+  },
+  {
+    "termino": "Agarrado",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de agarrado, experimentarás los siguientes efectos:\n\n**Velocidad 0.** Tu velocidad es 0 y no puede aumentar.\n\n**Ataques afectados.** Tienes desventaja en las tiradas de ataque contra cualquier objetivo que no sea quien te agarra.\n\n**Desplazable.** Quien te agarra puede arrastrarte o transportarte al moverse, pero cada metro de movimiento le cuesta 1 m adicional, salvo que seas Diminuto o tu tamaño sea dos o más categorías inferior al suyo."
+  },
+  {
+    "termino": "Agarrar",
+    "tag": null,
+    "contenido": "Una criatura puede agarrar a otra. Por lo general, los personajes realizan agarres usando un ataque sin armas. Muchos monstruos poseen ataques especiales que les permiten agarrar a sus presas rápidamente. Cuando se inicia un agarre, este sigue las siguientes reglas. Consulta también \"Agarrado\" y \"Ataque sin armas\".\n\n**Estado de agarrada.** Agarrar a una criatura le impone el estado de agarrada.\n\n**Un agarre por mano.** Una criatura debe tener una mano libre para agarrar a otra criatura. Algunos perfiles y efectos del juego permiten que una criatura agarre a otra usando un tentáculo, sus fauces u otra parte del cuerpo. Independientemente de la parte del cuerpo que emplee, podrá agarrar solo a una criatura a la vez con esa parte y no podrá usar esa parte para hacer objetivo a otra criatura salvo que ponga fin al agarre.\n\n**Poner fin a un agarre.** Una criatura agarrada puede emplear su acción para hacer una prueba de Fuerza (Atletismo) o Destreza (Acrobacias) contra la CD para escapar del agarre; si la supera, pondrá fin a su estado. El estado también termina si quien agarra tiene el estado de incapacitado o si la distancia entre el objetivo agarrado y quien lo agarra supera el alcance del agarre. Además, quien agarra puede soltar al objetivo en cualquier momento (no requiere acción)."
+  },
+  {
+    "termino": "Al día",
+    "tag": null,
+    "contenido": "Si una regla indica que puedes utilizar algo una cantidad determinada de veces al día, significa que debes finalizar un descanso largo para emplearlo de nuevo tras consumir todos los usos."
+  },
+  {
+    "termino": "Alcance",
+    "tag": null,
+    "contenido": "Una criatura tiene un alcance de 1,5 m salvo que una regla indique algo distinto."
+  },
+  {
+    "termino": "Aliado",
+    "tag": null,
+    "contenido": "Una criatura es tu aliada si es un miembro de tu grupo de aventureros, si es tu amiga, si combate en tu bando o si las reglas o tu DM determinan que sea tu aliada."
+  },
+  {
+    "termino": "Alineamiento",
+    "tag": null,
+    "contenido": "El alineamiento de una criatura describe en términos generales su actitud e ideales éticos. El alineamiento es una combinación de dos factores: por una parte, la moralidad (bueno, malvado o neutral) y, por otra, la actitud hacia el orden (legal, caótico o neutral). Estos factores dan pie a nueve combinaciones posibles, como las de legal bueno y neutral malvado. Consulta también el capítulo 2 (\"Crear tu personaje\")."
+  },
+  {
+    "termino": "Amistosa",
+    "tag": "actitud",
+    "contenido": "Una criatura amistosa te verá con buenos ojos. Tienes ventaja en las pruebas de característica para influir en una criatura amistosa. Consulta también \"Influir\"."
+  },
+  {
+    "termino": "Apresado",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de apresado, experimentarás los siguientes efectos:\n\n**Velocidad 0.** Tu velocidad es 0 y no puede aumentar.\n\n**Ataques afectados.** Las tiradas de ataque contra ti tienen ventaja y tus tiradas de ataque tienen desventaja.\n\n**Tiradas de salvación afectadas.** Tienes desventaja en las tiradas de salvación de Destreza."
+  },
+  {
+    "termino": "Área de efecto",
+    "tag": null,
+    "contenido": "Las descripciones de muchos conjuros y otros rasgos especifican que tienen un área de efecto, que suele tener una de seis formas posibles: Cilindro, Cono, Cubo, Emanación, Esfera, Línea. Las áreas de efecto poseen un punto de origen, un lugar desde el que surge la energía del efecto. Si todas las líneas rectas que se extienden desde el punto de origen hasta un lugar del área de efecto están bloqueadas, ese lugar no estará incluido en el área de efecto. Para bloquear una línea, un obstáculo debe proporcionar cobertura completa. Consulta también \"Cobertura\"."
+  },
+  {
+    "termino": "Arma",
+    "tag": null,
+    "contenido": "Un arma es un objeto que pertenece a la categoría de armas sencillas o marciales. Consulta también el capítulo 6 (\"Armas\")."
+  },
+  {
+    "termino": "Armas improvisadas",
+    "tag": null,
+    "contenido": "Un arma improvisada es cualquier objeto que utilices como arma provisional, como una botella rota, la pata de una mesa o una sartén.\n\n**Competencia.** No sumas tu bonificador por competencia a las tiradas de ataque con un arma improvisada.\n\n**Daño.** Si acierta, el arma inflige 1d4 de daño de un tipo que tu DM considere apropiado para el objeto.\n\n**Alcance.** Si arrojas el arma, tendrá un alcance normal de 6 m y un alcance largo de 18 m.\n\n**Equivalentes del arma.** Si un arma improvisada se parece a un arma sencilla o marcial, tu DM puede decidir que funcione como ella y emplear las reglas que se le aplican."
+  },
+  {
+    "termino": "Arrastrarse",
+    "tag": null,
+    "contenido": "Cuando te arrastras, cada metro de movimiento te cuesta 1 m adicional (2 m adicionales en terreno difícil). Consulta también \"Velocidad\"."
+  },
+  {
+    "termino": "Asfixia",
+    "tag": "peligro",
+    "contenido": "Una criatura puede aguantar la respiración durante una cantidad de minutos igual a 1 más su modificador por Constitución (mínimo de 30 segundos) antes de que empiece a asfixiarse. Cuando una criatura se quede sin aire o se esté ahogando, sumará 1 nivel de cansancio al final de cada uno de sus turnos. Cuando recupere el aliento, perderá todos los niveles de cansancio sumados por la asfixia."
+  },
+  {
+    "termino": "Asustado",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de asustado, experimentarás los siguientes efectos:\n\n**Pruebas de característica y ataques afectados.** Tienes desventaja en las pruebas de característica y las tiradas de ataque mientras la fuente de tu miedo esté en tu línea de visión.\n\n**No puedes acercarte.** No puedes acercarte voluntariamente a la fuente de tu miedo."
+  },
+  {
+    "termino": "Atacar",
+    "tag": "acción",
+    "contenido": "Cuando llevas a cabo la acción de atacar, puedes hacer una tirada de ataque con un arma o un ataque sin armas. Como parte de la acción de atacar, puedes equiparte con un arma o desequiparte de ella, antes o después del ataque. Si tienes un rasgo como Ataque adicional, puedes usar parte del movimiento o todo él para moverte entre esos ataques."
+  },
+  {
+    "termino": "Ataque con arma",
+    "tag": null,
+    "contenido": "Un ataque con arma es una tirada de ataque realizada con un arma. Consulta también \"Arma\"."
+  },
+  {
+    "termino": "Ataque de conjuro",
+    "tag": null,
+    "contenido": "Un ataque de conjuro es una tirada de ataque que se hace como parte de un conjuro u otro efecto mágico. Consulta también el capítulo 7 (\"Lanzar conjuros\")."
+  },
+  {
+    "termino": "Ataque sin armas",
+    "tag": null,
+    "contenido": "En lugar de utilizar un arma para realizar un ataque cuerpo a cuerpo, puedes dar un puñetazo, una patada, un cabezazo o cualquier otro golpe enérgico. Cuando uses tu ataque sin armas, elige una de las siguientes opciones:\n\n**Daño.** Haces una tirada de ataque contra el objetivo. Tu bonificador a la tirada es igual a tu modificador por Fuerza más tu bonificador por competencia. Si acierta, el objetivo sufre una cantidad de daño contundente igual a 1 más tu modificador por Fuerza.\n\n**Agarre.** El objetivo deberá superar una tirada de salvación de Fuerza o Destreza (a su elección) o tendrá el estado de agarrado. La CD es igual a 8 más tu modificador por Fuerza y tu bonificador por competencia. Solo se puede ejecutar este agarre si el tamaño del objetivo está, como mucho, una categoría por encima de la tuya y si tienes una mano libre para agarrarlo.\n\n**Empujón.** El objetivo deberá superar una tirada de salvación de Fuerza o Destreza (a su elección); de lo contrario, lo empujarás 1,5 m respecto a ti o harás que tenga el estado de derribado. La CD es igual a 8 más tu modificador por Fuerza y tu bonificador por competencia. Solo se puede dar este empujón si el tamaño del objetivo está, como mucho, una categoría por encima de la tuya."
+  },
+  {
+    "termino": "Ataques de oportunidad",
+    "tag": null,
+    "contenido": "Puedes hacer un ataque de oportunidad cuando una criatura que puedas ver salga de tu alcance usando su acción, acción adicional, reacción o una de sus velocidades. Para ello, usa una reacción para hacer un ataque cuerpo a cuerpo con un arma o un ataque sin armas contra la criatura que lo provoque. Este ataque sucede justo antes de que la criatura se mueva fuera de tu alcance. Consulta también el capítulo 1 (\"Combate\")."
+  },
+  {
+    "termino": "Aturdido",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de aturdido, experimentarás los siguientes efectos:\n\n**Incapacitado.** Tienes el estado de incapacitado.\n\n**Tiradas de salvación afectadas.** Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.\n\n**Ataques afectados.** Las tiradas de ataque contra ti tienen ventaja."
+  },
+  {
+    "termino": "Aventura",
+    "tag": null,
+    "contenido": "Una aventura es una serie de encuentros. La historia surge al ir interpretándolos. Consulta también \"Encuentro\"."
+  },
+  {
+    "termino": "Ayudar",
+    "tag": "acción",
+    "contenido": "Cuando llevas a cabo la acción de ayudar, tienes estas opciones:\n\n**Ayudar en una prueba de característica.** Elige una de tus competencias en habilidades o con herramientas y un aliado que esté lo bastante cerca como para ayudarle verbal o físicamente cuando haga una prueba de característica. Ese aliado tendrá ventaja en la siguiente prueba de característica que haga con la habilidad o herramienta elegidas.\n\n**Ayudar en una tirada de ataque.** Distraes por un momento a un enemigo que esté a 1,5 m o menos de ti, lo que da ventaja a la siguiente tirada de ataque que uno de tus aliados haga contra ese enemigo."
+  },
+  {
+    "termino": "Buscar",
+    "tag": "acción",
+    "contenido": "Cuando llevas a cabo la acción de buscar, realizas una prueba de Sabiduría para distinguir algo que no resulta evidente.\n\n| Habilidad | Objeto de detección |\n|---|---|\n| Medicina | Dolencia o causa de la muerte de una criatura |\n| Percepción | Criatura u objeto ocultos |\n| Perspicacia | Estado mental de una criatura |\n| Supervivencia | Huellas o alimentos |"
+  },
+  {
+    "termino": "Caídas",
+    "tag": "peligro",
+    "contenido": "Una criatura que sufra una caída recibirá 1d6 de daño contundente por cada 3 m que haya caído antes de golpearse contra el suelo, hasta un máximo de 20d6. La criatura caerá de bruces y tendrá el estado de derribada salvo que, de alguna forma, evite recibir daño de la caída. Toda criatura que caiga al agua u otro líquido podrá usar su reacción y hacer una prueba de Fuerza (Atletismo) o Destreza (Acrobacias) con CD 15 para entrar al agua de cabeza o de pie. Si la supera, cualquier daño que reciba por la caída se reducirá a la mitad."
+  },
+  {
+    "termino": "Cambio de forma",
+    "tag": null,
+    "contenido": "Si un efecto, como el rasgo Forma salvaje o el conjuro polimorfar, te permite cambiar de forma, su descripción especifica lo que te ocurre. Salvo que se indique lo contrario, cualquier efecto que te esté afectando (estados, conjuros, maldiciones y similares) se conserva de una forma a otra. Si mueres, recuperas tu forma verdadera."
+  },
+  {
+    "termino": "Campaña",
+    "tag": null,
+    "contenido": "Una campaña es una serie de aventuras. Consulta también \"Aventura\"."
+  },
+  {
+    "termino": "Canalizador mágico",
+    "tag": null,
+    "contenido": "Un canalizador mágico es un objeto que pueden usar determinadas criaturas en lugar de los componentes materiales de un conjuro si este no los consume y los materiales no tienen un coste especificado. Consulta también el capítulo 7 (\"Lanzar conjuros\")."
+  },
+  {
+    "termino": "Cansancio",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de cansancio, experimentarás los siguientes efectos:\n\n**Niveles de cansancio.** Este estado es acumulativo. Cada vez que lo recibas, suma 1 nivel de cansancio. Morirás si tu nivel de cansancio es 6.\n\n**Pruebas con d20 afectadas.** Cuando hagas una prueba con d20, el resultado se reduce en 2 × tu nivel de cansancio.\n\n**Velocidad reducida.** Tu velocidad se reduce en 1,5 m × tu nivel de cansancio.\n\n**Eliminar niveles de cansancio.** Tras finalizar un descanso largo, resta 1 nivel de cansancio. Cuando tus niveles de cansancio se reduzcan a 0, el estado terminará."
+  },
+  {
+    "termino": "Capacidad de carga",
+    "tag": null,
+    "contenido": "Tu tamaño y tu puntuación de Fuerza determinan el peso máximo en kilos que puedes transportar, como se muestra en la tabla \"Capacidad de carga\". Si arrastras, levantas o empujas un peso que supere el máximo que puedes cargar, tu velocidad no superará los 1,5 m.\n\n| Tamaño de la criatura | Máximo | Arrastrar, levantar o empujar |\n|---|---|---|\n| Diminuto | Fue × 3,75 kg | Fue × 7,5 kg |\n| Pequeño/Mediano | Fue × 7,5 kg | Fue × 15 kg |\n| Grande | Fue × 15 kg | Fue × 30 kg |\n| Enorme | Fue × 30 kg | Fue × 60 kg |\n| Gargantuesco | Fue × 60 kg | Fue × 120 kg |"
+  },
+  {
+    "termino": "Cegado",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de cegado, experimentarás los siguientes efectos:\n\n**No puedes ver.** No puedes ver y fallas automáticamente todas las pruebas de característica que requieran la vista.\n\n**Ataques afectados.** Las tiradas de ataque contra ti tienen ventaja y tus tiradas de ataque tienen desventaja."
+  },
+  {
+    "termino": "Cilindro",
+    "tag": "área de efecto",
+    "contenido": "Un cilindro es un área de efecto que se extiende en líneas rectas desde un punto de origen situado en el centro de la parte superior o inferior circular del cilindro. El efecto que crea un cilindro especifica el radio de la base y la altura del cilindro. El punto de origen de un cilindro está incluido en el área de efecto."
+  },
+  {
+    "termino": "Clase de armadura",
+    "tag": null,
+    "contenido": "Una clase de armadura (CA) es el número objetivo de una tirada de ataque. La CA representa la dificultad de acertar a un objetivo. El cálculo de tu CA base es 10 más tu modificador por Destreza. Si una regla otorga otro cálculo de tu CA base, elige qué cálculo quieres usar, ya que no puedes usar más de uno. Consulta también \"Tirada de ataque\"."
+  },
+  {
+    "termino": "Clase de dificultad",
+    "tag": null,
+    "contenido": "Una clase de dificultad (CD) es el número objetivo de una prueba de característica o de una tirada de salvación. Consulta también el capítulo 1 (\"Las pruebas con d20\")."
+  },
+  {
+    "termino": "Cobertura",
+    "tag": null,
+    "contenido": "La cobertura proporciona un grado de protección a un objetivo situado tras ella. Hay tres niveles de cobertura: cobertura media (+2 a la CA y las tiradas de salvación de Destreza), cobertura tres cuartos (+5 a la CA y las tiradas de salvación de Destreza) y cobertura completa (no puede ser el objetivo directo). Si un objetivo está detrás de más de un grado de cobertura, solo se beneficia del que le proporciona más protección. Consulta también el capítulo 1 (\"Combate\")."
+  },
+  {
+    "termino": "Competencia",
+    "tag": null,
+    "contenido": "Si tienes competencia en algo o con algo, puedes sumar tu bonificador por competencia a cualquier prueba con d20 que hagas con ese elemento. Una criatura puede tener competencia en una habilidad o tirada de salvación, o con un arma o herramienta. Consulta también el capítulo 1 (\"Competencia\")."
+  },
+  {
+    "termino": "Concentración",
+    "tag": null,
+    "contenido": "Algunos conjuros y otros efectos requieren concentración para permanecer activos. Si el creador del efecto pierde la concentración, el efecto concluye. Si el efecto tiene una duración máxima, la descripción detalla cuánto tiempo puede concentrarse el creador en él: hasta 1 minuto, 1 hora u otra duración. El creador puede dejar de concentrarse en cualquier momento (no requiere acción). Los siguientes factores rompen la concentración:\n\n**Otro efecto de concentración.** Pierdes la concentración en un efecto en cuanto comienzas a lanzar un conjuro que también requiere concentración.\n\n**Daño.** Si sufres daño, debes superar una tirada de salvación de Constitución para mantener la concentración. La CD es de 10 o la mitad del daño sufrido (redondeando hacia abajo), lo que sea mayor, hasta un máximo de 30.\n\n**Incapacitado o muerto.** Tu concentración acaba si tienes el estado de incapacitado o mueres."
+  },
+  {
+    "termino": "Conjuro",
+    "tag": null,
+    "contenido": "Un conjuro es un efecto mágico que tiene las características descritas en el capítulo 7."
+  },
+  {
+    "termino": "Cono",
+    "tag": "área de efecto",
+    "contenido": "Un cono es un área de efecto que se extiende en líneas rectas desde un punto de origen en la dirección que elija su creador. El ancho del cono en un punto cualquiera a lo largo de su extensión es igual a la distancia entre dicho punto y el origen. El punto de origen de un cono no está incluido en el área de efecto, salvo que su creador decida lo contrario."
+  },
+  {
+    "termino": "Correr",
+    "tag": "acción",
+    "contenido": "Cuando llevas a cabo la acción de correr, consigues movimiento adicional para ese turno. Este aumento es igual a tu velocidad tras aplicar cualquier modificador pertinente. Si tienes una velocidad especial, puedes emplearla en lugar de tu velocidad normal cuando realizas esta acción. Consulta también \"Velocidad\"."
+  },
+  {
+    "termino": "Criatura",
+    "tag": null,
+    "contenido": "Cualquier ser que aparece en el juego, incluidos los personajes de los jugadores, se considera una criatura. Consulta también \"Tipo de criatura\"."
+  },
+  {
+    "termino": "Crítico",
+    "tag": null,
+    "contenido": "Si sacas un 20 en el d20 al hacer una tirada de ataque, causarás un crítico y el ataque acertará sin tener en cuenta los modificadores ni la CA del objetivo. Un crítico te permite tirar dados de daño adicionales contra el objetivo: tira todos los dados de daño del ataque dos veces, suma los resultados y luego añade los modificadores pertinentes. Consulta también el capítulo 1 (\"Daño y curación\")."
+  },
+  {
+    "termino": "Cubo",
+    "tag": "área de efecto",
+    "contenido": "Un cubo es un área de efecto que se extiende en líneas rectas desde un punto de origen situado en cualquier parte de una cara del cubo. El efecto que crea un cubo especifica su tamaño, que es la longitud de cada lado. El punto de origen de un cubo no está incluido en el área de efecto, salvo que su creador decida lo contrario."
+  },
+  {
+    "termino": "Curación",
+    "tag": null,
+    "contenido": "La curación es el medio para recuperar puntos de golpe. Consulta también el capítulo 1 (\"Daño y curación\")."
+  },
+  {
+    "termino": "Dados de puntos de golpe",
+    "tag": null,
+    "contenido": "Los dados de puntos de golpe (o dados de golpe para abreviar) ayudan a determinar los puntos de golpe máximos de un personaje jugador, como se explica en el capítulo 2. La mayoría de monstruos tienen también dados de golpe. Durante un descanso corto, una criatura puede gastar dados de golpe para recuperar puntos de golpe."
+  },
+  {
+    "termino": "Daño",
+    "tag": null,
+    "contenido": "Recibir daño hace que una criatura o un objeto pierda puntos de golpe."
+  },
+  {
+    "termino": "Derribado",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de derribado, experimentarás los siguientes efectos:\n\n**Movimiento restringido.** Tus únicas opciones de movimiento son arrastrarte o gastar una cantidad de movimiento igual a la mitad de tu velocidad (redondeando hacia abajo) para levantarte y, por tanto, poner fin a este estado. Si tu velocidad es 0, no puedes levantarte.\n\n**Ataques afectados.** Tienes desventaja en las tiradas de ataque. Las tiradas de ataque contra ti tienen ventaja si el atacante está a 1,5 m o menos de ti. De lo contrario, las tiradas de ataque tienen desventaja."
+  },
+  {
+    "termino": "Descanso corto",
+    "tag": null,
+    "contenido": "Un descanso corto es un periodo de inactividad de 1 hora en el que una criatura no hace nada más extenuante que leer, charlar, comer o montar guardia. Para comenzar un descanso corto, debes tener al menos 1 punto de golpe.\n\n**Beneficios del descanso.** Tras finalizar el descanso, puedes gastar uno o más dados de puntos de golpe para recuperar puntos de golpe. Por cada dado que gastes, tira el dado y suma tu modificador por Constitución al resultado. Recuperas una cantidad de puntos de golpe equivalente al total obtenido (mínimo de 1).\n\n**Interrumpir el descanso.** Un descanso corto se puede interrumpir si se tira iniciativa, si se lanza un conjuro que no sea un truco, o si se sufre daño. Un descanso corto interrumpido no otorga ningún beneficio."
+  },
+  {
+    "termino": "Descanso largo",
+    "tag": null,
+    "contenido": "Un descanso largo es un periodo de inactividad prolongado (al menos 8 horas) en el que duermes durante al menos 6 horas y realizas como máximo 2 horas de actividades ligeras.\n\n**Beneficios del descanso.** Para comenzar un descanso largo, debes tener al menos 1 punto de golpe. Tras finalizarlo obtendrás: puntos de golpe al máximo, puntuaciones de característica restablecidas si se habían reducido, y cansancio reducido en 1.\n\n**Interrumpir el descanso.** Un descanso largo se puede interrumpir si se tira iniciativa, si se lanza un conjuro que no sea un truco, si se sufre daño, o si se camina o se hace algún otro ejercicio físico durante 1 hora. Si logras descansar al menos 1 hora antes de la interrupción, obtienes los beneficios de un descanso corto. Para reanudar un descanso largo inmediatamente después de una interrupción, el descanso requerirá 1 hora adicional por cada interrupción para finalizarlo."
+  },
+  {
+    "termino": "Deshidratación",
+    "tag": "peligro",
+    "contenido": "Las criaturas requieren cierta cantidad de agua al día en función de su tamaño. Si una criatura bebe menos de la mitad del agua que necesita al día, sumará 1 nivel de cansancio al final del día. El cansancio causado por la deshidratación no puede eliminarse hasta que la criatura beba la cantidad completa de agua necesaria al día.\n\n| Tamaño | Agua | Tamaño | Agua |\n|---|---|---|---|\n| Diminuto | 1 l | Grande | 16 l |\n| Pequeño | 4 l | Enorme | 64 l |\n| Mediano | 4 l | Gargantuesco | 256 l |"
+  },
+  {
+    "termino": "Desnutrición",
+    "tag": "peligro",
+    "contenido": "Las criaturas necesitan cierta cantidad de alimentos al día en función de su tamaño. Si una criatura come, pero ingiere menos de la mitad de los alimentos que necesita al día, deberá superar una tirada de salvación de Constitución con CD 10 o sumará 1 nivel de cansancio al final del día. Si una criatura no come nada durante 5 días, sumará automáticamente 1 nivel de cansancio al final del quinto día y un nivel adicional al final de cada día posterior sin comer. El cansancio causado por la desnutrición no puede eliminarse hasta que la criatura coma la cantidad completa de alimentos necesarios al día.\n\n| Tamaño | Alimentos | Tamaño | Alimentos |\n|---|---|---|---|\n| Diminuto | 125 g | Grande | 2 kg |\n| Pequeño | 0,5 kg | Enorme | 8 kg |\n| Mediano | 0,5 kg | Gargantuesco | 32 kg |"
+  },
+  {
+    "termino": "Destrabarse",
+    "tag": "acción",
+    "contenido": "Si llevas a cabo la acción de destrabarse, tu movimiento no provocará ataques de oportunidad durante el resto del turno actual."
+  },
+  {
+    "termino": "Desventaja",
+    "tag": null,
+    "contenido": "Si tienes desventaja en una prueba con d20, tira 2d20 y utiliza el resultado más bajo. Una tirada no puede verse afectada por más de una desventaja, y una ventaja y una desventaja en la misma tirada se anulan entre sí. Consulta también el capítulo 1 (\"Las pruebas con d20\")."
+  },
+  {
+    "termino": "Efecto mágico",
+    "tag": null,
+    "contenido": "Un efecto es mágico si lo crea un conjuro, un objeto mágico o un fenómeno que una regla etiquete como mágico."
+  },
+  {
+    "termino": "Efectos simultáneos",
+    "tag": null,
+    "contenido": "Si ocurren dos o más cosas a la vez en un turno, la persona (jugador o DM) de la partida cuyo turno esté en marcha decidirá el orden en el que ocurren esas cosas."
+  },
+  {
+    "termino": "Emanación",
+    "tag": "área de efecto",
+    "contenido": "Una emanación es un área de efecto que se extiende en líneas rectas desde una criatura o un objeto en todas las direcciones. El efecto que crea una emanación especifica la distancia que abarca. Una emanación se mueve con la criatura o el objeto que sea su origen, salvo que se trate de un efecto instantáneo o estático. El origen de una emanación no se incluye en el área de efecto, salvo que su creador decida lo contrario."
+  },
+  {
+    "termino": "Encuentro",
+    "tag": null,
+    "contenido": "Un encuentro es una escena de una aventura que forma parte de al menos uno de los tres pilares del juego: interacciones sociales, exploración o combate. Consulta también el capítulo 1."
+  },
+  {
+    "termino": "Enemigo",
+    "tag": null,
+    "contenido": "Una criatura es tu enemiga si se opone a ti en combate, si tiene intención de perjudicarte o si las reglas o tu DM la designan como tal."
+  },
+  {
+    "termino": "Ensordecido",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de ensordecido, experimentarás el siguiente efecto:\n\n**No puedes oír.** No puedes oír y fallas automáticamente cualquier prueba de característica que requiera el oído."
+  },
+  {
+    "termino": "Entrenamiento con armaduras",
+    "tag": null,
+    "contenido": "El entrenamiento con armaduras te permite utilizar una armadura de una determinada categoría sin los siguientes inconvenientes. Si llevas una armadura ligera, media o pesada, pero no te has entrenado con ella, tendrás desventaja en cualquier prueba con d20 que implique la Fuerza o la Destreza y no podrás lanzar conjuros. Si embrazas un escudo, pero no te has entrenado con él, no obtendrás su bonificador a la CA. Consulta también \"Desventaja\" y el capítulo 6 (\"Armaduras\")."
+  },
+  {
+    "termino": "Envenenado",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de envenenado, experimentarás el siguiente efecto:\n\n**Pruebas de característica y ataques afectados.** Tienes desventaja en las tiradas de ataque y las pruebas de característica."
+  },
+  {
+    "termino": "Esconderse",
+    "tag": "acción",
+    "contenido": "Con la acción de esconderse, tratarás de ocultarte. Para ello, debes superar una prueba de Destreza (Sigilo) con CD 15 mientras estás en una zona muy oscura o detrás de una cobertura tres cuartos o completa, y deberás estar fuera de la línea de visión de cualquier enemigo. Si la superas, tendrás el estado de invisible mientras permanezcas oculto. Anota el resultado de tu prueba, que es la CD para que una criatura te detecte con una prueba de Sabiduría (Percepción). Dejas de estar oculto inmediatamente después de que hagas un ruido más alto que un susurro, un enemigo te detecte, hagas una tirada de ataque, o lances un conjuro con un componente verbal."
+  },
+  {
+    "termino": "Esfera",
+    "tag": "área de efecto",
+    "contenido": "Una esfera es un área de efecto que se extiende en líneas rectas desde un punto de origen hacia fuera en todas las direcciones. El efecto que crea una esfera especifica la distancia que se extiende como el radio de la esfera. El punto de origen de una esfera está incluido en su área de efecto."
+  },
+  {
+    "termino": "Espacio ocupado",
+    "tag": null,
+    "contenido": "Un espacio se considera ocupado si una criatura se encuentra en él o si está completamente lleno de objetos."
+  },
+  {
+    "termino": "Espacio sin ocupar",
+    "tag": null,
+    "contenido": "Un espacio está sin ocupar si no hay criaturas en él y si no está completamente lleno de objetos."
+  },
+  {
+    "termino": "Esquivar",
+    "tag": "acción",
+    "contenido": "Si llevas a cabo la acción de esquivar, obtienes los siguientes beneficios hasta el principio de tu siguiente turno: las tiradas de ataque contra ti tendrán desventaja si puedes ver al atacante y tendrás ventaja en las tiradas de salvación de Destreza. Perderás estos beneficios si tienes el estado de incapacitado o si tu velocidad es 0."
+  },
+  {
+    "termino": "Estable",
+    "tag": null,
+    "contenido": "Una criatura está estable si tiene 0 puntos de golpe pero no debe hacer tiradas de salvación contra muerte. Consulta también el capítulo 1 (\"Daño y curación\")."
+  },
+  {
+    "termino": "Estado",
+    "tag": null,
+    "contenido": "Un estado es una situación temporal que experimenta una criatura en la partida. Un estado no se acumula: el destinatario lo tiene o no lo tiene. El estado de cansancio es una excepción a esta regla. Los estados definidos en este glosario son: Agarrado, Apresado, Asustado, Aturdido, Cansancio, Cegado, Derribado, Ensordecido, Envenenado, Hechizado, Incapacitado, Inconsciente, Invisible, Paralizado, Petrificado. Consulta también el capítulo 1 (\"Estados\")."
+  },
+  {
+    "termino": "Estudiar",
+    "tag": "acción",
+    "contenido": "Cuando llevas a cabo la acción de estudiar, haces una prueba de Inteligencia para explorar tus recuerdos o examinar un libro, una pista u otra fuente de conocimiento y recordar algún dato importante.\n\n| Habilidad | Áreas |\n|---|---|\n| Conocimiento arcano | Conjuros, objetos mágicos, símbolos sobrenaturales, tradiciones mágicas, planos de existencia y determinadas criaturas (aberraciones, autómatas, elementales, feéricos y monstruosidades) |\n| Historia | Acontecimientos y personajes históricos, civilizaciones antiguas, guerras y determinadas criaturas (gigantes y humanoides) |\n| Investigación | Trampas, códigos, enigmas y artilugios |\n| Naturaleza | Terreno, flora, clima y determinadas criaturas (bestias, cienos, dragones y plantas) |\n| Religión | Deidades, jerarquías religiosas y ritos, símbolos sagrados, sectas y determinadas criaturas (celestiales, infernales y muertos vivientes) |"
+  },
+  {
+    "termino": "Fuego",
+    "tag": "peligro",
+    "contenido": "Una criatura u objeto que arda sufre 1d4 de daño de fuego al principio de cada uno de sus turnos. Como acción, puedes apagar el fuego que te afecta adoptando el estado de derribado y rodando por el suelo. El fuego también se extingue si se empapa, se sumerge o se ahoga."
+  },
+  {
+    "termino": "Habilidad",
+    "tag": null,
+    "contenido": "Una habilidad es un área de especialización asociada a una prueba de característica. Si eres competente en una habilidad, puedes sumar tu bonificador por competencia cuando hagas una prueba de característica asociada a esa habilidad. Consulta también el capítulo 1 (\"Competencia\")."
+  },
+  {
+    "termino": "Hechizado",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de hechizado, experimentarás los siguientes efectos:\n\n**No puedes dañar a quien te haya hechizado.** No puedes atacar ni elegir como objetivo de efectos dañinos o mágicos a quien te haya hechizado.\n\n**Ventaja social.** Quien te haya hechizado tiene ventaja en las pruebas de característica para interactuar socialmente contigo."
+  },
+  {
+    "termino": "Hoja de personaje",
+    "tag": null,
+    "contenido": "Una hoja de personaje es un registro en papel o digital en el que apuntas la información sobre tu personaje. Consulta también el capítulo 2."
+  },
+  {
+    "termino": "Hostil",
+    "tag": "actitud",
+    "contenido": "Una criatura hostil te ve con malos ojos. Tienes desventaja en las pruebas de característica para influir en una criatura hostil. Consulta también \"Influir\"."
+  },
+  {
+    "termino": "Ilusiones",
+    "tag": null,
+    "contenido": "Los conjuros y otros efectos a veces crean ilusiones mágicas. Estos efectos definen lo que hace la ilusión y con qué sentidos o facultades mentales juega. Si una ilusión se manifiesta en un lugar, será insustancial e ingrávida, aunque parecerá que le afecta el entorno como si la ilusión fuera real, salvo que el efecto que la haya creado especifique algo distinto."
+  },
+  {
+    "termino": "Incapacitado",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de incapacitado, experimentarás los siguientes efectos:\n\n**Inactivo.** No puedes llevar a cabo ninguna acción, acción adicional o reacción.\n\n**Pérdida de concentración.** Pierdes la concentración.\n\n**Mudo.** No puedes hablar.\n\n**Sorprendido.** Si tienes el estado de incapacitado cuando tiras iniciativa, tendrás desventaja en la tirada."
+  },
+  {
+    "termino": "Inconsciente",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de inconsciente, experimentarás los siguientes efectos:\n\n**Inerte.** Tienes los estados de derribado e incapacitado y sueltas lo que estés sujetando. Cuando concluya este estado, permanecerás derribado.\n\n**Velocidad 0.** Tu velocidad es 0 y no puede aumentar.\n\n**Ataques afectados.** Las tiradas de ataque contra ti tienen ventaja.\n\n**Tiradas de salvación afectadas.** Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.\n\n**Críticos automáticos.** Cualquier tirada de ataque que te acierte es un crítico si el atacante está a 1,5 m o menos de ti.\n\n**Ignorante.** No eres consciente de tu entorno."
+  },
+  {
+    "termino": "Indiferente",
+    "tag": "actitud",
+    "contenido": "Una criatura indiferente no tiene interés ni en ayudarte ni en obstaculizarte. Esta es la actitud por defecto de un monstruo. Consulta también \"Influir\"."
+  },
+  {
+    "termino": "Influir",
+    "tag": "acción",
+    "contenido": "Con la acción de influir, instas a un monstruo a que haga algo. Describe o interpreta cómo te comunicas con ese monstruo. ¿Tratas de engañarlo, intimidarlo, entretenerte o persuadirlo disimuladamente? Tu DM determinará si el monstruo muestra disposición (voluntario) o no (no voluntario), o si está indeciso por tu interacción; conforme a esto, establecerá si se necesita o no hacer una prueba de característica, como se explica a continuación.\n\n**Voluntario.** Si tu afán concuerda con los deseos del monstruo, no será necesaria ninguna prueba de característica: el monstruo cumplirá con lo que le pidas de la forma que estime pertinente.\n\n**No voluntario.** Si tu deseo resulta aversivo para el monstruo u opuesto a su alineamiento, no será necesaria ninguna prueba de característica: no lo aceptará.\n\n**Indeciso.** Si instas al monstruo a que haga algo sobre lo que siente dudas, deberás realizar una prueba de característica, en la que influirá la actitud del monstruo: indiferente, amistosa u hostil, todas ellas definidas en este glosario. La tabla \"Pruebas de influencia\" sugiere qué prueba de característica se debe hacer en función de cómo interactúas con el monstruo. Tu DM elegirá la prueba, que tendrá por defecto una CD igual a 15 o la puntuación de Inteligencia del monstruo, la que sea más alta. Si la superas, el monstruo hará lo que le pides. Si la fallas, deberás esperar 24 horas (o el plazo que establezca tu DM) antes de volver a insistir.\n\n| Prueba de característica | Interacción |\n|---|---|\n| Carisma (Engaño) | Engañar a un monstruo que te entienda. |\n| Carisma (Interpretación) | Entretener a un monstruo. |\n| Carisma (Intimidación) | Intimidar a un monstruo. |\n| Carisma (Persuasión) | Persuadir a un monstruo que te entienda. |\n| Sabiduría (Trato con animales) | Convencer poco a poco a una bestia o monstruosidad. |"
+  },
+  {
+    "termino": "Iniciativa",
+    "tag": null,
+    "contenido": "La iniciativa determina el orden de los turnos durante el combate. Las reglas del combate del capítulo 1 explican cómo tirar iniciativa.\n\nA veces, los DM pueden hacer que los combatientes utilicen sus puntuaciones de iniciativa en vez de tirar iniciativa. Tu puntuación de iniciativa es igual a 10 más tu modificador por Destreza. Si tienes ventaja en las tiradas de iniciativa, aumenta tu puntuación de iniciativa en 5. Si, por el contrario, tienes desventaja en estas tiradas, reduce esa puntuación en 5. Consulta también el capítulo 1 (\"Combate\")."
+  },
+  {
+    "termino": "Inmunidad",
+    "tag": null,
+    "contenido": "Si tienes inmunidad a un tipo de daño o un estado, no te afectará de ningún modo."
+  },
+  {
+    "termino": "Inspiración heroica",
+    "tag": null,
+    "contenido": "Si tienes inspiración heroica (como personaje jugador), puedes gastarla para volver a tirar cualquier dado inmediatamente después de lanzarlo; si lo haces, deberás utilizar el nuevo resultado. Si obtienes inspiración heroica y ya tenías, se desperdiciará salvo que se la concedas a un personaje jugador que carezca de ella."
+  },
+  {
+    "termino": "Invisible",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de invisible, experimentarás los siguientes efectos:\n\n**Sorpresa.** Si tienes el estado de invisible cuando tiras iniciativa, tendrás ventaja en la tirada.\n\n**Oculto.** No te afecta ningún efecto que requiera ver a su objetivo, salvo que el creador del efecto pueda verte de alguna forma. Cualquier equipo que vistas o lleves contigo también se oculta.\n\n**Ataques afectados.** Las tiradas de ataque contra ti tienen desventaja y tus tiradas de ataque tienen ventaja. Si una criatura puede verte de alguna forma, no obtienes este beneficio contra esa criatura."
+  },
+  {
+    "termino": "Levitar",
+    "tag": null,
+    "contenido": "Algunas criaturas pueden levitar, como se indica en sus perfiles, y algunos conjuros y otros efectos otorgan la capacidad de levitar. Si levitas al volar, evitarás caerte en determinadas circunstancias. Consulta también \"Volar\"."
+  },
+  {
+    "termino": "Ligeramente oscuro",
+    "tag": null,
+    "contenido": "Tienes desventaja en las pruebas de Sabiduría (Percepción) para ver algo en un espacio ligeramente oscuro. Consulta también \"Luz tenue\" y el capítulo 1 (\"Exploración\")."
+  },
+  {
+    "termino": "Línea",
+    "tag": "área de efecto",
+    "contenido": "Una línea es un área de efecto que se extiende desde un punto de origen en una trayectoria recta a lo largo de su extensión y cubre un área delimitada por su ancho. El efecto que crea una línea especifica su longitud y anchura. El punto de origen de una línea no está incluido en el área de efecto, salvo que su creador decida lo contrario."
+  },
+  {
+    "termino": "Luz brillante",
+    "tag": null,
+    "contenido": "La luz brillante es la iluminación normal. Consulta también el capítulo 1 (\"Exploración\")."
+  },
+  {
+    "termino": "Luz tenue",
+    "tag": null,
+    "contenido": "Una zona con luz tenue está ligeramente oscura. Consulta también \"Ligeramente oscuro\" y el capítulo 1 (\"Exploración\")."
+  },
+  {
+    "termino": "Magia",
+    "tag": "acción",
+    "contenido": "Cuando llevas a cabo la acción de magia, puedes lanzar un conjuro que tenga un tiempo de lanzamiento de una acción o usar un rasgo u objeto mágico que requiera una acción de magia para activarlo. Si lanzas un conjuro que tiene un tiempo de lanzamiento de 1 minuto o superior, deberás realizar la acción de magia en cada turno de ese lanzamiento y mantener la concentración mientras lo haces. Si pierdes la concentración, el conjuro fallará, pero no gastarás un espacio de conjuro. Consulta también \"Concentración\"."
+  },
+  {
+    "termino": "Maldiciones",
+    "tag": null,
+    "contenido": "Algunos efectos del juego maldicen a una criatura o un objeto. El efecto que impone la maldición define lo que esta hace. Las maldiciones se pueden eliminar con los conjuros *levantar maldición* y *restablecimiento mayor* u otros efectos mágicos que especifiquen esa capacidad."
+  },
+  {
+    "termino": "Maltrecho",
+    "tag": null,
+    "contenido": "Una criatura está maltrecha cuando le quedan la mitad de sus puntos de golpe o menos."
+  },
+  {
+    "termino": "Monstruo",
+    "tag": null,
+    "contenido": "Un monstruo es una criatura que controla el DM, aunque dicha criatura sea bondadosa. Consulta también \"Criatura\" y \"PNJ\"."
+  },
+  {
+    "termino": "Muerto",
+    "tag": null,
+    "contenido": "Una criatura muerta no tiene puntos de golpe ni puede recuperarlos salvo que antes la revivan con magia, como los conjuros *alzar a los muertos* o *revivir*. Cuando se lanza un conjuro de ese estilo, el espíritu sabe quién lo lanza y puede rechazarlo. El espíritu de una criatura muerta abandona su cuerpo y parte a los Planos Exteriores, por lo que revivir a la criatura requiere llamar a su espíritu para que regrese.\n\nSi la criatura vuelve a la vida, el efecto que la revive determina sus puntos de golpe actuales. Salvo que se indique lo contrario, la criatura vuelve a la vida con cualquier estado, enfermedad mágica o maldición que la afectara en el momento de su muerte si las duraciones de esos efectos no han concluido. Si la criatura murió con algún nivel de cansancio, regresará con 1 nivel menos. Si la criatura estaba sintonizada con uno o varios objetos mágicos, dejará de estarlo."
+  },
+  {
+    "termino": "Muy oscuro",
+    "tag": null,
+    "contenido": "Tienes el estado de cegado cuando tratas de ver algo en un espacio muy oscuro. Consulta también \"Cegado\", \"Oscuridad\" y el capítulo 1 (\"Exploración\")."
+  },
+  {
+    "termino": "Nadar",
+    "tag": null,
+    "contenido": "Cuando nadas, cada metro de movimiento te cuesta 1 m adicional (2 m adicionales en terreno difícil). Ignoras este coste adicional si tienes una velocidad nadando y la usas para nadar. Si tu DM lo cree conveniente, para recorrer cualquier distancia por aguas revueltas podría tener que superarse una prueba de Fuerza (Atletismo) con CD 15."
+  },
+  {
+    "termino": "Noquear a una criatura",
+    "tag": null,
+    "contenido": "Si fueses a reducir a 0 los puntos de golpe de una criatura con un ataque cuerpo a cuerpo, puedes optar por dejarla con 1 punto de golpe. En tal caso, la criatura tendrá el estado de inconsciente y comenzará un descanso corto. La criatura permanecerá inconsciente hasta que recupere algún punto de golpe o hasta que alguien utilice una acción para administrarle primeros auxilios (prueba de Sabiduría (Medicina) con CD 10)."
+  },
+  {
+    "termino": "Objetivo",
+    "tag": null,
+    "contenido": "Un objetivo es la criatura o el objeto al que una tirada de ataque hace objetivo, al que un efecto obliga a hacer una tirada de salvación o al que se selecciona para recibir los efectos de un conjuro u otro fenómeno."
+  },
+  {
+    "termino": "Objeto",
+    "tag": null,
+    "contenido": "Un objeto es una cosa individual y sin vida. Las cosas compuestas, como los edificios, constan de más de un objeto. Consulta también \"Romper objetos\"."
+  },
+  {
+    "termino": "Oscuridad",
+    "tag": null,
+    "contenido": "Una zona de oscuridad está muy oscura. Consulta también \"Muy oscuro\" y el capítulo 1 (\"Exploración\")."
+  },
+  {
+    "termino": "Paralizado",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de paralizado, experimentarás los siguientes efectos:\n\n**Incapacitado.** Tienes el estado de incapacitado.\n\n**Velocidad 0.** Tu velocidad es 0 y no puede aumentar.\n\n**Tiradas de salvación afectadas.** Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.\n\n**Ataques afectados.** Las tiradas de ataque contra ti tienen ventaja.\n\n**Críticos automáticos.** Cualquier tirada de ataque que te acierte es un crítico si el atacante está a 1,5 m o menos de ti."
+  },
+  {
+    "termino": "Peligro",
+    "tag": null,
+    "contenido": "Un peligro es una situación contextual comprometida. Consulta también \"Asfixia\", \"Caídas\", \"Deshidratación\", \"Desnutrición\" y \"Fuego\"."
+  },
+  {
+    "termino": "Percepción pasiva",
+    "tag": null,
+    "contenido": "La Percepción pasiva es una puntuación que refleja la atención general de una criatura al entorno. El DM usa esta puntuación para determinar si una criatura se percata de algo sin tener que realizar adrede una prueba de Sabiduría (Percepción). La Percepción pasiva de una criatura es igual a 10 más su bonificador a las pruebas de Sabiduría (Percepción). Si la criatura tiene ventaja en estas pruebas, aumenta la puntuación en 5. Si la criatura tiene desventaja, reduce la puntuación en 5."
+  },
+  {
+    "termino": "Perfil",
+    "tag": null,
+    "contenido": "Un perfil contiene las estadísticas de juego de un monstruo. Cada perfil incluye la siguiente información tras el nombre del monstruo:\n\n**Tamaño.** Un monstruo puede ser Diminuto, Pequeño, Mediano, Grande, Enorme o Gargantuesco.\n\n**Tipo de criatura.** Este apartado indica la familia de seres a la que pertenece un monstruo.\n\n**Alineamiento.** Se sugiere un alineamiento para el monstruo, aunque cada DM determina su alineamiento real.\n\n**CA, iniciativa y PG.** Estos apartados muestran la clase de armadura, la iniciativa y los puntos de golpe del monstruo, que se explican en el capítulo 1.\n\n**Velocidad.** Aquí se indica la velocidad del monstruo, junto con cualquier velocidad especial que tenga.\n\n**Puntuaciones de característica.** Una tabla muestra las puntuaciones de característica, los modificadores y los modificadores a las tiradas de salvación del monstruo.\n\n**Habilidades.** Este apartado indica las competencias en habilidades del monstruo, si es que tiene alguna.\n\n**Resistencias y vulnerabilidades.** Estos apartados recogen las resistencias y vulnerabilidades del monstruo, si es que tiene alguna.\n\n**Inmunidades.** Este apartado recoge las inmunidades a daños y a estados del monstruo, si es que tiene alguna.\n\n**Equipo.** Si el monstruo tiene algún equipo que se puede entregar o recuperar, aparecerá en este apartado.\n\n**Sentidos.** Este apartado incluye los sentidos especiales y la Percepción pasiva del monstruo.\n\n**Idiomas.** En este apartado aparecen los idiomas que sabe el monstruo.\n\n**VD.** El valor de desafío resume la amenaza que supone un monstruo, luego se muestran los puntos de experiencia y el bonificador por competencia.\n\n**Atributos.** Los atributos del monstruo son capacidades que están activas todo el tiempo o en determinadas situaciones.\n\n**Acciones, Acciones adicionales, Reacciones.** Las acciones que puede llevar a cabo el monstruo.\n\n**Notación de ataques.** Los apartados de los ataques de un monstruo comienzan identificando si el ataque es cuerpo a cuerpo o a distancia. Luego indican el bonificador a la tirada de ataque, su alcance y lo que ocurre si acierta.\n\n**Notación del daño.** Los perfiles suelen proporcionar un número estático y la tirada de dados usada con cada efecto de daño. Cada DM determina si se emplea el número estático o la tirada de dados."
+  },
+  {
+    "termino": "Pericia",
+    "tag": null,
+    "contenido": "La pericia es un rasgo que mejora el uso de tu competencia en una habilidad. Cuando hagas una prueba de característica con una competencia en una habilidad en la que tengas pericia, tu bonificador por competencia se duplica en esa prueba. No puedes tener pericia más de una vez en la misma habilidad. Consulta también el capítulo 1 (\"Competencia\")."
+  },
+  {
+    "termino": "Personaje jugador",
+    "tag": null,
+    "contenido": "Un personaje jugador (también llamado personaje de un jugador) es un personaje que controla un jugador. Consulta también el capítulo 2."
+  },
+  {
+    "termino": "Personaje no jugador",
+    "tag": null,
+    "contenido": "Un personaje no jugador (PNJ) es un monstruo que tiene un nombre propio y una personalidad particular. Consulta también \"Monstruo\"."
+  },
+  {
+    "termino": "Petrificado",
+    "tag": "estado",
+    "contenido": "Mientras tengas el estado de petrificado, experimentarás los siguientes efectos:\n\n**Transformación en sustancia inanimada.** Te transformas, junto con cualquier objeto no mágico que vistas o lleves contigo, en una sustancia sólida e inanimada (normalmente piedra). Tu peso se multiplica por diez y dejas de envejecer.\n\n**Incapacitado.** Tienes el estado de incapacitado.\n\n**Velocidad 0.** Tu velocidad es 0 y no puede aumentar.\n\n**Ataques afectados.** Las tiradas de ataque contra ti tienen ventaja.\n\n**Tiradas de salvación afectadas.** Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.\n\n**Resistencia al daño.** Tienes resistencia a todo el daño.\n\n**Inmunidad al veneno.** Tienes inmunidad al estado de envenenado."
+  },
+  {
+    "termino": "Posesión",
+    "tag": null,
+    "contenido": "Algunos efectos hacen que una criatura sea poseída por otra criatura o entidad. Un efecto de posesión define cómo funciona la misma. Una posesión se puede prevenir con el conjuro *protección contra el bien y el mal* y deshacer con el conjuro *disipar el bien y el mal*."
+  },
+  {
+    "termino": "Preparar una acción",
+    "tag": "acción",
+    "contenido": "Preparas una acción para esperar a que ocurra algo concreto antes de actuar. Para ello, llevas a cabo esta acción en tu turno, lo que te permitirá actuar usando tu reacción antes del principio de tu siguiente turno. Primero, decide qué circunstancia (que puedas percibir) activará tu reacción. A continuación, elige la acción (o movimiento hasta tu velocidad) que realizarás en respuesta. Cuando se produzca la circunstancia, podrás elegir entre usar tu reacción o ignorarla. Solo los conjuros con un tiempo de lanzamiento de una acción pueden formar parte de una acción preparada; mantenerlos requiere concentración hasta el principio de tu siguiente turno."
+  },
+  {
+    "termino": "Prueba con d20",
+    "tag": null,
+    "contenido": "Las pruebas con d20 abarcan las tres principales tiradas con el d20 en el juego: las pruebas de característica, las tiradas de ataque y las tiradas de salvación. Consulta también el capítulo 1 (\"Las pruebas con d20\")."
+  },
+  {
+    "termino": "Prueba de característica",
+    "tag": null,
+    "contenido": "Una prueba de característica es una prueba con d20 que representa el uso de una de las seis características (o de una habilidad asociada a una característica) para superar un desafío. Consulta también el capítulo 1."
+  },
+  {
+    "termino": "Puntos de experiencia",
+    "tag": null,
+    "contenido": "A medida que los personajes superan desafíos y completan aventuras, ganan puntos de experiencia (PX) otorgados por su Dungeon Master. Cuando el total de PX de un personaje supera ciertos umbrales, el personaje sube de nivel."
+  },
+  {
+    "termino": "Puntos de golpe",
+    "tag": null,
+    "contenido": "Los puntos de golpe (pg) miden lo difícil que resulta matar o destruir a una criatura u objeto. El daño reduce los puntos de golpe y la curación los restaura. No puedes tener más puntos de golpe que tus puntos de golpe máximos ni puedes tener menos de 0."
+  },
+  {
+    "termino": "Puntos de golpe temporales",
+    "tag": null,
+    "contenido": "Algunos efectos otorgan puntos de golpe temporales, que evitan la pérdida de puntos de golpe reales. Consulta también el capítulo 1 (\"Daño y curación\")."
+  },
+  {
+    "termino": "Puntuación de característica y modificador",
+    "tag": null,
+    "contenido": "Las criaturas tienen seis puntuaciones de característica: Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma. Suma el modificador cuando hagas una prueba con d20 con la característica que corresponda o cuando una regla te lo pida. Consulta también el capítulo 1 (\"Las seis características\")."
+  },
+  {
+    "termino": "Reacción",
+    "tag": null,
+    "contenido": "Una reacción es una acción especial que se realiza en respuesta a un suceso definido en su descripción. Puedes llevar a cabo una reacción en el turno de otra criatura, y si es en tu turno, puedes hacerlo incluso si también realizas una acción, una acción adicional o ambas. Cuando lleves a cabo una reacción, ya no podrás volver a hacerlo hasta el principio de tu siguiente turno."
+  },
+  {
+    "termino": "Redondear hacia abajo",
+    "tag": null,
+    "contenido": "Siempre que tengas que dividir o multiplicar un número en la partida, redondéalo hacia abajo si no es entero, incluso cuando la parte decimal sea 5 o más."
+  },
+  {
+    "termino": "Resistencia",
+    "tag": null,
+    "contenido": "Si tienes resistencia a un tipo de daño, el daño de ese tipo se reduce a la mitad contra ti (redondeando hacia abajo). La resistencia se aplica solo una vez a un efecto de daño. Consulta también el capítulo 1 (\"Daño y curación\")."
+  },
+  {
+    "termino": "Ritual",
+    "tag": null,
+    "contenido": "Si tienes preparado un conjuro marcado como \"ritual\", puedes lanzarlo como un ritual. Lanzar un conjuro de forma ritual requiere 10 minutos más del tiempo normal, pero, a cambio, no se gasta ningún espacio de conjuro. Consulta también el capítulo 7."
+  },
+  {
+    "termino": "Romper objetos",
+    "tag": null,
+    "contenido": "Los objetos pueden dañarse con ataques y algunos conjuros. Si un objeto es extremadamente frágil, tu DM puede permitir que una criatura lo rompa automáticamente con las acciones de atacar o utilizar.\n\n**Clase de armadura de objetos**\n\n| CA | Sustancia | CA | Sustancia |\n|---|---|---|---|\n| 11 | Tela, papel, cuerda | 19 | Hierro, acero |\n| 13 | Cristal, vidrio, hielo | 21 | Mithral |\n| 15 | Madera | 23 | Adamantina |\n| 17 | Piedra | | |\n\n**Puntos de golpe de objetos**\n\n| Tamaño | Frágil | Resistente |\n|---|---|---|\n| Diminuto (botella, cerradura) | 2 (1d4) | 5 (2d4) |\n| Pequeño (cofre, laúd) | 3 (1d6) | 10 (3d6) |\n| Mediano (barril, candelabro) | 4 (1d8) | 13 (4d8) |\n| Grande (carreta, mesa de comedor) | 5 (1d10) | 27 (5d10) |\n\nUn objeto se destruye cuando sus puntos de golpe se reducen a 0. Los objetos tienen inmunidad al daño psíquico y de veneno. Los objetos no tienen puntuaciones de característica: no pueden hacer pruebas de característica y fallan todas las tiradas de salvación."
+  },
+  {
+    "termino": "Saltar",
+    "tag": null,
+    "contenido": "Cuando saltas, puedes hacer un salto de longitud (horizontal) o un salto de altura (vertical). Consulta también \"Salto de altura\" y \"Salto de longitud\"."
+  },
+  {
+    "termino": "Salto de altura",
+    "tag": null,
+    "contenido": "Cuando hagas un salto de altura, ascenderás una distancia de 90 cm + 30 cm × tu modificador por Fuerza (como mínimo 0 m) si te mueves al menos 3 m a pie antes de saltar. Sin carrerilla, solo puedes ascender la mitad de esa distancia. En cualquier caso, cada metro que saltes te costará un metro de tu movimiento. Mientras saltas, puedes estirar los brazos una distancia equivalente a la mitad de tu altura por encima de ti."
+  },
+  {
+    "termino": "Salto de longitud",
+    "tag": null,
+    "contenido": "Cuando hagas un salto de longitud, avanzarás horizontalmente una distancia de hasta 30 cm × tu puntuación de Fuerza si recorres al menos 3 m antes de saltar. Sin carrerilla, solo puedes recorrer la mitad de esa distancia. Cada metro que saltes te costará 1 m de tu movimiento. Si aterrizas en terreno difícil, deberás superar una prueba de Destreza (Acrobacias) con CD 10 o tendrás el estado de derribado."
+  },
+  {
+    "termino": "Salvación",
+    "tag": null,
+    "contenido": "Salvación es otro nombre para referirse a una tirada de salvación. Consulta también \"Tirada de salvación\"."
+  },
+  {
+    "termino": "Sentir vibraciones",
+    "tag": null,
+    "contenido": "Una criatura con la capacidad de sentir vibraciones puede localizar criaturas y objetos en movimiento dentro de un alcance determinado, siempre y cuando estén en contacto con la misma superficie o líquido. Sentir vibraciones no sirve para detectar criaturas u objetos en el aire y no cuenta como una forma de visión."
+  },
+  {
+    "termino": "Sintonización",
+    "tag": null,
+    "contenido": "Algunos objetos mágicos requieren que una criatura forme un vínculo llamado sintonización antes de usar sus propiedades mágicas. Una criatura no puede sintonizarse con más de tres objetos mágicos a la vez. Consulta también el capítulo 6 (\"Objetos mágicos\")."
+  },
+  {
+    "termino": "Sorpresa",
+    "tag": null,
+    "contenido": "Si el comienzo de un combate pilla desprevenida a una criatura, estará sorprendida, lo que le hará tener desventaja en su tirada de iniciativa. Consulta también el capítulo 1 (\"Combate\")."
+  },
+  {
+    "termino": "Tamaño",
+    "tag": null,
+    "contenido": "Cada criatura u objeto pertenece a una categoría de tamaño: Diminuto, Pequeño, Mediano, Grande, Enorme o Gargantuesco. El tamaño de una criatura determina el espacio que ocupa en combate. Consulta también el capítulo 1 (\"Combate\")."
+  },
+  {
+    "termino": "Telepatía",
+    "tag": null,
+    "contenido": "La telepatía es una facultad mágica que permite a una criatura comunicarse mentalmente con otra criatura que esté dentro del alcance indicado. No es necesario que la criatura contactada tenga un idioma en común con el telépata para entender esta comunicación, pero deberá poder entender al menos un idioma o ejercer ella misma la telepatía. Una conexión telepática se interrumpe si el telépata o la otra criatura tiene el estado de incapacitado, si la criatura contactada deja de estar al alcance o si el telépata contacta con otra criatura a su alcance."
+  },
+  {
+    "termino": "Teletransporte",
+    "tag": null,
+    "contenido": "El teletransporte es un tipo especial de transporte mágico. Si te teletransportas, desapareces y reapareces en otra parte al instante, sin atravesar el espacio entre medias. Este transporte no gasta movimiento y nunca provoca ataques de oportunidad. Todo el equipo que vistas o lleves se teletransporta contigo."
+  },
+  {
+    "termino": "Terreno difícil",
+    "tag": null,
+    "contenido": "Si un espacio es terreno difícil, cada metro de movimiento en ese espacio cuesta 1 m adicional. El terreno difícil no es acumulativo; un espacio es terreno difícil o no lo es. Un espacio es terreno difícil si contiene:\n\n- una criatura que no sea Diminuta o aliada tuya;\n- un mueble diseñado para criaturas de tu tamaño o superior;\n- escombros, hielo, maleza o nieve espesa;\n- líquido que llegue entre las espinillas y la cintura;\n- una abertura estrecha en la que quepa una criatura cuyo tamaño sea una categoría inferior al tuyo;\n- una pendiente de 20 grados o más."
+  },
+  {
+    "termino": "Tipo de criatura",
+    "tag": null,
+    "contenido": "Todas las criaturas tienen un tipo de criatura. La mayoría de los personajes de los jugadores son de tipo humanoide. Los tipos de criaturas del juego son: Aberración, Autómata, Bestia, Celestial, Cieno, Dragón, Elemental, Feérico, Gigante, Humanoide, Infernal, Monstruosidad, Muerto viviente, Planta. Estos tipos no tienen reglas en sí mismos, pero hay reglas del juego que afectan de manera distinta a criaturas de ciertos tipos."
+  },
+  {
+    "termino": "Tipos de daño",
+    "tag": null,
+    "contenido": "Los ataques y otros efectos dañinos causan diferentes tipos de daño. Los tipos de daño no tienen reglas propias, pero otras reglas, como la resistencia, dependen de ellos.\n\n| Tipo | Ejemplos |\n|---|---|\n| Ácido | Enzimas digestivas, líquidos corrosivos |\n| Contundente | Aplastamientos, caídas, objetos romos |\n| Cortante | Garras, objetos cortantes |\n| Frío | Agua gélida, ráfagas heladas |\n| Fuego | Calor insoportable, llamas |\n| Fuerza | Energía mágica pura |\n| Necrótico | Energía que absorbe la vida |\n| Perforante | Colmillos, objetos punzantes |\n| Psíquico | Energía que desgarra la mente |\n| Radiante | Energía sagrada, radiación abrasadora |\n| Relámpago | Electricidad |\n| Trueno | Sonido conmocionador |\n| Veneno | Gas tóxico, veneno |"
+  },
+  {
+    "termino": "Tirada de ataque",
+    "tag": null,
+    "contenido": "Una tirada de ataque es una prueba con d20 que representa hacer un ataque con un arma, un ataque sin armas o un conjuro. Consulta también el capítulo 1 (\"Las pruebas con d20\")."
+  },
+  {
+    "termino": "Tirada de daño",
+    "tag": null,
+    "contenido": "Una tirada de daño es una tirada de dados a la que se le aplican los modificadores que correspondan y que causa daño a un objetivo. Consulta también el capítulo 1 (\"Daño y curación\")."
+  },
+  {
+    "termino": "Tirada de salvación",
+    "tag": null,
+    "contenido": "Una tirada de salvación, o simplemente salvación, representa un intento de evitar o resistir una amenaza. Por lo general, las tiradas de salvación solo se hacen cuando una regla lo requiere, pero puedes optar por no hacer la tirada para fallarla. Si un objetivo debe hacer una tirada de salvación y carece de la puntuación de característica empleada en ella, la fallará automáticamente."
+  },
+  {
+    "termino": "Tirada de salvación contra muerte",
+    "tag": null,
+    "contenido": "Si un personaje jugador comienza su turno con 0 puntos de golpe, deberá realizar una tirada de salvación contra muerte. Consulta también el capítulo 1 (\"Daño y curación\")."
+  },
+  {
+    "termino": "Trepar",
+    "tag": null,
+    "contenido": "Cuando trepas, cada metro de movimiento te cuesta 1 m adicional (2 m adicionales en terreno difícil). Ignoras este coste adicional si tienes una velocidad trepando y la usas para trepar. A discreción de cada DM, trepar por una superficie resbaladiza o con pocos agarres podría requerir superar una prueba de Fuerza (Atletismo) con CD 15."
+  },
+  {
+    "termino": "Truco",
+    "tag": null,
+    "contenido": "Un truco es un conjuro de nivel 0 que se lanza sin un espacio de conjuro. Consulta también el capítulo 7."
+  },
+  {
+    "termino": "Umbral de daño",
+    "tag": null,
+    "contenido": "Una criatura u objeto que posea un umbral de daño tendrá inmunidad a todo el daño excepto si recibe una cantidad de daño procedente de un único ataque o efecto igual o mayor que su umbral de daño, en cuyo caso sufrirá todo ese daño. Cualquier daño que no iguale o supere el umbral de daño se considera superficial y no reduce los puntos de golpe."
+  },
+  {
+    "termino": "Utilizar",
+    "tag": "acción",
+    "contenido": "Normalmente, interactúas con un objeto mientras haces otra cosa, como cuando desenvainas una espada como parte de una acción de atacar. Si quieres utilizar un objeto que requiera una acción para ello, tendrás que llevar a cabo la acción de utilizar."
+  },
+  {
+    "termino": "Valor de desafío",
+    "tag": null,
+    "contenido": "El valor de desafío (VD) resume la amenaza que supone un monstruo para un grupo de cuatro personajes jugadores. Compara el VD del monstruo con el nivel de los personajes. La Guía del Dungeon Master explica cómo usar el VD al planear posibles encuentros de combate. Consulta también \"Perfil\"."
+  },
+  {
+    "termino": "Velocidad",
+    "tag": null,
+    "contenido": "Las criaturas tienen una velocidad, que es la distancia en metros que pueden recorrer cuando se mueven en su turno. Si tienes más de una velocidad, elige cuál vas a usar al moverte. Podrás alternar entre las velocidades durante el movimiento. Consulta también \"Arrastrarse\", \"Nadar\", \"Trepar\", \"Saltar\" y \"Volar\" y el capítulo 1 (\"Combate\").\n\n**Velocidades especiales.** Algunas criaturas tienen velocidades especiales: velocidad excavando, velocidad nadando, velocidad trepando o velocidad volando.\n\n**Cambios en tus velocidades.** Si un efecto aumenta o reduce tu velocidad, cualquier velocidad especial que tengas aumentará o se reducirá en la misma cantidad."
+  },
+  {
+    "termino": "Velocidad excavando",
+    "tag": null,
+    "contenido": "Si una criatura tiene una velocidad excavando, puede usar esa velocidad para desplazarse a través de arena, tierra, lodo o hielo. No puede excavar a través de roca sólida a menos que tenga un atributo que se lo permita."
+  },
+  {
+    "termino": "Velocidad nadando",
+    "tag": null,
+    "contenido": "Una velocidad nadando sirve para nadar sin gastar el movimiento adicional que normalmente se asocia a nadar."
+  },
+  {
+    "termino": "Velocidad trepando",
+    "tag": null,
+    "contenido": "Una velocidad trepando se puede utilizar en lugar de la velocidad para recorrer una superficie vertical sin gastar el movimiento adicional que normalmente se asocia a trepar."
+  },
+  {
+    "termino": "Velocidad volando",
+    "tag": null,
+    "contenido": "Una velocidad volando sirve para viajar por el aire. Mientras tengas una velocidad volando, podrás permanecer en el aire hasta que aterrices, caigas o mueras."
+  },
+  {
+    "termino": "Ventaja",
+    "tag": null,
+    "contenido": "Si tienes ventaja en una prueba con d20, tira 2d20 y utiliza el resultado más alto. Una tirada no puede verse afectada por más de una ventaja, y una ventaja y una desventaja en la misma tirada se anulan entre sí. Consulta también el capítulo 1 (\"Las pruebas con d20\")."
+  },
+  {
+    "termino": "Visión ciega",
+    "tag": null,
+    "contenido": "Si tienes visión ciega, puedes ver dentro de un alcance determinado sin recurrir a la vista. Dentro de ese alcance, puedes ver cualquier cosa que no esté tras una cobertura completa, incluso si tienes el estado de cegado o te encuentras en la oscuridad. Asimismo, en ese alcance puedes ver cosas que tengan el estado de invisibles."
+  },
+  {
+    "termino": "Visión en la oscuridad",
+    "tag": null,
+    "contenido": "Si tienes visión en la oscuridad dentro de un alcance específico, puedes ver con luz tenue como si hubiera luz brillante y, en la oscuridad, como si hubiera luz tenue. En esa oscuridad, solo disciernes los colores como tonos de gris. Consulta también el capítulo 1 (\"Exploración\")."
+  },
+  {
+    "termino": "Visión verdadera",
+    "tag": null,
+    "contenido": "Si tienes visión verdadera, tu visión mejora dentro de un alcance especificado en los siguientes aspectos:\n\n**Oscuridad.** Puedes ver en la oscuridad normal y mágica.\n\n**Invisibilidad.** Puedes ver criaturas y objetos que tengan el estado de invisibles.\n\n**Ilusiones visuales.** Las ilusiones visuales parecen transparentes para ti y superas automáticamente las tiradas de salvación contra ellas.\n\n**Transformaciones.** Distingues la forma verdadera de cualquier criatura u objeto que veas y esté transformado por un efecto mágico.\n\n**Plano Etéreo.** Puedes ver en el Plano Etéreo. Consulta también el apéndice A (\"Planos de transición\")."
+  },
+  {
+    "termino": "Volar",
+    "tag": null,
+    "contenido": "Cuando vueles, te caerás si tienes los estados de derribado o incapacitado o si tu velocidad volando se reduce a 0. Puedes permanecer en el aire en esas circunstancias si tienes la capacidad de levitar. Consulta también \"Caídas\" y \"Velocidad volando\"."
+  },
+  {
+    "termino": "Vulnerabilidad",
+    "tag": null,
+    "contenido": "Si tienes vulnerabilidad a un tipo de daño, el daño de ese tipo se duplica contra ti. La vulnerabilidad se aplica solo una vez a un efecto de daño. Consulta también el capítulo 1 (\"Daño y curación\").\n\n\n---\n\n# Índice de términos"
+  }
+]

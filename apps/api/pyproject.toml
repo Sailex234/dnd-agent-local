@@ -1,0 +1,20 @@
+[project]
+name = "api"
+version = "0.1.0"
+description = "API FastAPI delgada: endpoints para la web (hojas, jugadores) y Mongo"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "shared",
+]
+
+[tool.uv.sources]
+# Non-editable: se instala como wheel dentro del venv, asi la imagen Docker no
+# depende de que apps/shared siga presente en runtime (solo hace falta en build).
+shared = { path = "../shared" }
+
+# App, no libreria: uv maneja el venv con las deps y el codigo se corre en su lugar
+# (uvicorn main:app con CWD en apps/api/). No se empaqueta.
+[tool.uv]
+package = false

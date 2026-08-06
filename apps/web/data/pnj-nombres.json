@@ -1,0 +1,188 @@
+[
+  {
+    "cultura": "Nombres comunes",
+    "nombres": [
+      "Adrik",
+      "Alvyn",
+      "Aurora",
+      "Eldeth",
+      "Eldon",
+      "Farris",
+      "Kathra",
+      "Kellen",
+      "Lily",
+      "Nissa",
+      "Xinli",
+      "Zodar"
+    ],
+    "apellidos": [
+      "Barbagélida",
+      "Bombarril",
+      "Brillosolar",
+      "Castelgrís",
+      "Climalegre",
+      "Dragopardo",
+      "Garrick",
+      "Jaerin",
+      "Puñoférreo",
+      "Riotormenta",
+      "Rojazarza",
+      "Wren"
+    ]
+  },
+  {
+    "cultura": "Nombres guturales",
+    "nombres": [
+      "Abzug",
+      "Bajok",
+      "Bharash",
+      "Grovis",
+      "Gruuna",
+      "Hokrun",
+      "Mardred",
+      "Rhogar",
+      "Skuldark",
+      "Thokk",
+      "Urzul",
+      "Varka"
+    ],
+    "apellidos": [
+      "Burska",
+      "Gruuthok",
+      "Hrondl",
+      "Jarzzok",
+      "Kraltus",
+      "Shamog",
+      "Skrangval",
+      "Ungart",
+      "Vuthrakt",
+      "Vrakir",
+      "Yuldra",
+      "Zulrax"
+    ]
+  },
+  {
+    "cultura": "Nombres poéticos",
+    "nombres": [
+      "Arannis",
+      "Damaia",
+      "Darsis",
+      "Dweomer",
+      "Evabeth",
+      "Jhessail",
+      "Keyleth",
+      "Netheria",
+      "Orianna",
+      "Sorcyl",
+      "Umarion",
+      "Velissa"
+    ],
+    "apellidos": [
+      "Arvannis",
+      "Brisaestío",
+      "Daardendrian",
+      "Drachedandion",
+      "Endryss",
+      "Frondargéntea",
+      "Mantoníveo",
+      "Meliamne",
+      "Mishann",
+      "Pietronante",
+      "Yunquerrecio",
+      "Zashir"
+    ]
+  },
+  {
+    "cultura": "Nombres monosílabos",
+    "nombres": [
+      "Chen",
+      "Creel",
+      "Dain",
+      "Dorn",
+      "Flint",
+      "Glim",
+      "Henk",
+      "Krusk",
+      "Nox",
+      "Nyx",
+      "Rukh",
+      "Shan"
+    ],
+    "apellidos": [
+      "Dench",
+      "Drog",
+      "Dusk",
+      "Holg",
+      "Horn",
+      "Imsh",
+      "Jask",
+      "Keth",
+      "Ku",
+      "Kung",
+      "Mott",
+      "Quaal"
+    ]
+  },
+  {
+    "cultura": "Nombres siniestros",
+    "nombres": [
+      "Aracne",
+      "Axyss",
+      "Carrion",
+      "Coldus",
+      "Grinnus",
+      "Melkhis",
+      "Morthos",
+      "Nadir",
+      "Skellendyre",
+      "Thaltus",
+      "Valkora",
+      "Vexander"
+    ],
+    "apellidos": [
+      "Cadalso",
+      "Camponzoña",
+      "Colmilloscuro",
+      "Conjurainviernos",
+      "Filonocturno",
+      "Golpeinfernal",
+      "Matacuervos",
+      "Norixius",
+      "Susurramuerte",
+      "Valtar",
+      "Xandros",
+      "Zarkynzorn"
+    ]
+  },
+  {
+    "cultura": "Nombres extravagantes",
+    "nombres": [
+      "Berenjena",
+      "Brincamontes",
+      "Carambola",
+      "Centella",
+      "Ellywick",
+      "Gaznápiro",
+      "Inmundus",
+      "Jumera",
+      "Margarita",
+      "Reyerta",
+      "Sybilwick",
+      "Vituperio"
+    ],
+    "apellidos": [
+      "Altashierbas",
+      "Arboroleda",
+      "Atropel",
+      "Caminatréboles",
+      "Delcampo",
+      "Estafermo",
+      "Magnificáurea",
+      "Ramapartida",
+      "Vientogozoso",
+      "Wimbiquí",
+      "Zampamañanas",
+      "Zapatona"
+    ]
+  }
+]

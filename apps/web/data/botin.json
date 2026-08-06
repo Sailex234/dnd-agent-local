@@ -1,0 +1,2776 @@
+{
+  "objetos_magicos": [
+    {
+      "titulo": "Armamento común",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-10",
+          "objeto": "Arma de plata"
+        },
+        {
+          "rango": "11-20",
+          "objeto": "Armadura de quita y pon"
+        },
+        {
+          "rango": "21-30",
+          "objeto": "Armadura de rescoldos"
+        },
+        {
+          "rango": "31-40",
+          "objeto": "Armadura resplandeciente"
+        },
+        {
+          "rango": "41-50",
+          "objeto": "Cayado del veterano"
+        },
+        {
+          "rango": "51-60",
+          "objeto": "Escudo expresivo"
+        },
+        {
+          "rango": "61-70",
+          "objeto": "Espada tocada por la luna"
+        },
+        {
+          "rango": "71-80",
+          "objeto": "Garra silvana"
+        },
+        {
+          "rango": "81-90",
+          "objeto": "Munición poderosa"
+        },
+        {
+          "rango": "91-00",
+          "objeto": "Yelmo temible"
+        }
+      ]
+    },
+    {
+      "titulo": "Armamento infrecuente",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-05",
+          "objeto": "Arma +1"
+        },
+        {
+          "rango": "06-09",
+          "objeto": "Arma adamantina"
+        },
+        {
+          "rango": "10-14",
+          "objeto": "Arma de advertencia"
+        },
+        {
+          "rango": "15-19",
+          "objeto": "Arma lanzaconjuro (truco o conjuro de nivel 1)"
+        },
+        {
+          "rango": "20-23",
+          "objeto": "Armadura adamantina"
+        },
+        {
+          "rango": "24-28",
+          "objeto": "Armadura de marinero"
+        },
+        {
+          "rango": "29-33",
+          "objeto": "Armadura de mithral"
+        },
+        {
+          "rango": "34-38",
+          "objeto": "Armadura lanzaconjuro (truco o conjuro de nivel 1)"
+        },
+        {
+          "rango": "39-43",
+          "objeto": "Brazales de arquería"
+        },
+        {
+          "rango": "44-47",
+          "objeto": "Carcaj de Ehlonna"
+        },
+        {
+          "rango": "48-52",
+          "objeto": "Escudo +1"
+        },
+        {
+          "rango": "53-57",
+          "objeto": "Escudo centinela"
+        },
+        {
+          "rango": "58-62",
+          "objeto": "Espada de la venganza"
+        },
+        {
+          "rango": "63-67",
+          "objeto": "Guanteletes de fuerza de ogro"
+        },
+        {
+          "rango": "68-72",
+          "objeto": "Jabalina del relámpago"
+        },
+        {
+          "rango": "73-77",
+          "objeto": "Munición +1"
+        },
+        {
+          "rango": "78-82",
+          "objeto": "Poción de fuerza de gigante (colinas)"
+        },
+        {
+          "rango": "83-87",
+          "objeto": "Poción de pugilismo"
+        },
+        {
+          "rango": "88-91",
+          "objeto": "Silla de monta del caballero"
+        },
+        {
+          "rango": "92-95",
+          "objeto": "Tridente de comandar peces"
+        },
+        {
+          "rango": "96-00",
+          "objeto": "Vendas de poder sin armas +1"
+        }
+      ]
+    },
+    {
+      "titulo": "Armamento raro",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-03",
+          "objeto": "Anillo de protección"
+        },
+        {
+          "rango": "04-06",
+          "objeto": "Anillo del carnero"
+        },
+        {
+          "rango": "07-09",
+          "objeto": "Arma +2"
+        },
+        {
+          "rango": "10-11",
+          "objeto": "Arma feroz"
+        },
+        {
+          "rango": "12-14",
+          "objeto": "Arma lanzaconjuro (conjuro de nivel 2 o 3)"
+        },
+        {
+          "rango": "15-18",
+          "objeto": "Armadura +1"
+        },
+        {
+          "rango": "19-21",
+          "objeto": "Armadura de resistencia"
+        },
+        {
+          "rango": "22-24",
+          "objeto": "Armadura de vulnerabilidad"
+        },
+        {
+          "rango": "25-27",
+          "objeto": "Armadura lanzaconjuro (conjuro de nivel 2 o 3)"
+        },
+        {
+          "rango": "28-30",
+          "objeto": "Cinturón de fuerza de gigante (colinas)"
+        },
+        {
+          "rango": "31-33",
+          "objeto": "Cuerno de estallido"
+        },
+        {
+          "rango": "34-35",
+          "objeto": "Cuerno del Valhalla (latón o plata)"
+        },
+        {
+          "rango": "36-38",
+          "objeto": "Daga de la ponzoña"
+        },
+        {
+          "rango": "39-41",
+          "objeto": "Escudo +2"
+        },
+        {
+          "rango": "42-43",
+          "objeto": "Escudo atrapaflechas"
+        },
+        {
+          "rango": "44-46",
+          "objeto": "Escudo de atraer proyectiles"
+        },
+        {
+          "rango": "47-48",
+          "objeto": "Espada hiriente"
+        },
+        {
+          "rango": "49-50",
+          "objeto": "Espada ladrona de vida"
+        },
+        {
+          "rango": "51-52",
+          "objeto": "Espada solar"
+        },
+        {
+          "rango": "53-54",
+          "objeto": "Fortaleza instantánea de Daern"
+        },
+        {
+          "rango": "55-56",
+          "objeto": "Hacha berserker"
+        },
+        {
+          "rango": "57-59",
+          "objeto": "Lengua de fuego"
+        },
+        {
+          "rango": "60-62",
+          "objeto": "Malla élfica"
+        },
+        {
+          "rango": "63-65",
+          "objeto": "Matadragones"
+        },
+        {
+          "rango": "66-68",
+          "objeto": "Matagigantes"
+        },
+        {
+          "rango": "69-71",
+          "objeto": "Maza castigadora"
+        },
+        {
+          "rango": "72-74",
+          "objeto": "Maza del terror"
+        },
+        {
+          "rango": "75-77",
+          "objeto": "Maza disruptiva"
+        },
+        {
+          "rango": "78-80",
+          "objeto": "Munición +2"
+        },
+        {
+          "rango": "81-83",
+          "objeto": "Piedra Ioun (protección)"
+        },
+        {
+          "rango": "84-86",
+          "objeto": "Poción de fuerza de gigante (escarcha o piedra)"
+        },
+        {
+          "rango": "87-89",
+          "objeto": "Poción de fuerza de gigante (fuego)"
+        },
+        {
+          "rango": "90-92",
+          "objeto": "Poción de heroísmo"
+        },
+        {
+          "rango": "93-95",
+          "objeto": "Poción de invulnerabilidad"
+        },
+        {
+          "rango": "96-97",
+          "objeto": "Vara de tentáculos"
+        },
+        {
+          "rango": "98-00",
+          "objeto": "Vendas de poder sin armas +2"
+        }
+      ]
+    },
+    {
+      "titulo": "Armamento muy raro",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-04",
+          "objeto": "Aceite de afilado"
+        },
+        {
+          "rango": "05-07",
+          "objeto": "Arco de energía"
+        },
+        {
+          "rango": "08-10",
+          "objeto": "Arco juramentado"
+        },
+        {
+          "rango": "11-13",
+          "objeto": "Arma +3"
+        },
+        {
+          "rango": "14-16",
+          "objeto": "Arma lanzaconjuro (conjuro de nivel 4 o 5)"
+        },
+        {
+          "rango": "17-19",
+          "objeto": "Armadura +2"
+        },
+        {
+          "rango": "20-22",
+          "objeto": "Armadura de placas enana"
+        },
+        {
+          "rango": "23-25",
+          "objeto": "Armadura demoníaca"
+        },
+        {
+          "rango": "26-28",
+          "objeto": "Armadura lanzaconjuro (conjuro de nivel 4 o 5)"
+        },
+        {
+          "rango": "29-31",
+          "objeto": "Bastón de acróbata"
+        },
+        {
+          "rango": "32-34",
+          "objeto": "Cimitarra de velocidad"
+        },
+        {
+          "rango": "35-37",
+          "objeto": "Cinturón de fuerza de gigante (escarcha o piedra)"
+        },
+        {
+          "rango": "38-39",
+          "objeto": "Cinturón de fuerza de gigante (fuego)"
+        },
+        {
+          "rango": "40-42",
+          "objeto": "Cota de escamas de dragón"
+        },
+        {
+          "rango": "43-45",
+          "objeto": "Cuerno del Valhalla (bronce)"
+        },
+        {
+          "rango": "46-49",
+          "objeto": "Escudo +3"
+        },
+        {
+          "rango": "50-52",
+          "objeto": "Escudo animado"
+        },
+        {
+          "rango": "53-55",
+          "objeto": "Escudo de caballero"
+        },
+        {
+          "rango": "56-58",
+          "objeto": "Escudo de guarda contra conjuros"
+        },
+        {
+          "rango": "59-60",
+          "objeto": "Espada danzarina"
+        },
+        {
+          "rango": "61-63",
+          "objeto": "Espada de hoja afilada"
+        },
+        {
+          "rango": "64-66",
+          "objeto": "Garrote grande atronador"
+        },
+        {
+          "rango": "67-69",
+          "objeto": "Hacha de verdugo"
+        },
+        {
+          "rango": "70-72",
+          "objeto": "Hierro de escarcha"
+        },
+        {
+          "rango": "73-75",
+          "objeto": "Ladrona de nueve vidas"
+        },
+        {
+          "rango": "76-78",
+          "objeto": "Laúd de acometida atronadora"
+        },
+        {
+          "rango": "79-81",
+          "objeto": "Manual del ejercicio beneficioso"
+        },
+        {
+          "rango": "82-84",
+          "objeto": "Martillo arrojadizo enano"
+        },
+        {
+          "rango": "85-87",
+          "objeto": "Munición +3"
+        },
+        {
+          "rango": "88-90",
+          "objeto": "Munición asesina"
+        },
+        {
+          "rango": "91-92",
+          "objeto": "Piedra Ioun (fuerza)"
+        },
+        {
+          "rango": "93-96",
+          "objeto": "Poción de fuerza de gigante (nubes)"
+        },
+        {
+          "rango": "97-00",
+          "objeto": "Vendas de poder sin armas +3"
+        }
+      ]
+    },
+    {
+      "titulo": "Armamento legendario",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-06",
+          "objeto": "Arma lanzaconjuro (conjuro de nivel 6, 7 u 8)"
+        },
+        {
+          "rango": "07-12",
+          "objeto": "Armadura +3"
+        },
+        {
+          "rango": "13-18",
+          "objeto": "Armadura de invulnerabilidad"
+        },
+        {
+          "rango": "19-24",
+          "objeto": "Armadura de placas de etereidad"
+        },
+        {
+          "rango": "25-30",
+          "objeto": "Armadura lanzaconjuro (conjuro de nivel 6, 7 u 8)"
+        },
+        {
+          "rango": "31-33",
+          "objeto": "Cetro de poder señorial"
+        },
+        {
+          "rango": "34-39",
+          "objeto": "Cinturón de fuerza de gigante (nubes)"
+        },
+        {
+          "rango": "40-42",
+          "objeto": "Cinturón de fuerza de gigante (tormentas)"
+        },
+        {
+          "rango": "43-48",
+          "objeto": "Cuerno del Valhalla (hierro)"
+        },
+        {
+          "rango": "49-54",
+          "objeto": "Defensora"
+        },
+        {
+          "rango": "55-59",
+          "objeto": "Espada de la respuesta"
+        },
+        {
+          "rango": "60-64",
+          "objeto": "Espada vorpal"
+        },
+        {
+          "rango": "65-70",
+          "objeto": "Filo de la fortuna"
+        },
+        {
+          "rango": "71-74",
+          "objeto": "Hoja lunar"
+        },
+        {
+          "rango": "75-80",
+          "objeto": "Malla de ifrit"
+        },
+        {
+          "rango": "81-86",
+          "objeto": "Martillo de rayos"
+        },
+        {
+          "rango": "87-95",
+          "objeto": "Poción de fuerza de gigante (tormentas)"
+        },
+        {
+          "rango": "96-00",
+          "objeto": "Vengadora sagrada"
+        }
+      ]
+    },
+    {
+      "titulo": "Instrumentos comunes",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-02",
+          "objeto": "Abalorio de nutrición"
+        },
+        {
+          "rango": "03-04",
+          "objeto": "Abalorio de refrigerio"
+        },
+        {
+          "rango": "05-06",
+          "objeto": "Amuleto de relojería"
+        },
+        {
+          "rango": "07-08",
+          "objeto": "Bastón de llamada de ave"
+        },
+        {
+          "rango": "09-10",
+          "objeto": "Botas de pista falsa"
+        },
+        {
+          "rango": "11-13",
+          "objeto": "Capa de muchas modas"
+        },
+        {
+          "rango": "14-17",
+          "objeto": "Cayado del veterano"
+        },
+        {
+          "rango": "18-19",
+          "objeto": "Cerradura engañosa"
+        },
+        {
+          "rango": "20-21",
+          "objeto": "Cuerda reparadora"
+        },
+        {
+          "rango": "22-23",
+          "objeto": "Cuerno de alarma silenciosa"
+        },
+        {
+          "rango": "24-25",
+          "objeto": "Dado del embustero"
+        },
+        {
+          "rango": "26-28",
+          "objeto": "Espada tocada por la luna"
+        },
+        {
+          "rango": "29-30",
+          "objeto": "Garra silvana"
+        },
+        {
+          "rango": "31-32",
+          "objeto": "Instrumento de ilusiones"
+        },
+        {
+          "rango": "33-34",
+          "objeto": "Instrumento de transcripción"
+        },
+        {
+          "rango": "35-36",
+          "objeto": "Jarra de sobriedad"
+        },
+        {
+          "rango": "37-38",
+          "objeto": "Llave misteriosa"
+        },
+        {
+          "rango": "39-40",
+          "objeto": "Muñeca parlante"
+        },
+        {
+          "rango": "41-43",
+          "objeto": "Munición poderosa"
+        },
+        {
+          "rango": "44-45",
+          "objeto": "Ojo de imitación"
+        },
+        {
+          "rango": "46-47",
+          "objeto": "Orbe de la dirección"
+        },
+        {
+          "rango": "48-49",
+          "objeto": "Orbe del tiempo"
+        },
+        {
+          "rango": "50-51",
+          "objeto": "Perfume embelesador"
+        },
+        {
+          "rango": "52-53",
+          "objeto": "Pértiga contraíble"
+        },
+        {
+          "rango": "54-55",
+          "objeto": "Pértiga de pescar"
+        },
+        {
+          "rango": "56-57",
+          "objeto": "Pipa de monstruos de humo"
+        },
+        {
+          "rango": "58-73",
+          "objeto": "Poción de curación"
+        },
+        {
+          "rango": "74-79",
+          "objeto": "Poción de entendimiento"
+        },
+        {
+          "rango": "80-85",
+          "objeto": "Poción de trepar"
+        },
+        {
+          "rango": "86-87",
+          "objeto": "Prótesis de extremidad"
+        },
+        {
+          "rango": "88-89",
+          "objeto": "Trompetilla de escucha"
+        },
+        {
+          "rango": "90-91",
+          "objeto": "Útil bolsita de especias de Heward"
+        },
+        {
+          "rango": "92-94",
+          "objeto": "Varita de dirección"
+        },
+        {
+          "rango": "95-98",
+          "objeto": "Varita de pirotecnia"
+        },
+        {
+          "rango": "99-00",
+          "objeto": "Vela de la profundidad"
+        }
+      ]
+    },
+    {
+      "titulo": "Instrumentos infrecuentes",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-02",
+          "objeto": "Aceite escurridizo"
+        },
+        {
+          "rango": "03-04",
+          "objeto": "Anillo de calidez"
+        },
+        {
+          "rango": "05-06",
+          "objeto": "Anillo de natación"
+        },
+        {
+          "rango": "07-08",
+          "objeto": "Anillo de salto"
+        },
+        {
+          "rango": "09-10",
+          "objeto": "Anteojos de la noche"
+        },
+        {
+          "rango": "11-12",
+          "objeto": "Anteojos de visión minuciosa"
+        },
+        {
+          "rango": "13-14",
+          "objeto": "Anteojos de vista de águila"
+        },
+        {
+          "rango": "15-16",
+          "objeto": "Arma lanzaconjuro (truco o conjuro de nivel 1)"
+        },
+        {
+          "rango": "17-20",
+          "objeto": "Bolsa de contención"
+        },
+        {
+          "rango": "21-22",
+          "objeto": "Botas de las tierras invernales"
+        },
+        {
+          "rango": "23-24",
+          "objeto": "Botas de zancadas y brincos"
+        },
+        {
+          "rango": "25-26",
+          "objeto": "Botas élficas"
+        },
+        {
+          "rango": "27-28",
+          "objeto": "Capa de la mantarraya"
+        },
+        {
+          "rango": "29-30",
+          "objeto": "Capa de protección"
+        },
+        {
+          "rango": "31-32",
+          "objeto": "Capa élfica"
+        },
+        {
+          "rango": "33-34",
+          "objeto": "Cuerda de escalada"
+        },
+        {
+          "rango": "35",
+          "objeto": "Decantador de agua interminable"
+        },
+        {
+          "rango": "36-37",
+          "objeto": "Escoba voladora"
+        },
+        {
+          "rango": "38-39",
+          "objeto": "Ficha de pluma de Quaal (abanico, ancla o árbol)"
+        },
+        {
+          "rango": "40-41",
+          "objeto": "Flauta de la aparición"
+        },
+        {
+          "rango": "42-43",
+          "objeto": "Flauta de las cloacas"
+        },
+        {
+          "rango": "44-46",
+          "objeto": "Globo flotante"
+        },
+        {
+          "rango": "47-48",
+          "objeto": "Gorro de respirar bajo el agua"
+        },
+        {
+          "rango": "49-50",
+          "objeto": "Guantes atrapaflechas"
+        },
+        {
+          "rango": "51-52",
+          "objeto": "Guantes de ladrón"
+        },
+        {
+          "rango": "53-54",
+          "objeto": "Guantes de natación y escalada"
+        },
+        {
+          "rango": "55-56",
+          "objeto": "Instrumento de los bardos (bandora de Fochlucan, cistro de Mac-Fuirmidh o laúd de Doss)"
+        },
+        {
+          "rango": "57-58",
+          "objeto": "Linterna de revelación"
+        },
+        {
+          "rango": "59-60",
+          "objeto": "Manto de la naturaleza"
+        },
+        {
+          "rango": "61-64",
+          "objeto": "Munición +1"
+        },
+        {
+          "rango": "65",
+          "objeto": "Ojo de bruja"
+        },
+        {
+          "rango": "66-67",
+          "objeto": "Piedra de la buena fortuna"
+        },
+        {
+          "rango": "68-71",
+          "objeto": "Poción de crecimiento"
+        },
+        {
+          "rango": "72-80",
+          "objeto": "Poción de curación (mayor)"
+        },
+        {
+          "rango": "81-84",
+          "objeto": "Poción de respirar bajo el agua"
+        },
+        {
+          "rango": "85-86",
+          "objeto": "Polvo de desaparición"
+        },
+        {
+          "rango": "87-88",
+          "objeto": "Polvo de estornudar y atragantarse"
+        },
+        {
+          "rango": "89-90",
+          "objeto": "Polvo de sequedad"
+        },
+        {
+          "rango": "91-92",
+          "objeto": "Túnica de objetos útiles"
+        },
+        {
+          "rango": "93",
+          "objeto": "Vara inamovible"
+        },
+        {
+          "rango": "94-95",
+          "objeto": "Varita de secretos"
+        },
+        {
+          "rango": "96-97",
+          "objeto": "Vasija alquímica"
+        },
+        {
+          "rango": "98-00",
+          "objeto": "Yelmo de entender idiomas"
+        }
+      ]
+    },
+    {
+      "titulo": "Instrumentos raros",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-04",
+          "objeto": "Agujero portátil"
+        },
+        {
+          "rango": "05-08",
+          "objeto": "Anillo de evasión"
+        },
+        {
+          "rango": "09-12",
+          "objeto": "Anillo de libertad de acción"
+        },
+        {
+          "rango": "13-16",
+          "objeto": "Arma lanzaconjuro (conjuro de nivel 2 o 3)"
+        },
+        {
+          "rango": "17-20",
+          "objeto": "Bastón de curación"
+        },
+        {
+          "rango": "21-24",
+          "objeto": "Bolsa de judías"
+        },
+        {
+          "rango": "25-28",
+          "objeto": "Botas de levitación"
+        },
+        {
+          "rango": "29-32",
+          "objeto": "Botas de velocidad"
+        },
+        {
+          "rango": "33-36",
+          "objeto": "Bote plegable"
+        },
+        {
+          "rango": "37-40",
+          "objeto": "Carillón de apertura"
+        },
+        {
+          "rango": "41-44",
+          "objeto": "Cinturón enano"
+        },
+        {
+          "rango": "45-48",
+          "objeto": "Cuerda enredadora"
+        },
+        {
+          "rango": "49-52",
+          "objeto": "Cuero tachonado encantado"
+        },
+        {
+          "rango": "53-56",
+          "objeto": "Ficha de pluma de Quaal (bote cisne, látigo o pájaro)"
+        },
+        {
+          "rango": "57-60",
+          "objeto": "Grilletes dimensionales"
+        },
+        {
+          "rango": "61-64",
+          "objeto": "Herraduras de velocidad"
+        },
+        {
+          "rango": "65-68",
+          "objeto": "Instrumento de los bardos (lira de Cli o mandolina de Canaith)"
+        },
+        {
+          "rango": "69-72",
+          "objeto": "Morral práctico de Heward"
+        },
+        {
+          "rango": "73-76",
+          "objeto": "Munición +2"
+        },
+        {
+          "rango": "77-80",
+          "objeto": "Piedra Ioun (consciencia)"
+        },
+        {
+          "rango": "81-88",
+          "objeto": "Poción de curación (superior)"
+        },
+        {
+          "rango": "89-92",
+          "objeto": "Poción de encoger"
+        },
+        {
+          "rango": "93-96",
+          "objeto": "Poción de forma gaseosa"
+        },
+        {
+          "rango": "97-00",
+          "objeto": "Varita de detectar enemigos"
+        }
+      ]
+    },
+    {
+      "titulo": "Instrumentos muy raros",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-07",
+          "objeto": "Alfombra voladora"
+        },
+        {
+          "rango": "08-14",
+          "objeto": "Arma lanzaconjuro (conjuro de nivel 4 o 5)"
+        },
+        {
+          "rango": "15-21",
+          "objeto": "Bolsa devoradora"
+        },
+        {
+          "rango": "22-28",
+          "objeto": "Herraduras del céfiro"
+        },
+        {
+          "rango": "29-35",
+          "objeto": "Instrumento de los bardos (arpa de Anstruth)"
+        },
+        {
+          "rango": "36-42",
+          "objeto": "Laúd de acometida atronadora"
+        },
+        {
+          "rango": "43-49",
+          "objeto": "Manual de rapidez de acción"
+        },
+        {
+          "rango": "50-56",
+          "objeto": "Maravillosos pigmentos de Nolzur"
+        },
+        {
+          "rango": "57-63",
+          "objeto": "Munición +3"
+        },
+        {
+          "rango": "64-70",
+          "objeto": "Piedra Ioun (agilidad)"
+        },
+        {
+          "rango": "71-79",
+          "objeto": "Poción de curación (suprema)"
+        },
+        {
+          "rango": "80-86",
+          "objeto": "Poción de velocidad"
+        },
+        {
+          "rango": "87-93",
+          "objeto": "Poción de vuelo"
+        },
+        {
+          "rango": "94-00",
+          "objeto": "Tomo de liderazgo e influencia"
+        }
+      ]
+    },
+    {
+      "titulo": "Instrumentos legendarios",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-17",
+          "objeto": "Arma lanzaconjuro (conjuro de nivel 6, 7 u 8)"
+        },
+        {
+          "rango": "18-34",
+          "objeto": "Disolvente universal"
+        },
+        {
+          "rango": "35-50",
+          "objeto": "Esfera de aniquilación"
+        },
+        {
+          "rango": "51-67",
+          "objeto": "Instrumento de los bardos (arpa de Ollamh)"
+        },
+        {
+          "rango": "68-87",
+          "objeto": "Pegamento soberano"
+        },
+        {
+          "rango": "88-00",
+          "objeto": "Talismán de la esfera"
+        }
+      ]
+    },
+    {
+      "titulo": "Objetos arcanos comunes",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-02",
+          "objeto": "Abalorio de nutrición"
+        },
+        {
+          "rango": "03-04",
+          "objeto": "Abalorio de refrigerio"
+        },
+        {
+          "rango": "05-06",
+          "objeto": "Amuleto de la esquirla oscura"
+        },
+        {
+          "rango": "07-09",
+          "objeto": "Bastón de las flores"
+        },
+        {
+          "rango": "10-11",
+          "objeto": "Bastón de llamada de ave"
+        },
+        {
+          "rango": "12-13",
+          "objeto": "Bastón del adorno"
+        },
+        {
+          "rango": "14-16",
+          "objeto": "Capa de muchas modas"
+        },
+        {
+          "rango": "17-19",
+          "objeto": "Capa ondulante"
+        },
+        {
+          "rango": "20-21",
+          "objeto": "Cerradura engañosa"
+        },
+        {
+          "rango": "22-23",
+          "objeto": "Cuerda reparadora"
+        },
+        {
+          "rango": "24-25",
+          "objeto": "Cuerno de alarma silenciosa"
+        },
+        {
+          "rango": "26-27",
+          "objeto": "Instrumento de ilusiones"
+        },
+        {
+          "rango": "28-29",
+          "objeto": "Instrumento de transcripción"
+        },
+        {
+          "rango": "30-31",
+          "objeto": "Jarra de sobriedad"
+        },
+        {
+          "rango": "32-33",
+          "objeto": "Libro de conjuros imperecedero"
+        },
+        {
+          "rango": "34-36",
+          "objeto": "Llave misteriosa"
+        },
+        {
+          "rango": "37-39",
+          "objeto": "Maceta del despertar"
+        },
+        {
+          "rango": "40-43",
+          "objeto": "Moneda de rivalidad"
+        },
+        {
+          "rango": "44-46",
+          "objeto": "Muñeca parlante"
+        },
+        {
+          "rango": "47-48",
+          "objeto": "Ojo de imitación"
+        },
+        {
+          "rango": "49-50",
+          "objeto": "Orbe de la dirección"
+        },
+        {
+          "rango": "51-52",
+          "objeto": "Orbe del tiempo"
+        },
+        {
+          "rango": "53-54",
+          "objeto": "Perfume embelesador"
+        },
+        {
+          "rango": "55-68",
+          "objeto": "Pergamino de conjuro (truco o conjuro de nivel 1)"
+        },
+        {
+          "rango": "69-71",
+          "objeto": "Pipa de monstruos de humo"
+        },
+        {
+          "rango": "72-74",
+          "objeto": "Poción de entendimiento"
+        },
+        {
+          "rango": "75-77",
+          "objeto": "Poción de trepar"
+        },
+        {
+          "rango": "78-79",
+          "objeto": "Prótesis de extremidad"
+        },
+        {
+          "rango": "80-81",
+          "objeto": "Ropas de remiendo"
+        },
+        {
+          "rango": "82-83",
+          "objeto": "Rubí del mago de guerra"
+        },
+        {
+          "rango": "84-86",
+          "objeto": "Sombrero de hechicería"
+        },
+        {
+          "rango": "87-89",
+          "objeto": "Sombrero de las alimañas"
+        },
+        {
+          "rango": "90-91",
+          "objeto": "Útil bolsita de especias de Heward"
+        },
+        {
+          "rango": "92-94",
+          "objeto": "Varita de dirección"
+        },
+        {
+          "rango": "95-97",
+          "objeto": "Varita de pirotecnia"
+        },
+        {
+          "rango": "98-00",
+          "objeto": "Vela de la profundidad"
+        }
+      ]
+    },
+    {
+      "titulo": "Objetos arcanos infrecuentes",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-02",
+          "objeto": "Abanico del viento"
+        },
+        {
+          "rango": "03",
+          "objeto": "Aceite escurridizo"
+        },
+        {
+          "rango": "04",
+          "objeto": "Amuleto a prueba de detección y localización"
+        },
+        {
+          "rango": "05",
+          "objeto": "Anillo de escudo mental"
+        },
+        {
+          "rango": "06",
+          "objeto": "Anteojos de encantamiento"
+        },
+        {
+          "rango": "07",
+          "objeto": "Anteojos de visión minuciosa"
+        },
+        {
+          "rango": "08",
+          "objeto": "Armadura de mithral"
+        },
+        {
+          "rango": "09-10",
+          "objeto": "Babuchas de trepar cual arácnido"
+        },
+        {
+          "rango": "11",
+          "objeto": "Baraja de ilusiones"
+        },
+        {
+          "rango": "12",
+          "objeto": "Bastón de la pitón"
+        },
+        {
+          "rango": "13",
+          "objeto": "Bastón de la víbora"
+        },
+        {
+          "rango": "14",
+          "objeto": "Bastón lanzaconjuro (truco o conjuro de nivel 1)"
+        },
+        {
+          "rango": "15-17",
+          "objeto": "Bolsa de contención"
+        },
+        {
+          "rango": "18-19",
+          "objeto": "Bolsa de trucos"
+        },
+        {
+          "rango": "20",
+          "objeto": "Botas aladas"
+        },
+        {
+          "rango": "21",
+          "objeto": "Botella siemprehumeante"
+        },
+        {
+          "rango": "22",
+          "objeto": "Broche escudo"
+        },
+        {
+          "rango": "23",
+          "objeto": "Capa de la mantarraya"
+        },
+        {
+          "rango": "24-25",
+          "objeto": "Capa de protección"
+        },
+        {
+          "rango": "26-27",
+          "objeto": "Collar de adaptación"
+        },
+        {
+          "rango": "28-29",
+          "objeto": "Cuerda de escalada"
+        },
+        {
+          "rango": "30",
+          "objeto": "Decantador de agua interminable"
+        },
+        {
+          "rango": "31",
+          "objeto": "Diadema de estallidos"
+        },
+        {
+          "rango": "32",
+          "objeto": "Diadema de intelecto"
+        },
+        {
+          "rango": "33",
+          "objeto": "Escoba danzante de Baba Yaga"
+        },
+        {
+          "rango": "34",
+          "objeto": "Escoba voladora"
+        },
+        {
+          "rango": "35-36",
+          "objeto": "Estatuilla de poder maravilloso (cuervo de plata)"
+        },
+        {
+          "rango": "37",
+          "objeto": "Ficha de pluma de Quaal (abanico, ancla o árbol)"
+        },
+        {
+          "rango": "38-39",
+          "objeto": "Filtro de amor"
+        },
+        {
+          "rango": "40",
+          "objeto": "Gema del resplandor"
+        },
+        {
+          "rango": "41-42",
+          "objeto": "Gema elemental"
+        },
+        {
+          "rango": "43-44",
+          "objeto": "Globo flotante"
+        },
+        {
+          "rango": "45",
+          "objeto": "Gorro de respirar bajo el agua"
+        },
+        {
+          "rango": "46",
+          "objeto": "Linterna de revelación"
+        },
+        {
+          "rango": "47",
+          "objeto": "Medallón de los pensamientos"
+        },
+        {
+          "rango": "48",
+          "objeto": "Ojo de bruja"
+        },
+        {
+          "rango": "49-56",
+          "objeto": "Pergamino de conjuro (conjuro de nivel 2 o 3)"
+        },
+        {
+          "rango": "57",
+          "objeto": "Perla de poder"
+        },
+        {
+          "rango": "58-59",
+          "objeto": "Piedras mensajeras"
+        },
+        {
+          "rango": "60-61",
+          "objeto": "Poción de aliento de fuego"
+        },
+        {
+          "rango": "62-63",
+          "objeto": "Poción de amistad animal"
+        },
+        {
+          "rango": "64-65",
+          "objeto": "Poción de crecimiento"
+        },
+        {
+          "rango": "66-67",
+          "objeto": "Poción de fuerza de gigante (colinas)"
+        },
+        {
+          "rango": "68-69",
+          "objeto": "Poción de resistencia"
+        },
+        {
+          "rango": "70-71",
+          "objeto": "Poción de respirar bajo el agua"
+        },
+        {
+          "rango": "72-73",
+          "objeto": "Poción de veneno"
+        },
+        {
+          "rango": "74-75",
+          "objeto": "Polvo de desaparición"
+        },
+        {
+          "rango": "76",
+          "objeto": "Polvo de estornudar y atragantarse"
+        },
+        {
+          "rango": "77",
+          "objeto": "Polvo de sequedad"
+        },
+        {
+          "rango": "78",
+          "objeto": "Silla de monta del caballero"
+        },
+        {
+          "rango": "79",
+          "objeto": "Sombrero de disfraz"
+        },
+        {
+          "rango": "80",
+          "objeto": "Talismán de salud"
+        },
+        {
+          "rango": "81-82",
+          "objeto": "Túnica de objetos útiles"
+        },
+        {
+          "rango": "83-84",
+          "objeto": "Vara del pacto +1"
+        },
+        {
+          "rango": "85",
+          "objeto": "Vara inamovible"
+        },
+        {
+          "rango": "86-89",
+          "objeto": "Varita de detección mágica"
+        },
+        {
+          "rango": "90-92",
+          "objeto": "Varita de proyectiles mágicos"
+        },
+        {
+          "rango": "93-94",
+          "objeto": "Varita de secretos"
+        },
+        {
+          "rango": "95-96",
+          "objeto": "Varita de telaraña"
+        },
+        {
+          "rango": "97-98",
+          "objeto": "Varita del mago de guerra +1"
+        },
+        {
+          "rango": "99",
+          "objeto": "Yelmo de entender idiomas"
+        },
+        {
+          "rango": "00",
+          "objeto": "Yelmo de telepatía"
+        }
+      ]
+    },
+    {
+      "titulo": "Objetos arcanos raros",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01",
+          "objeto": "Aceite de etereidad"
+        },
+        {
+          "rango": "02",
+          "objeto": "Agujero portátil"
+        },
+        {
+          "rango": "03-04",
+          "objeto": "Alas de vuelo"
+        },
+        {
+          "rango": "05",
+          "objeto": "Anillo de almacenamiento de conjuros"
+        },
+        {
+          "rango": "06-07",
+          "objeto": "Anillo de caída de pluma"
+        },
+        {
+          "rango": "08",
+          "objeto": "Anillo de visión de rayos X"
+        },
+        {
+          "rango": "09",
+          "objeto": "Bandas de hierro de Bilarro"
+        },
+        {
+          "rango": "10-11",
+          "objeto": "Bastón de enjambre de insectos"
+        },
+        {
+          "rango": "12-13",
+          "objeto": "Bastón de marchitamiento"
+        },
+        {
+          "rango": "14-15",
+          "objeto": "Bastón del cautivador"
+        },
+        {
+          "rango": "16-17",
+          "objeto": "Bastón lanzaconjuro (conjuro de nivel 2 o 3)"
+        },
+        {
+          "rango": "18",
+          "objeto": "Bolsa de judías"
+        },
+        {
+          "rango": "19-20",
+          "objeto": "Bote plegable"
+        },
+        {
+          "rango": "21",
+          "objeto": "Brasero para controlar elementales de fuego"
+        },
+        {
+          "rango": "22-23",
+          "objeto": "Brazales de defensa"
+        },
+        {
+          "rango": "24-25",
+          "objeto": "Canica de fuerza"
+        },
+        {
+          "rango": "26-27",
+          "objeto": "Capa de desplazamiento"
+        },
+        {
+          "rango": "28-29",
+          "objeto": "Capa de murciélago"
+        },
+        {
+          "rango": "30-31",
+          "objeto": "Capa del charlatán"
+        },
+        {
+          "rango": "32-33",
+          "objeto": "Carillón de apertura"
+        },
+        {
+          "rango": "34",
+          "objeto": "Cetro de mando"
+        },
+        {
+          "rango": "35-36",
+          "objeto": "Collar de bolas de fuego"
+        },
+        {
+          "rango": "37",
+          "objeto": "Cubo de fuerza"
+        },
+        {
+          "rango": "38",
+          "objeto": "Cubo de invocación"
+        },
+        {
+          "rango": "39",
+          "objeto": "Cuenco para controlar elementales de agua"
+        },
+        {
+          "rango": "40-41",
+          "objeto": "Estatuilla de poder maravilloso (búho de serpentina, cabras de marfil, elefante de mármol, grifo de bronce, leones dorados, mosca de ébano o perro de ónice)"
+        },
+        {
+          "rango": "42-43",
+          "objeto": "Ficha de pluma de Quaal (bote cisne, látigo o pájaro)"
+        },
+        {
+          "rango": "44",
+          "objeto": "Fortaleza instantánea de Daern"
+        },
+        {
+          "rango": "45-46",
+          "objeto": "Gema de visión"
+        },
+        {
+          "rango": "47-48",
+          "objeto": "Herraduras de velocidad"
+        },
+        {
+          "rango": "49",
+          "objeto": "Incensario de controlar elementales de aire"
+        },
+        {
+          "rango": "50",
+          "objeto": "Manto de resistencia a conjuros"
+        },
+        {
+          "rango": "51-52",
+          "objeto": "Morral práctico de Heward"
+        },
+        {
+          "rango": "53-57",
+          "objeto": "Pergamino de conjuro (conjuro de nivel 4 o 5)"
+        },
+        {
+          "rango": "58-59",
+          "objeto": "Pergamino de protección"
+        },
+        {
+          "rango": "60",
+          "objeto": "Piedra de controlar elementales de tierra"
+        },
+        {
+          "rango": "61-62",
+          "objeto": "Piedra Ioun (reserva)"
+        },
+        {
+          "rango": "63-64",
+          "objeto": "Poción de clarividencia"
+        },
+        {
+          "rango": "65-66",
+          "objeto": "Poción de encoger"
+        },
+        {
+          "rango": "67-68",
+          "objeto": "Poción de forma gaseosa"
+        },
+        {
+          "rango": "69-70",
+          "objeto": "Poción de fuerza de gigante (escarcha o piedra)"
+        },
+        {
+          "rango": "71",
+          "objeto": "Poción de fuerza de gigante (fuego)"
+        },
+        {
+          "rango": "72-73",
+          "objeto": "Poción de heroísmo"
+        },
+        {
+          "rango": "74-75",
+          "objeto": "Poción de invisibilidad"
+        },
+        {
+          "rango": "76-77",
+          "objeto": "Poción de invulnerabilidad"
+        },
+        {
+          "rango": "78-79",
+          "objeto": "Poción de leer mentes"
+        },
+        {
+          "rango": "80-81",
+          "objeto": "Túnica de los ojos"
+        },
+        {
+          "rango": "82-83",
+          "objeto": "Vara del pacto +2"
+        },
+        {
+          "rango": "84-85",
+          "objeto": "Varita de atadura"
+        },
+        {
+          "rango": "86-89",
+          "objeto": "Varita de bolas de fuego"
+        },
+        {
+          "rango": "90-91",
+          "objeto": "Varita de las maravillas"
+        },
+        {
+          "rango": "92-95",
+          "objeto": "Varita de relámpagos"
+        },
+        {
+          "rango": "96-97",
+          "objeto": "Varita del mago de guerra +2"
+        },
+        {
+          "rango": "98-99",
+          "objeto": "Varita del terror"
+        },
+        {
+          "rango": "00",
+          "objeto": "Yelmo de teletransporte"
+        }
+      ]
+    },
+    {
+      "titulo": "Objetos arcanos muy raros",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-03",
+          "objeto": "Aceite de afilado"
+        },
+        {
+          "rango": "04-05",
+          "objeto": "Alfombra voladora"
+        },
+        {
+          "rango": "06-07",
+          "objeto": "Amuleto de los planos"
+        },
+        {
+          "rango": "08-09",
+          "objeto": "Anillo de estrellas fugaces"
+        },
+        {
+          "rango": "10-11",
+          "objeto": "Anillo de regeneración"
+        },
+        {
+          "rango": "12-13",
+          "objeto": "Anillo de telequinesis"
+        },
+        {
+          "rango": "14-15",
+          "objeto": "Bastón de escarcha"
+        },
+        {
+          "rango": "16-17",
+          "objeto": "Bastón de fuego"
+        },
+        {
+          "rango": "18",
+          "objeto": "Bastón de poder"
+        },
+        {
+          "rango": "19-20",
+          "objeto": "Bastón de truenos y relámpagos"
+        },
+        {
+          "rango": "21-22",
+          "objeto": "Bastón lanzaconjuro (conjuro de nivel 4 o 5)"
+        },
+        {
+          "rango": "23-24",
+          "objeto": "Bola de cristal"
+        },
+        {
+          "rango": "25-26",
+          "objeto": "Bolsa devoradora"
+        },
+        {
+          "rango": "27",
+          "objeto": "Botella de ifrit"
+        },
+        {
+          "rango": "28-29",
+          "objeto": "Caldero de renacimiento"
+        },
+        {
+          "rango": "30-31",
+          "objeto": "Capa arácnida"
+        },
+        {
+          "rango": "32",
+          "objeto": "Espada danzarina"
+        },
+        {
+          "rango": "33",
+          "objeto": "Espejo atrapavidas"
+        },
+        {
+          "rango": "34-35",
+          "objeto": "Estatuilla de poder maravilloso (corcel de obsidiana)"
+        },
+        {
+          "rango": "36-37",
+          "objeto": "Herraduras del céfiro"
+        },
+        {
+          "rango": "38-39",
+          "objeto": "Manual de gólems (arcilla, carne, hierro o piedra)"
+        },
+        {
+          "rango": "40-41",
+          "objeto": "Maravillosos pigmentos de Nolzur"
+        },
+        {
+          "rango": "42-53",
+          "objeto": "Pergamino de conjuro (conjuro de nivel 6, 7 u 8)"
+        },
+        {
+          "rango": "54-55",
+          "objeto": "Piedra Ioun (absorción, fortaleza, intelecto o liderazgo)"
+        },
+        {
+          "rango": "56-59",
+          "objeto": "Poción de fuerza de gigante (nubes)"
+        },
+        {
+          "rango": "60-63",
+          "objeto": "Poción de invisibilidad mejorada"
+        },
+        {
+          "rango": "64-66",
+          "objeto": "Poción de longevidad"
+        },
+        {
+          "rango": "67-70",
+          "objeto": "Poción de velocidad"
+        },
+        {
+          "rango": "71-74",
+          "objeto": "Poción de vitalidad"
+        },
+        {
+          "rango": "75-78",
+          "objeto": "Poción de vuelo"
+        },
+        {
+          "rango": "79-80",
+          "objeto": "Sombrero de múltiples conjuros"
+        },
+        {
+          "rango": "81-82",
+          "objeto": "Tomo de pensamiento claro"
+        },
+        {
+          "rango": "83-84",
+          "objeto": "Túnica de colores hipnóticos"
+        },
+        {
+          "rango": "85-86",
+          "objeto": "Túnica de las estrellas"
+        },
+        {
+          "rango": "87-88",
+          "objeto": "Vara de la absorción"
+        },
+        {
+          "rango": "89-90",
+          "objeto": "Vara de la seguridad"
+        },
+        {
+          "rango": "91-92",
+          "objeto": "Vara del pacto +3"
+        },
+        {
+          "rango": "93-95",
+          "objeto": "Varita de polimorfar"
+        },
+        {
+          "rango": "96-98",
+          "objeto": "Varita del mago de guerra +3"
+        },
+        {
+          "rango": "99-00",
+          "objeto": "Yelmo de fulgor"
+        }
+      ]
+    },
+    {
+      "titulo": "Objetos arcanos legendarios",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-04",
+          "objeto": "Anillo de comandar elementales (agua, aire, fuego o tierra)"
+        },
+        {
+          "rango": "05-08",
+          "objeto": "Anillo de invisibilidad"
+        },
+        {
+          "rango": "09-12",
+          "objeto": "Anillo de invocar djinns"
+        },
+        {
+          "rango": "13",
+          "objeto": "Anillo de los tres deseos"
+        },
+        {
+          "rango": "14-17",
+          "objeto": "Anillo de retorno de conjuros"
+        },
+        {
+          "rango": "18-21",
+          "objeto": "Aparato de Kwalish"
+        },
+        {
+          "rango": "22",
+          "objeto": "Baraja de múltiples cosas"
+        },
+        {
+          "rango": "23",
+          "objeto": "Bastón de los magos"
+        },
+        {
+          "rango": "24-27",
+          "objeto": "Bastón lanzaconjuro (conjuro de nivel 6, 7 u 8)"
+        },
+        {
+          "rango": "28-31",
+          "objeto": "Bola de cristal de leer mentes"
+        },
+        {
+          "rango": "32-35",
+          "objeto": "Bola de cristal de telepatía"
+        },
+        {
+          "rango": "36-39",
+          "objeto": "Bola de cristal de visión veraz"
+        },
+        {
+          "rango": "40-43",
+          "objeto": "Capa de invisibilidad"
+        },
+        {
+          "rango": "44-47",
+          "objeto": "Disolvente universal"
+        },
+        {
+          "rango": "48",
+          "objeto": "Esfera de aniquilación"
+        },
+        {
+          "rango": "49-50",
+          "objeto": "Frasco de hierro"
+        },
+        {
+          "rango": "51-54",
+          "objeto": "Pegamento soberano"
+        },
+        {
+          "rango": "55-72",
+          "objeto": "Pergamino de conjuro (conjuro de nivel 9)"
+        },
+        {
+          "rango": "73-74",
+          "objeto": "Pergamino de invocar titán"
+        },
+        {
+          "rango": "75-78",
+          "objeto": "Piedra Ioun (absorción mayor, maestría o regeneración)"
+        },
+        {
+          "rango": "79-86",
+          "objeto": "Poción de fuerza de gigante (tormentas)"
+        },
+        {
+          "rango": "87-88",
+          "objeto": "Portal cúbico"
+        },
+        {
+          "rango": "89-92",
+          "objeto": "Pozo de los muchos mundos"
+        },
+        {
+          "rango": "93-95",
+          "objeto": "Talismán de la esfera"
+        },
+        {
+          "rango": "96-99",
+          "objeto": "Tomo de la lengua detenida"
+        },
+        {
+          "rango": "00",
+          "objeto": "Túnica del archimago"
+        }
+      ]
+    },
+    {
+      "titulo": "Reliquias comunes",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-08",
+          "objeto": "Armadura de rescoldos"
+        },
+        {
+          "rango": "09-18",
+          "objeto": "Bastón de las flores"
+        },
+        {
+          "rango": "19-28",
+          "objeto": "Bastón del adorno"
+        },
+        {
+          "rango": "29-36",
+          "objeto": "Escudo expresivo"
+        },
+        {
+          "rango": "37-44",
+          "objeto": "Maceta del despertar"
+        },
+        {
+          "rango": "45-64",
+          "objeto": "Pergamino de conjuro (truco o conjuro de nivel 1)"
+        },
+        {
+          "rango": "65-84",
+          "objeto": "Poción de curación"
+        },
+        {
+          "rango": "85-92",
+          "objeto": "Rubí del mago de guerra"
+        },
+        {
+          "rango": "93-00",
+          "objeto": "Trompetilla de escucha"
+        }
+      ]
+    },
+    {
+      "titulo": "Reliquias infrecuentes",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-05",
+          "objeto": "Anillo de caminar sobre las aguas"
+        },
+        {
+          "rango": "06-10",
+          "objeto": "Armadura de marinero"
+        },
+        {
+          "rango": "11-15",
+          "objeto": "Bastón de la pitón"
+        },
+        {
+          "rango": "16-20",
+          "objeto": "Bastón de la víbora"
+        },
+        {
+          "rango": "21-25",
+          "objeto": "Bastón lanzaconjuro (truco o conjuro de nivel 1)"
+        },
+        {
+          "rango": "26-30",
+          "objeto": "Manto de la naturaleza"
+        },
+        {
+          "rango": "31-40",
+          "objeto": "Pergamino de conjuro (conjuro de nivel 2 o 3)"
+        },
+        {
+          "rango": "41-45",
+          "objeto": "Perla de poder"
+        },
+        {
+          "rango": "46-50",
+          "objeto": "Piedras mensajeras"
+        },
+        {
+          "rango": "51-55",
+          "objeto": "Poción de amistad animal"
+        },
+        {
+          "rango": "56-70",
+          "objeto": "Poción de curación (mayor)"
+        },
+        {
+          "rango": "71-75",
+          "objeto": "Poción de resistencia"
+        },
+        {
+          "rango": "76-80",
+          "objeto": "Talismán de cerrar heridas"
+        },
+        {
+          "rango": "81-85",
+          "objeto": "Talismán de salud"
+        },
+        {
+          "rango": "86-90",
+          "objeto": "Ungüento de Keoghtom"
+        },
+        {
+          "rango": "91-95",
+          "objeto": "Varita de detección mágica"
+        },
+        {
+          "rango": "96-00",
+          "objeto": "Varita del mago de guerra +1"
+        }
+      ]
+    },
+    {
+      "titulo": "Reliquias raras",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-03",
+          "objeto": "Amuleto de salud"
+        },
+        {
+          "rango": "04-06",
+          "objeto": "Anillo de almacenamiento de conjuros"
+        },
+        {
+          "rango": "07-09",
+          "objeto": "Anillo de influencia animal"
+        },
+        {
+          "rango": "10-13",
+          "objeto": "Anillo de resistencia"
+        },
+        {
+          "rango": "14-17",
+          "objeto": "Armadura +1"
+        },
+        {
+          "rango": "18-20",
+          "objeto": "Bastón de curación"
+        },
+        {
+          "rango": "21-23",
+          "objeto": "Bastón de enjambre de insectos"
+        },
+        {
+          "rango": "24-26",
+          "objeto": "Bastón de los bosques"
+        },
+        {
+          "rango": "27-29",
+          "objeto": "Bastón de marchitamiento"
+        },
+        {
+          "rango": "30-32",
+          "objeto": "Bastón del cautivador"
+        },
+        {
+          "rango": "33-35",
+          "objeto": "Bastón lanzaconjuro (conjuro de nivel 2 o 3)"
+        },
+        {
+          "rango": "36-37",
+          "objeto": "Brasero para controlar elementales de fuego"
+        },
+        {
+          "rango": "38-40",
+          "objeto": "Colgante de inmunidad al veneno"
+        },
+        {
+          "rango": "41-43",
+          "objeto": "Collar de plegarias"
+        },
+        {
+          "rango": "44-45",
+          "objeto": "Cuenco para controlar elementales de agua"
+        },
+        {
+          "rango": "46-48",
+          "objeto": "Cuerno de estallido"
+        },
+        {
+          "rango": "49-51",
+          "objeto": "Cuerno del Valhalla (latón o plata)"
+        },
+        {
+          "rango": "52-54",
+          "objeto": "Elixir de salud"
+        },
+        {
+          "rango": "55-56",
+          "objeto": "Incensario de controlar elementales de aire"
+        },
+        {
+          "rango": "57-59",
+          "objeto": "Maza castigadora"
+        },
+        {
+          "rango": "60-62",
+          "objeto": "Maza del terror"
+        },
+        {
+          "rango": "63-65",
+          "objeto": "Maza disruptiva"
+        },
+        {
+          "rango": "66-73",
+          "objeto": "Pergamino de conjuro (conjuro de nivel 4 o 5)"
+        },
+        {
+          "rango": "74-77",
+          "objeto": "Pergamino de protección"
+        },
+        {
+          "rango": "78-79",
+          "objeto": "Piedra de controlar elementales de tierra"
+        },
+        {
+          "rango": "80-82",
+          "objeto": "Piedra Ioun (reserva o sustento)"
+        },
+        {
+          "rango": "83-90",
+          "objeto": "Poción de curación (superior)"
+        },
+        {
+          "rango": "91-93",
+          "objeto": "Vara de tentáculos"
+        },
+        {
+          "rango": "94-96",
+          "objeto": "Varita de parálisis"
+        },
+        {
+          "rango": "97-00",
+          "objeto": "Varita del mago de guerra +2"
+        }
+      ]
+    },
+    {
+      "titulo": "Reliquias muy raras",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-05",
+          "objeto": "Armadura +2"
+        },
+        {
+          "rango": "06-10",
+          "objeto": "Bastón de escarcha"
+        },
+        {
+          "rango": "11-15",
+          "objeto": "Bastón de fuego"
+        },
+        {
+          "rango": "16-20",
+          "objeto": "Bastón de impacto"
+        },
+        {
+          "rango": "21-25",
+          "objeto": "Bastón de truenos y relámpagos"
+        },
+        {
+          "rango": "26-30",
+          "objeto": "Bastón lanzaconjuro (conjuro de nivel 4 o 5)"
+        },
+        {
+          "rango": "31-35",
+          "objeto": "Caldero de renacimiento"
+        },
+        {
+          "rango": "36-40",
+          "objeto": "Cuerno del Valhalla (bronce)"
+        },
+        {
+          "rango": "41-45",
+          "objeto": "Manual de la salud corporal"
+        },
+        {
+          "rango": "46-55",
+          "objeto": "Pergamino de conjuro (conjuro de nivel 6, 7 u 8)"
+        },
+        {
+          "rango": "56-60",
+          "objeto": "Piedra Ioun (perspicacia)"
+        },
+        {
+          "rango": "61-68",
+          "objeto": "Poción de curación (suprema)"
+        },
+        {
+          "rango": "69-75",
+          "objeto": "Poción de vitalidad"
+        },
+        {
+          "rango": "76-80",
+          "objeto": "Tablero de espiritismo"
+        },
+        {
+          "rango": "81-85",
+          "objeto": "Tomo de entendimiento"
+        },
+        {
+          "rango": "86-90",
+          "objeto": "Vara de la alerta"
+        },
+        {
+          "rango": "91-95",
+          "objeto": "Varita del mago de guerra +3"
+        },
+        {
+          "rango": "96-00",
+          "objeto": "Vela de invocación"
+        }
+      ]
+    },
+    {
+      "titulo": "Reliquias legendarias",
+      "dado": "1d100",
+      "filas": [
+        {
+          "rango": "01-10",
+          "objeto": "Armadura +3"
+        },
+        {
+          "rango": "11-18",
+          "objeto": "Armadura de invulnerabilidad"
+        },
+        {
+          "rango": "19-27",
+          "objeto": "Bastón lanzaconjuro (conjuro de nivel 6, 7 u 8)"
+        },
+        {
+          "rango": "28-36",
+          "objeto": "Cuerno del Valhalla (hierro)"
+        },
+        {
+          "rango": "37-45",
+          "objeto": "Escarabajo protector"
+        },
+        {
+          "rango": "46-53",
+          "objeto": "Pergamino de conjuro (conjuro de nivel 9)"
+        },
+        {
+          "rango": "54-62",
+          "objeto": "Pergamino de invocar titán"
+        },
+        {
+          "rango": "63-72",
+          "objeto": "Talismán del bien puro"
+        },
+        {
+          "rango": "73-82",
+          "objeto": "Talismán del mal definitivo"
+        },
+        {
+          "rango": "83-91",
+          "objeto": "Vara de la resurrección"
+        },
+        {
+          "rango": "92-00",
+          "objeto": "Vengadora sagrada"
+        }
+      ]
+    }
+  ],
+  "tesoros": [
+    {
+      "titulo": "Piedras preciosas de 10 po",
+      "dado": "1d12",
+      "filas": [
+        {
+          "rango": "1",
+          "objeto": "Ágata con franjas (rayas marrones, azules, blancas o rojas)"
+        },
+        {
+          "rango": "2",
+          "objeto": "Ágata musgosa (rosa o blanco amarillento con trazos musgosos verdes o grises)"
+        },
+        {
+          "rango": "3",
+          "objeto": "Azurita (azul oscuro moteado)"
+        },
+        {
+          "rango": "4",
+          "objeto": "Cuarzo azul (azul pálido)"
+        },
+        {
+          "rango": "5",
+          "objeto": "Hematita (negro grisáceo)"
+        },
+        {
+          "rango": "6",
+          "objeto": "Lapislázuli (azul claro y oscuro con motas amarillas)"
+        },
+        {
+          "rango": "7",
+          "objeto": "Malaquita (estrías de verde claro y oscuro)"
+        },
+        {
+          "rango": "8",
+          "objeto": "Obsidiana (negro)"
+        },
+        {
+          "rango": "9",
+          "objeto": "Ojo de ágata (círculos grises, blancos, marrones, azules o verdes)"
+        },
+        {
+          "rango": "10",
+          "objeto": "Ojo de tigre (marrón con núcleo dorado)"
+        },
+        {
+          "rango": "11",
+          "objeto": "Rodocrosita (rosa pálido)"
+        },
+        {
+          "rango": "12",
+          "objeto": "Turquesa (verde azulado claro)"
+        }
+      ]
+    },
+    {
+      "titulo": "Piedras preciosas de 50 po",
+      "dado": "1d12",
+      "filas": [
+        {
+          "rango": "1",
+          "objeto": "Calcedonia (blanca)"
+        },
+        {
+          "rango": "2",
+          "objeto": "Circonita (verde azulado pálido)"
+        },
+        {
+          "rango": "3",
+          "objeto": "Citrino (marrón amarillo pálido)"
+        },
+        {
+          "rango": "4",
+          "objeto": "Cornalina (de naranja a marrón rojizo)"
+        },
+        {
+          "rango": "5",
+          "objeto": "Crisoprasa (verde)"
+        },
+        {
+          "rango": "6",
+          "objeto": "Cuarzo (blanco, gris turbio o amarillo)"
+        },
+        {
+          "rango": "7",
+          "objeto": "Cuarzo rosa estrellado (piedra rosácea con un núcleo en forma de estrella blanca)"
+        },
+        {
+          "rango": "8",
+          "objeto": "Jaspe (azul, negro o marrón)"
+        },
+        {
+          "rango": "9",
+          "objeto": "Jaspe sanguíneo (gris oscuro con motas rojas)"
+        },
+        {
+          "rango": "10",
+          "objeto": "Ónice (blanco o negro, o con franjas de esos colores)"
+        },
+        {
+          "rango": "11",
+          "objeto": "Piedra lunar (blanca con brillos azulados)"
+        },
+        {
+          "rango": "12",
+          "objeto": "Sardónice (con franjas rojas y blancas)"
+        }
+      ]
+    },
+    {
+      "titulo": "Piedras preciosas de 100 po",
+      "dado": "1d10",
+      "filas": [
+        {
+          "rango": "1",
+          "objeto": "Amatista (morado intenso)"
+        },
+        {
+          "rango": "2",
+          "objeto": "Ámbar (dorado acuoso o intenso)"
+        },
+        {
+          "rango": "3",
+          "objeto": "Azabache (negro intenso)"
+        },
+        {
+          "rango": "4",
+          "objeto": "Coral (carmesí)"
+        },
+        {
+          "rango": "5",
+          "objeto": "Crisoberilo (de amarillo verdoso a verde pálido)"
+        },
+        {
+          "rango": "6",
+          "objeto": "Espinela (rojo, marrón rojizo o verde oscuro)"
+        },
+        {
+          "rango": "7",
+          "objeto": "Granate (rojo, marrón verdoso o violeta)"
+        },
+        {
+          "rango": "8",
+          "objeto": "Jade (verde claro, oscuro o blanco)"
+        },
+        {
+          "rango": "9",
+          "objeto": "Perla (blanco, amarillo o rosa relucientes)"
+        },
+        {
+          "rango": "10",
+          "objeto": "Turmalina (verde pálido, azul, marrón o rojo)"
+        }
+      ]
+    },
+    {
+      "titulo": "Piedras preciosas de 500 po",
+      "dado": "1d6",
+      "filas": [
+        {
+          "rango": "1",
+          "objeto": "Aguamarina (azul verdoso pálido)"
+        },
+        {
+          "rango": "2",
+          "objeto": "Alejandrita (verde oscuro)"
+        },
+        {
+          "rango": "3",
+          "objeto": "Espinela azul (azul oscuro)"
+        },
+        {
+          "rango": "4",
+          "objeto": "Peridoto (verde aceituna brillante)"
+        },
+        {
+          "rango": "5",
+          "objeto": "Perla negra (negro puro)"
+        },
+        {
+          "rango": "6",
+          "objeto": "Topacio (amarillo dorado)"
+        }
+      ]
+    },
+    {
+      "titulo": "Piedras preciosas de 1000 po",
+      "dado": "1d8",
+      "filas": [
+        {
+          "rango": "1",
+          "objeto": "Esmeralda (verde intenso y brillante)"
+        },
+        {
+          "rango": "2",
+          "objeto": "Ópalo (azul pálido con moteado verde y dorado)"
+        },
+        {
+          "rango": "3",
+          "objeto": "Ópalo de fuego (rojo fuego)"
+        },
+        {
+          "rango": "4",
+          "objeto": "Ópalo negro (verde oscuro con moteado negro y vetas doradas)"
+        },
+        {
+          "rango": "5",
+          "objeto": "Rubí estrella (rubí con núcleo en forma de estrella blanca)"
+        },
+        {
+          "rango": "6",
+          "objeto": "Zafiro amarillo (amarillo fuego o amarillo verdoso)"
+        },
+        {
+          "rango": "7",
+          "objeto": "Zafiro azul (azul medio)"
+        },
+        {
+          "rango": "8",
+          "objeto": "Zafiro estrella (zafiro azul con núcleo en forma de estrella blanca)"
+        }
+      ]
+    },
+    {
+      "titulo": "Piedras preciosas de 5000 po",
+      "dado": "1d4",
+      "filas": [
+        {
+          "rango": "1",
+          "objeto": "Diamante (blanco azulado, amarillo canario, rosa, marrón o azul)"
+        },
+        {
+          "rango": "2",
+          "objeto": "Jacinto (naranja fuego)"
+        },
+        {
+          "rango": "3",
+          "objeto": "Rubí (rojo claro a rojo profundo)"
+        },
+        {
+          "rango": "4",
+          "objeto": "Zafiro negro (negro lustroso con detalles brillantes)"
+        }
+      ]
+    },
+    {
+      "titulo": "Obras de arte de 25 po",
+      "dado": "1d10",
+      "filas": [
+        {
+          "rango": "1",
+          "objeto": "Aguamanil de plata"
+        },
+        {
+          "rango": "2",
+          "objeto": "Estatuilla tallada en hueso"
+        },
+        {
+          "rango": "3",
+          "objeto": "Brazalete de oro"
+        },
+        {
+          "rango": "4",
+          "objeto": "Vestiduras de tela de oro"
+        },
+        {
+          "rango": "5",
+          "objeto": "Máscara de terciopelo negro bordada en plata"
+        },
+        {
+          "rango": "6",
+          "objeto": "Cáliz de cobre con filigrana de plata"
+        },
+        {
+          "rango": "7",
+          "objeto": "Pareja de dados de hueso grabados"
+        },
+        {
+          "rango": "8",
+          "objeto": "Conjunto de espejos con marco de madera pintada"
+        },
+        {
+          "rango": "9",
+          "objeto": "Pañuelo de seda bordado"
+        },
+        {
+          "rango": "10",
+          "objeto": "Relicario con retrato pintado a mano dentro"
+        }
+      ]
+    },
+    {
+      "titulo": "Obras de arte de 250 po",
+      "dado": "1d10",
+      "filas": [
+        {
+          "rango": "1",
+          "objeto": "Anillo de oro con jaspe sanguino"
+        },
+        {
+          "rango": "2",
+          "objeto": "Estatuilla tallada en marfil"
+        },
+        {
+          "rango": "3",
+          "objeto": "Brazalete de oro con joyas"
+        },
+        {
+          "rango": "4",
+          "objeto": "Collar de plata con colgante de piedra preciosa"
+        },
+        {
+          "rango": "5",
+          "objeto": "Corona de bronce"
+        },
+        {
+          "rango": "6",
+          "objeto": "Batas de seda bordadas en oro"
+        },
+        {
+          "rango": "7",
+          "objeto": "Tapiz de calidad de 3 m por 3 m"
+        },
+        {
+          "rango": "8",
+          "objeto": "Jarra de latón con incrustación en jade"
+        },
+        {
+          "rango": "9",
+          "objeto": "Caja de figuritas de animales de turquesa"
+        },
+        {
+          "rango": "10",
+          "objeto": "Jaula de pájaro de oro con filigrana de electro"
+        }
+      ]
+    },
+    {
+      "titulo": "Obras de arte de 750 po",
+      "dado": "1d10",
+      "filas": [
+        {
+          "rango": "1",
+          "objeto": "Cáliz de plata con piedras lunares incrustadas"
+        },
+        {
+          "rango": "2",
+          "objeto": "Legajo de partituras que representan las endechas perdidas de un famoso compositor"
+        },
+        {
+          "rango": "3",
+          "objeto": "Arpa tallada en madera exótica con incrustaciones de marfil y circonitas"
+        },
+        {
+          "rango": "4",
+          "objeto": "Ídolo de oro"
+        },
+        {
+          "rango": "5",
+          "objeto": "Peine dorado con forma de dragón, cuyos ojos son granates rojos"
+        },
+        {
+          "rango": "6",
+          "objeto": "Tapón de botella repujado con pan de oro e incrustado con amatistas"
+        },
+        {
+          "rango": "7",
+          "objeto": "Cráneo detallado de dracónido a tamaño real de electro fundido"
+        },
+        {
+          "rango": "8",
+          "objeto": "Broche de oro y plata"
+        },
+        {
+          "rango": "9",
+          "objeto": "Estatuilla de obsidiana con incrustaciones y relieves de oro"
+        },
+        {
+          "rango": "10",
+          "objeto": "Máscara de guerra de oro pintada"
+        }
+      ]
+    },
+    {
+      "titulo": "Obras de arte de 2500 po",
+      "dado": "1d10",
+      "filas": [
+        {
+          "rango": "1",
+          "objeto": "Cadena de oro fina con ópalo de fuego"
+        },
+        {
+          "rango": "2",
+          "objeto": "Antigua obra maestra de la pintura"
+        },
+        {
+          "rango": "3",
+          "objeto": "Manto de terciopelo con encaje de seda y numerosas piedras lunares engastadas"
+        },
+        {
+          "rango": "4",
+          "objeto": "Brazalete de platino con esmeralda engastada"
+        },
+        {
+          "rango": "5",
+          "objeto": "Guantes bordados con trozos de gemas incrustados"
+        },
+        {
+          "rango": "6",
+          "objeto": "Ajorca de tobillo enjoyada"
+        },
+        {
+          "rango": "7",
+          "objeto": "Caja de música de oro"
+        },
+        {
+          "rango": "8",
+          "objeto": "Diadema de oro con cuatro aguamarinas engastadas"
+        },
+        {
+          "rango": "9",
+          "objeto": "Parche de ojo decorado con zafiros azules y piedras lunares de tamaño diminuto"
+        },
+        {
+          "rango": "10",
+          "objeto": "Collar de perlas rosas pequeñas"
+        }
+      ]
+    },
+    {
+      "titulo": "Obras de arte de 7500 po",
+      "dado": "1d10",
+      "filas": [
+        {
+          "rango": "1",
+          "objeto": "Corona de oro con joyas engastadas"
+        },
+        {
+          "rango": "2",
+          "objeto": "Anillo de platino con gemas"
+        },
+        {
+          "rango": "3",
+          "objeto": "Estatuilla de oro con rubíes engarzados"
+        },
+        {
+          "rango": "4",
+          "objeto": "Copa de oro con esmeraldas"
+        },
+        {
+          "rango": "5",
+          "objeto": "Joyero de oro con filigrana de platino"
+        },
+        {
+          "rango": "6",
+          "objeto": "Juego de muñecas de oro"
+        },
+        {
+          "rango": "7",
+          "objeto": "Tablero de juego de mesa de jade con piezas de oro"
+        },
+        {
+          "rango": "8",
+          "objeto": "Cuerno para beber de marfil, enjoyado y con filigrana de oro"
+        },
+        {
+          "rango": "9",
+          "objeto": "Carruaje real o barcaza funeraria dorados"
+        },
+        {
+          "rango": "10",
+          "objeto": "Armadura ceremonial de oro con perlas negras"
+        }
+      ]
+    }
+  ]
+}

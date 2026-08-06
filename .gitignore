@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+
+# Secretos (cada app tiene el suyo: apps/api/.env, apps/web/.env.local)
+.env
+.env.vps
+
+# macOS
+.DS_Store
+
+# Claude Code: estado local/de sesion, no config de proyecto
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Backups de Mongo (datos reales de la partida, tomados antes de migraciones)
+.backups/

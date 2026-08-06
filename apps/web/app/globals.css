@@ -1,0 +1,1836 @@
+:root {
+  --ink: #1a1410;
+  --parchment: #f4ead2;
+  --parchment-dark: #e7d7b3;
+  --line: #8a6d3b;
+  --accent: #7b1e1e;
+  --box: #fbf5e4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #2b2118;
+  color: var(--ink);
+  font-family: var(--font-body), "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+legend,
+.page-title,
+.sheet-header h1 {
+  font-family: var(--font-heading), "Iowan Old Style", Palatino, Georgia, serif;
+}
+
+a {
+  color: var(--accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+.page {
+  max-width: min(1440px, 95vw);
+  margin: 0 auto;
+  padding: 24px 24px 64px;
+}
+
+.sheet {
+  background: var(--parchment);
+  border: 3px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+}
+
+/* --- Encabezado tipo hoja del Manual 2024 (pag. 36): identidad + nivel + CA + PG +
+   dados + salvaciones contra muerte en una banda superior. --- */
+.ph-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: stretch;
+  border-bottom: 3px double var(--line);
+  padding-bottom: 14px;
+  margin-bottom: 12px;
+}
+
+.ph-id {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.ph-name {
+  font-family: var(--font-heading), Georgia, serif;
+  font-size: 32px;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.ph-id-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 6px 16px;
+}
+
+.ph-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.ph-field-l {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--line);
+}
+
+.ph-field-v {
+  font-size: 15px;
+  border-bottom: 1px solid var(--line);
+  min-height: 20px;
+}
+
+.ph-level,
+.ph-hpblock,
+.ph-death {
+  flex: 0 0 auto;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: var(--box);
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ph-level {
+  width: 88px;
+  border-color: var(--accent);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ph-level .lvl {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.ph-level .lvl-l {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--line);
+}
+
+.ph-level .px {
+  font-size: 11px;
+  color: var(--line);
+}
+
+.ph-ac {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+/* CA con forma de escudo sutil (fidelidad moderada). */
+.ph-shield {
+  width: 78px;
+  height: 88px;
+  background: var(--box);
+  border: 3px solid var(--accent);
+  clip-path: polygon(50% 0, 100% 16%, 100% 58%, 50% 100%, 0 58%, 0 16%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ph-shield .v {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.ph-shield .l {
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--line);
+}
+
+.ph-escudo {
+  font-size: 11px;
+}
+
+.cap {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.ph-cells {
+  display: flex;
+  gap: 6px;
+}
+
+.ph-cell {
+  min-width: 50px;
+  text-align: center;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 4px 6px;
+  background: var(--parchment);
+}
+
+.ph-cell .v {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.ph-cell .l {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--line);
+}
+
+.death-row-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.death-row-view .l {
+  font-size: 11px;
+  color: var(--line);
+}
+
+.diamonds {
+  letter-spacing: 3px;
+  color: var(--accent);
+  font-size: 15px;
+}
+
+/* Banner estilo manual debajo del encabezado. */
+.brand {
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  margin: 0 0 16px;
+}
+
+/* Cuerpo: fisicas + extras | mentales | columna ancha (combate, armas, rasgos). */
+.ph-body {
+  display: grid;
+  /* Columnas de caracteristicas acotadas (no crecen); la columna ancha de la derecha
+     (combate, armas, rasgos) se queda con todo el espacio sobrante. */
+  grid-template-columns: minmax(185px, 215px) minmax(185px, 215px) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+@media (max-width: 980px) {
+  .ph-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ph-col,
+.ph-col-wide {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ph-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.ph-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width: 620px) {
+  .ph-two {
+    grid-template-columns: 1fr;
+  }
+}
+
+.insp-box {
+  text-align: center;
+}
+
+.insp-dot {
+  font-size: 26px;
+  color: var(--accent);
+  line-height: 1.2;
+}
+
+.train-group {
+  margin-bottom: 8px;
+}
+
+.section-mt {
+  margin-top: 16px;
+}
+
+/* --- Edicion en la hoja (Volver, estado de guardado, controles inline, modal) --- */
+.sheet-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.back-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.unit-toggle {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.unit-opt {
+  font: inherit;
+  font-size: 12px;
+  color: var(--line);
+  background: transparent;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.unit-opt.on {
+  color: var(--box);
+  background: var(--accent);
+}
+
+.pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 4px 6px;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.pdf-btn:hover {
+  background: var(--parchment-dark);
+}
+
+.pdf-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.save-status {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.save-status.saving {
+  color: var(--line);
+}
+
+.save-status.saved {
+  color: #3c6e3c;
+}
+
+.save-status.error {
+  color: var(--accent);
+}
+
+.edit-btn {
+  font: inherit;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 3px 7px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: var(--parchment-dark);
+}
+
+.ph-id-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Steppers de PG y dados de golpe. */
+.hd-ctrl {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+}
+
+.step {
+  font: inherit;
+  font-weight: 700;
+  width: 20px;
+  height: 20px;
+  line-height: 1;
+  color: var(--accent);
+  background: var(--parchment);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.step:hover {
+  background: var(--parchment-dark);
+}
+
+.hp-input {
+  width: 34px;
+  text-align: center;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--parchment);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 1px 2px;
+}
+
+.diamond-btn {
+  font: inherit;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--accent);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0 1px;
+}
+
+.insp-toggle {
+  font: inherit;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.insp-toggle:hover {
+  background: var(--parchment-dark);
+}
+
+.prose-edit {
+  width: 100%;
+  font: inherit;
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--parchment);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 7px 9px;
+  resize: vertical;
+}
+
+/* Modal de edicion. */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 14, 8, 0.6);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 16px;
+  overflow-y: auto;
+  z-index: 50;
+}
+
+.modal-card {
+  background: var(--parchment);
+  border: 3px solid var(--line);
+  border-radius: 10px;
+  width: min(880px, 100%);
+  box-shadow: 0 14px 50px rgba(0, 0, 0, 0.5);
+}
+
+.modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  border-bottom: 2px solid var(--line);
+}
+
+.modal-head h2 {
+  margin: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--accent);
+}
+
+.modal-close {
+  font: inherit;
+  font-size: 16px;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 16px 18px;
+}
+
+.modal-foot {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 18px 16px;
+}
+
+/* Header de seccion con lapiz de edicion. */
+.box h2.h2-edit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.prof-box {
+  position: relative;
+}
+
+.prof-box .ability-title {
+  padding: 0 22px;
+}
+
+.prof-edit {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+/* Chip de espacio de conjuro con +/- inline. */
+.slot-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Monedas editables inline. */
+.coin {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--parchment-dark);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 2px 8px;
+}
+
+.coin-l {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--line);
+}
+
+.coin-input {
+  width: 58px;
+  font: inherit;
+  font-size: 13px;
+  text-align: right;
+  color: var(--ink);
+  background: var(--parchment);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1px 5px;
+}
+
+.modal-hint {
+  margin: 0 0 12px;
+}
+
+/* Fila de rasgo: nombre/origen/nivel + quitar arriba, descripcion a todo el ancho abajo. */
+.rasgo-row {
+  display: grid;
+  grid-template-columns: 1.6fr 0.9fr 80px auto;
+  gap: 8px 10px;
+  align-items: end;
+}
+
+.rasgo-row .mini-field {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.rasgo-row .rasgo-desc {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+
+@media (max-width: 640px) {
+  .rasgo-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  .rasgo-row .rasgo-nombre {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Bonificador por competencia: cajita chica arriba de la columna fisica. */
+.prof-box {
+  text-align: center;
+}
+
+.prof-value {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 2px;
+}
+
+/* Bloque de caracteristica: titulo, circulo con modificador/puntuacion, y filas. */
+.ability-title {
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.ability-circle {
+  width: 76px;
+  height: 76px;
+  margin: 8px auto;
+  border: 3px solid var(--line);
+  border-radius: 50%;
+  background: var(--parchment);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ability-circle .mod {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.ability-circle .score {
+  font-size: 11px;
+  color: var(--line);
+  margin-top: 3px;
+}
+
+.ability-rows {
+  border-top: 1px solid var(--line);
+  padding-top: 4px;
+}
+
+.box {
+  background: var(--box);
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.box h2 {
+  margin: 0 0 8px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--accent);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 4px;
+}
+
+.combat {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  flex: 1 1 70px;
+  text-align: center;
+  background: var(--box);
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 4px;
+}
+
+.stat .v {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.stat .l {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--line);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 3px 0;
+  border-bottom: 1px dotted #c9b486;
+  font-size: 14px;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.row .name {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.pip {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  display: inline-block;
+}
+
+.pip.on {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.muted {
+  color: #6b5a3e;
+  font-size: 12px;
+}
+
+.total {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+/* Tablas de ataques y conjuros. */
+.attacks,
+.spells {
+  font-size: 14px;
+}
+
+.attack-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr 2fr;
+  gap: 8px;
+  padding: 4px 0;
+  border-bottom: 1px dotted #c9b486;
+}
+
+.spell-row {
+  display: grid;
+  grid-template-columns: 28px 2fr 1.2fr 1.2fr 0.8fr 0.6fr;
+  gap: 8px;
+  padding: 4px 0;
+  border-bottom: 1px dotted #c9b486;
+}
+
+.attack-row.head,
+.spell-row.head {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+@media (max-width: 620px) {
+  .attack-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  .spell-row {
+    grid-template-columns: 24px 1fr 0.6fr;
+  }
+  .spell-row > :nth-child(n + 4):not(:last-child) {
+    display: none;
+  }
+}
+
+/* Rasgos y dotes en tarjetas que fluyen en columnas a medida que crecen. */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.feature {
+  background: var(--parchment);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 14px;
+}
+
+.feature .ttl {
+  font-weight: 700;
+}
+
+/* Acota el ancho de lectura de los textos largos para que no crucen toda la hoja. */
+.prose {
+  max-width: 70ch;
+}
+
+.tag {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--line);
+  margin-left: 6px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chip {
+  background: var(--parchment-dark);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 2px 10px;
+  font-size: 12px;
+}
+
+.coins {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.index-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.index-list a {
+  display: block;
+  background: var(--parchment);
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: var(--ink);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.index-list a:hover {
+  background: var(--parchment-dark);
+}
+
+.page-title {
+  color: var(--parchment);
+  margin: 0 0 4px;
+}
+
+.back {
+  color: var(--parchment-dark);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.notice {
+  color: var(--parchment);
+}
+
+.index-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.index-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.index-list a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.player-groups {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.player-group {
+  background: var(--parchment);
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+
+.player-group-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.player-group-head .card-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sheet-chip-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.card-go {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--line);
+}
+
+.detail-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 12px;
+}
+
+/* --- Botones --- */
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--parchment);
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  padding: 9px 16px;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 200ms, opacity 200ms;
+}
+
+.btn:hover {
+  background: #5e1616;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--accent);
+}
+
+.btn-ghost:hover {
+  background: var(--parchment-dark);
+}
+
+.logout-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--parchment-dark);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: background-color 150ms, color 150ms, border-color 150ms;
+}
+
+.logout-link:hover {
+  color: var(--parchment);
+  border-color: var(--parchment-dark);
+  background: rgba(244, 234, 210, 0.08);
+}
+
+/* --- Nav superior --- */
+/* Full-bleed: rompe el max-width centrado de .page para ocupar todo el ancho del
+   viewport, sin importar cuanto mida .page en pantallas anchas. */
+.topnav {
+  margin-top: -24px;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-bottom: 20px;
+  background: #241b12;
+  border-bottom: 2px solid var(--line);
+}
+
+.topnav-inner {
+  max-width: min(1440px, 95vw);
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.topnav-brand {
+  color: var(--parchment);
+  font-family: var(--font-heading), Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.topnav-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+
+.topnav-links .logout-link {
+  margin: 0;
+}
+
+.topnav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--parchment-dark);
+  font: inherit;
+  font-size: 14px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: color 150ms;
+}
+
+.topnav-link:hover {
+  color: var(--parchment);
+}
+
+.topnav-link svg {
+  flex: none;
+}
+
+.topnav-btn {
+  font-weight: 700;
+}
+
+/* --- Drawer de herramientas --- */
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 14, 8, 0.6);
+  z-index: 60;
+  display: flex;
+  align-items: stretch;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 220ms ease;
+}
+
+.drawer-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.drawer-panel {
+  background: var(--parchment);
+  border-right: 3px solid var(--line);
+  width: min(320px, 88vw);
+  height: 100%;
+  max-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 10px 0 40px rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-100%);
+  transition: transform 250ms cubic-bezier(0.32, 0.72, 0.33, 1);
+}
+
+.drawer-overlay.open .drawer-panel {
+  transform: translateX(0);
+}
+
+.drawer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 18px;
+  border-bottom: 3px double var(--line);
+  background: var(--parchment-dark);
+}
+
+.drawer-head h2 {
+  margin: 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--accent);
+  font-family: var(--font-heading), Georgia, serif;
+}
+
+.drawer-body {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+.drawer-body .box {
+  min-width: 0;
+}
+
+.tool-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tool-title svg {
+  color: var(--accent);
+  flex: none;
+}
+
+.tool-hint {
+  margin: -4px 0 0;
+  font-size: 12px;
+}
+
+.drawer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.drawer-links a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.drawer-links a:hover {
+  text-decoration: underline;
+}
+
+.drawer-foot {
+  margin-top: auto;
+  padding: 14px 18px;
+  border-top: 1px solid var(--line);
+}
+
+.unit-field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  min-width: 0;
+}
+
+.unit-field .field {
+  min-width: 0;
+}
+
+.unit-field input {
+  width: 100%;
+  min-width: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* --- Formularios --- */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-section {
+  background: var(--box);
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin: 0;
+}
+
+.form-section > legend {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--accent);
+  font-weight: 700;
+  padding: 0 6px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Aire entre bloques apilados directos de una seccion (salvaciones, habilidades,
+   armaduras, etc.); no afecta a los .field dentro de una .form-grid. */
+.form-section > .field + .field,
+.form-section > .form-grid + .field,
+.form-section > .field + .form-grid {
+  margin-top: 14px;
+}
+
+.field-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--line);
+  font-weight: 700;
+}
+
+.req {
+  color: var(--accent);
+}
+
+.form input,
+.form select,
+.form textarea {
+  font: inherit;
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--parchment);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 7px 9px;
+  width: 100%;
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+.form input:user-invalid,
+.form select:user-invalid {
+  border-color: var(--accent);
+  background: #fbeaea;
+}
+
+.check-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 6px 14px;
+  margin-top: 6px;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.check input {
+  width: auto;
+}
+
+.slot-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 6px;
+}
+
+.slot-lvl {
+  font-size: 12px;
+  color: var(--line);
+}
+
+.list-block {
+  margin-top: 10px;
+}
+
+.list-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.list-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px dotted #c9b486;
+}
+
+.list-row > input,
+.list-row > select {
+  flex: 1 1 120px;
+  width: auto;
+}
+
+.list-row > .grow {
+  flex: 3 1 240px;
+}
+
+.list-row .btn-remove {
+  margin-left: auto;
+}
+
+.btn-add {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.btn-remove {
+  font: inherit;
+  font-size: 12px;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  flex: none;
+}
+
+.form-error {
+  color: #fff;
+  background: var(--accent);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 0;
+}
+
+.form-ok {
+  color: var(--ink);
+  background: var(--parchment);
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 0;
+}
+
+/* Fila de ataque en una sola linea (grid), en vez de wrap. */
+.attack-form-row {
+  display: grid;
+  grid-template-columns: 1.4fr 0.7fr 1fr 0.8fr 1.6fr auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.attack-form-row > input {
+  width: 100%;
+  flex: none;
+}
+
+@media (max-width: 760px) {
+  .attack-form-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Salvaciones de muerte: circulos clickeables. */
+.death-block {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.death-pips {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pips-row {
+  display: flex;
+  gap: 10px;
+}
+
+.death-pip {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  background: var(--parchment);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 150ms, border-color 150ms;
+}
+
+.death-pip.filled.ok {
+  background: #3c6e3c;
+  border-color: #3c6e3c;
+}
+
+.death-pip.filled.fail {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* Estados (escudo, inspiracion heroica) como toggles visibles. */
+.toggle-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 2px solid var(--line);
+  background: var(--parchment);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color 150ms, border-color 150ms;
+}
+
+.toggle-btn .toggle-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  background: transparent;
+}
+
+.toggle-btn.on {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--parchment);
+}
+
+.toggle-btn.on .toggle-dot {
+  background: var(--parchment);
+  border-color: var(--parchment);
+}
+
+/* --- Referencia rapida (monstruos, glosario, encuentros, botin) --- */
+
+.search-form {
+  display: flex;
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.search-input {
+  flex: 1;
+  background: var(--box);
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 12px;
+  font: inherit;
+  color: var(--ink);
+}
+
+.ref-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ref-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  background: var(--parchment);
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.ref-list-item:hover {
+  background: var(--parchment-dark);
+}
+
+.ref-list-name {
+  font-weight: 700;
+}
+
+.ref-list-meta {
+  font-size: 13px;
+  color: var(--line);
+  text-align: right;
+}
+
+.ref-nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.ref-nav-card {
+  display: block;
+  background: var(--parchment);
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  padding: 16px;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.ref-nav-card:hover {
+  background: var(--parchment-dark);
+}
+
+.ref-nav-card h2 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.ref-nav-card p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--line);
+}
+
+.stat-block {
+  background: var(--parchment);
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-top: 10px;
+}
+
+/* .page-title y .notice asumen el fondo oscuro de <main>: sobre el pergamino
+   claro del stat block hace falta tinta oscura en vez de texto claro. */
+.stat-block h1,
+.stat-block .notice {
+  color: var(--ink);
+}
+
+.stat-block-tagline {
+  font-style: italic;
+  margin: 0 0 8px;
+}
+
+.stat-block-type {
+  font-style: italic;
+  margin: 0 0 12px;
+}
+
+.stat-block-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 8px;
+  background: var(--box);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+}
+
+.stat-block-abilities {
+  margin-bottom: 14px;
+}
+
+.stat-block-fields {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-block-section {
+  margin-top: 16px;
+}
+
+.stat-block-section h2 {
+  font-size: 17px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 4px;
+}
+
+.mini-md-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.mini-md-table th,
+.mini-md-table td {
+  border: 1px solid var(--line);
+  padding: 5px 9px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.mini-md-table th {
+  background: var(--box);
+}
+
+.glosario-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.glosario-entry {
+  background: var(--parchment);
+  color: var(--ink);
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.glosario-entry h2 {
+  color: var(--accent);
+  margin: 0 0 6px;
+  font-size: 17px;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.glosario-tag {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--line);
+  text-transform: lowercase;
+}
+
+.dif-resultado {
+  margin-top: 16px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 2px solid var(--line);
+  background: var(--box);
+}
+
+.dif-resultado.dif-baja {
+  border-color: #3a7d3a;
+}
+
+.dif-resultado.dif-moderada {
+  border-color: #b8860b;
+}
+
+.dif-resultado.dif-alta,
+.dif-resultado.dif-mortal {
+  border-color: var(--accent);
+}
+
+.botin-tirador {
+  background: var(--parchment);
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-top: 10px;
+}
+
+.calculadora-encuentro {
+  background: var(--parchment);
+  color: var(--ink);
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-top: 10px;
+}
+
+/* --- Rastreador de combate --- */
+
+.combatientes {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.combatiente-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--parchment);
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 12px;
+  flex-wrap: wrap;
+}
+
+.combatiente-row.turno-actual {
+  border-color: var(--accent);
+  background: var(--parchment-dark);
+}
+
+.combatiente-turno {
+  width: 16px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.combatiente-tipo {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--line);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 2px 5px;
+}
+
+.combatiente-nombre {
+  flex: 2 1 160px;
+  font: inherit;
+  font-weight: 700;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 6px 8px;
+  background: var(--box);
+}
+
+.combatiente-field {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--line);
+  font-weight: 700;
+}
+
+.combatiente-field input {
+  width: 56px;
+  font: inherit;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 5px 6px;
+  background: var(--box);
+}
+
+.combatiente-condiciones {
+  flex: 2 1 180px;
+  font: inherit;
+  font-size: 13px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 6px 8px;
+  background: var(--box);
+}
+
