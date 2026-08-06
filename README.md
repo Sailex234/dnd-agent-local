@@ -4,7 +4,7 @@ Sistema local para una mesa de D&D 2024: hojas de personaje digitales,
 referencia rapida del corpus de reglas (monstruos, glosario, dificultad de
 encuentros, botin) y un rastreador de combate/iniciativa. Todo corre en la
 red local, sin depender de ninguna API externa ni LLM (ver `GUIA_DM.md` para
-el uso desde la mesa).
+el uso desde la mesa, o `INSTALACION.md` para instalarlo en otra PC).
 
 El sistema es un monorepo (`apps/`) con dos procesos separados: una API HTTP
 delgada para la web y la web en si. Todos corren localmente (sin deploy ni
