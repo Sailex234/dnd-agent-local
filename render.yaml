@@ -1,0 +1,22 @@
+services:
+  - name: dnd-agent-api
+    type: web
+    runtime: python
+    plan: free
+    region: oregon
+    rootDir: apps/api
+    buildCommand: uv sync
+    startCommand: uv run uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.13
+      - key: MONGO_URI
+        sync: false
+      - key: MONGO_DB
+        sync: false
+      - key: CORS_ALLOW_ORIGINS
+        value: "*"
+      - key: API_AUTH_USER
+        sync: false
+      - key: API_AUTH_PASSWORD
+        sync: false
