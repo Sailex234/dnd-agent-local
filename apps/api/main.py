@@ -7,6 +7,8 @@ from fastapi.openapi.docs import get_swagger_ui_html
 from fastapi.openapi.utils import get_openapi
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
 from pydantic import BaseModel, ValidationError
+from starlette.requests import Request
+from starlette.responses import JSONResponse
 
 from shared import config, encounters, sheets
 from shared.db import client
@@ -70,9 +72,13 @@ def docs() -> object:
     return get_swagger_ui_html(openapi_url="/openapi.json", title=f"{app.title} - Swagger UI")
 
 
-@app.get("/health")
-def health() -> dict:
-    return {"status": "ok"}
+async def health(request: Request) -> JSONResponse:
+    return JSONResponse({"status": "ok"})
+
+
+# Registrado via add_route (Starlette), no via add_api_route (@app.get): no hereda
+# las dependencies a nivel app, asi el health check de Render no necesita credenciales.
+app.add_route("/health", health, include_in_schema=False)
 
 
 @app.get("/character-sheets")
