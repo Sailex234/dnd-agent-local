@@ -1569,6 +1569,12 @@ a {
   background: var(--parchment-dark);
 }
 
+.ref-list-link {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+}
+
 .ref-list-name {
   font-weight: 700;
 }

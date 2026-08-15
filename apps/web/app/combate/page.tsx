@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { listEncounters } from "@/lib/api";
 import CrearEncuentroModal from "./CrearEncuentroModal";
+import EliminarEncuentroButton from "./EliminarEncuentroButton";
 
 export const dynamic = "force-dynamic";
 
@@ -21,10 +22,11 @@ export default async function CombatePage() {
       ) : (
         <ul className="ref-list">
           {encuentros.map((e) => (
-            <li key={e.id}>
-              <Link href={`/combate/${e.id}`} className="ref-list-item">
+            <li key={e.id} className="ref-list-item">
+              <Link href={`/combate/${e.id}`} className="ref-list-link">
                 <span className="ref-list-name">{e.nombre}</span>
               </Link>
+              <EliminarEncuentroButton id={e.id} nombre={e.nombre} />
             </li>
           ))}
         </ul>
