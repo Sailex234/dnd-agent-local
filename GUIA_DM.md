@@ -1,12 +1,22 @@
 # Guía del DM
 
-Todo esto vive en `http://localhost:3000`, en la misma PC donde juegan. Entrás
-con el usuario y la clave que ya tenés.
+Todo esto vive en `https://dnd-agent-local.vercel.app` - lo abrís desde
+cualquier PC o celular con internet, no hace falta estar en la misma red ni
+tener nada instalado. Entrás con el usuario y la clave que ya tenés.
+
+La primera consulta después de un rato sin uso puede tardar 20-30 segundos en
+cargar (el hosting gratuito "duerme" el servidor cuando nadie lo usa) - no es
+que se colgó, solo hay que esperar esa primera vez.
 
 ## Fichas de personaje
 
 En el inicio (`/`) están los jugadores y sus personajes. Cada ficha se edita
 sola, se guarda mientras escribís (no hace falta un botón "Guardar").
+
+Para sumar un jugador nuevo al grupo, "Cargar jugador" en el menú de arriba.
+Cada jugador tiene un botón **Eliminar** junto a su nombre en el inicio, por
+si alguien se baja de la mesa - borra también su ficha de personaje, así que
+ojo, no se puede deshacer.
 
 ## Referencia rápida
 
@@ -33,7 +43,9 @@ Esta es la parte nueva para aprender. Vive en `/combate` (o el link
 ### 1. Crear el encuentro
 
 Entrá a `/combate` y tocá **+ Nuevo encuentro**. Le ponés un nombre (ej.
-"Emboscada en el puente") y entrás directo a la pantalla del combate.
+"Emboscada en el puente") y entrás directo a la pantalla del combate. El
+nombre se puede cambiar después tocando el título arriba de todo, en
+cualquier momento - se guarda solo, igual que el resto.
 
 ### 2. Agregar combatientes
 
@@ -78,8 +90,9 @@ mitad de combate y volver después: retoma tal como lo dejaste.
 
 No hay un botón "Terminar combate" — cuando el encuentro se acaba, simplemente
 dejás de usar esa pantalla. Los encuentros viejos quedan listados en
-`/combate` por si querés volver a mirarlos; por ahora no hay forma de
-borrarlos desde la web (avisen si eso llega a molestar y se agrega).
+`/combate` por si querés volver a mirarlos, con un botón **Eliminar** al lado
+de cada uno para cuando ya no lo necesitás más (pide confirmación antes de
+borrar, no se puede deshacer).
 
 ## Herramientas
 
