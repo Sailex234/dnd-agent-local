@@ -68,7 +68,12 @@ export default function EncounterTracker({ id, initial }: { id: string; initial:
     <div>
       <div className="index-header">
         <div>
-          <h1 className="page-title">{encounter.nombre}</h1>
+          <input
+            className="encounter-title-input"
+            value={encounter.nombre}
+            onChange={(e) => edit((enc) => (enc.nombre = e.target.value))}
+            aria-label="Nombre del encuentro"
+          />
           <p className="notice">
             Ronda {encounter.ronda_actual}
             {status === "saving" && <span className="save-status saving"> Guardando...</span>}

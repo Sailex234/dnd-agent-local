@@ -390,6 +390,12 @@ def read_sheet_by_slug(slug: str) -> dict | None:
     return None
 
 
+def delete_sheets_by_user(user_id: str) -> int:
+    """Borra todas las hojas de un jugador (usado al borrar el jugador). Devuelve cuantas
+    hojas borro."""
+    return client.character_sheets().delete_many({"user_id": user_id}).deleted_count
+
+
 class PlayerNotFound(Exception):
     """El user_id no corresponde a un usuario dado de alta."""
 

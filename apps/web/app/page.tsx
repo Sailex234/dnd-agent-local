@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { listPlayers, listSheets } from "@/lib/api";
 import CrearHojaModal from "./CrearHojaModal";
+import EliminarJugadorButton from "./EliminarJugadorButton";
 
 export const dynamic = "force-dynamic";
 
@@ -34,11 +35,14 @@ export default async function HomePage() {
               <li key={p.id} className="player-group">
                 <div className="player-group-head">
                   <span className="card-name">{p.nombre}</span>
-                  <CrearHojaModal
-                    presetJugadorId={p.id}
-                    triggerClassName="btn-add"
-                    triggerLabel="+ Crear hoja"
-                  />
+                  <div className="player-group-actions">
+                    <CrearHojaModal
+                      presetJugadorId={p.id}
+                      triggerClassName="btn-add"
+                      triggerLabel="+ Crear hoja"
+                    />
+                    <EliminarJugadorButton playerId={p.player_id} nombre={p.nombre} />
+                  </div>
                 </div>
                 {propias.length === 0 ? (
                   <p className="muted">Sin personajes todav&iacute;a.</p>

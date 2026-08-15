@@ -133,6 +133,9 @@ Para que la web pueda crear/editar hojas y dar de alta jugadores hay endpoints d
 - `PUT /character-sheets/{slug}` (`{sheet}`): actualiza la hoja existente. 404 si el slug no existe, 422 si no valida.
 - `GET /players`: listado de jugadores con `player_id` y `nombre` (superficie **interna**: a diferencia de la API pública de hojas, SI incluye el id del jugador, porque crear una hoja lo requiere).
 - `POST /players` (`{player_id, nombre}`): alta de jugador en `players`. 409 si el `player_id` ya existe.
+- `DELETE /players/{player_id}`: baja de jugador. 404 si no existe. Borra en cascada
+  todas las hojas de personaje de ese jugador (para no dejar documentos huérfanos en
+  `character_sheets`).
 
 > Todos los endpoints (incluidos los de lectura pública) exigen HTTP Basic Auth (`API_AUTH_USER`/`API_AUTH_PASSWORD`), que debe coincidir con `AUTH_USER`/`AUTH_PASSWORD` de `apps/web`.
 

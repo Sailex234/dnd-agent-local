@@ -150,6 +150,17 @@ def create_player(req: CreatePlayerRequest) -> dict:
     return {"player_id": req.player_id, "nombre": req.nombre}
 
 
+@app.delete("/players/{player_id}", status_code=204)
+def delete_player(player_id: str) -> None:
+    # Cascada: borra tambien las hojas del jugador, si tiene, para no dejar
+    # documentos huerfanos en character_sheets.
+    user = client.get_user_by_player_id(player_id)
+    if user is None:
+        raise HTTPException(status_code=404, detail="No existe un jugador con ese id.")
+    sheets.delete_sheets_by_user(user["id"])
+    client.delete_user(user["id"])
+
+
 # --- Rastreador de combate (red privada, sin auth extra: ya cubierto por require_auth) ---
 
 

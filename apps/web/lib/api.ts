@@ -80,6 +80,14 @@ export async function createPlayer(player_id: string, nombre: string): Promise<P
   return res.json();
 }
 
+export async function deletePlayer(player_id: string): Promise<void> {
+  const res = await fetch(`${BASE}/players/${encodeURIComponent(player_id)}`, {
+    method: "DELETE",
+    headers: await authHeader(),
+  });
+  if (!res.ok && res.status !== 404) throw new Error(await errorMessage(res));
+}
+
 export async function createSheet(
   user_id: string,
   sheet: CharacterSheet,

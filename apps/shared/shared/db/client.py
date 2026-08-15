@@ -68,6 +68,15 @@ def insert_user(player_id: str, nombre: str) -> None:
     _users().insert_one({"player_id": player_id, "nombre": nombre})
 
 
+def delete_user(user_id: str) -> bool:
+    try:
+        oid = ObjectId(user_id)
+    except (InvalidId, TypeError):
+        return False
+    result = _users().delete_one({"_id": oid})
+    return result.deleted_count > 0
+
+
 def players_collection() -> Collection:
     return _users()
 
