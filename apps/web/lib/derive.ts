@@ -88,7 +88,7 @@ export const ARMADURAS: { value: string; label: string }[] = [
 ];
 
 export const ARMAS: { value: string; label: string }[] = [
-  { value: "simples", label: "Simples" },
+  { value: "sencillas", label: "Sencillas" },
   { value: "marciales", label: "Marciales" },
 ];
 
